@@ -36,6 +36,9 @@
 .header_margin_lg {
   margin-left: 250px;
 }
+.z_index {
+  z-index: -1;
+}
 .vertical_line_asidebar::after {
   content: "";
   background-color: rgba(125, 136, 158, 0.25);
@@ -43,15 +46,6 @@
   width: 2px;
   position: absolute;
   top: 0px;
-}
-
-@media (max-width: 991.8px) {
-  .px_lg_60 {
-    padding: 20px !important;
-  }
-  .header_margin_lg {
-    margin-left: 0;
-  }
 }
 
 /* -----------------------------------profile start------------------------------ */
@@ -86,6 +80,17 @@
 .save_btn {
   background: #3b5998;
   border-radius: 60px;
+}
+@media (max-width: 991.8px) {
+  .px_lg_60 {
+    padding: 20px !important;
+  }
+  .header_margin_lg {
+    margin-left: 0;
+  }
+  .vertical_line_asidebar::after {
+    display: none;
+  }
 }
 @media (max-width: 767.8px) {
   .user_icon {
