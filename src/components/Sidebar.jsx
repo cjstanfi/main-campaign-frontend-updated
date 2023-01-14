@@ -10,23 +10,23 @@ import {
   SupportIcon,
   LogoutBtnIcon,
 } from "./common/Icons";
+// import Profile from "./Profile";
 const Sidebar = () => {
   const [sidebarActive, setActive] = useState(false);
-
   return (
     <>
       <div className="d-flex">
         <div
-          className={`sidebar_parent pt-5  ${
-            sidebarActive ? "sidebar_active" : ""
+          className={`sidebar_parent pt-lg-5  ${
+            sidebarActive ? "sidebar_active sidebar_shadow" : ""
           }`}
         >
-          <div className="pt-4 ps-4 ms-lg-4">
+          <div className="pt-3 pt-lg-4 ps-4 ms-lg-4">
             <a href="/">
               <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
             </a>
           </div>
-          <ul className="ps-0 mt-5 pt-3">
+          <ul className="ps-0 mt-lg-5 pt-3">
             {/* <a href="/" className="text-decoration-none"> */}
             <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
               <DashboardIcon />
@@ -52,7 +52,7 @@ const Sidebar = () => {
             </div>
             {/* </a> */}
           </ul>
-          <div className="pt-4">
+          <div className="pt-lg-4">
             <p className="font-sm fw_600 ff_thicccboi_semibold color_blue letter_space ps-4 ms-lg-4 mb-2">
               MORE
             </p>
@@ -77,10 +77,12 @@ const Sidebar = () => {
           </div>
           <div className="d-flex align-items-center px-4 ms-lg-4 me-lg-5 mt-5">
             <LogoutBtnIcon />
-
-            <p className="py-3 ps-3 font-sm fw_600 ff_thicccboi_semibold color_red mb-0">
+            <a
+              href="/"
+              className="py-3 ps-3 font-sm fw_600 ff_thicccboi_semibold color_red text-decoration-none"
+            >
               Logout
-            </p>
+            </a>
           </div>
         </div>
         <div className="w-100 vh-100 overflow-auto">
@@ -101,6 +103,7 @@ const Sidebar = () => {
           </div>
           <TopBar />
           <Header />
+          {/* <Profile /> */}
         </div>
       </div>
     </>

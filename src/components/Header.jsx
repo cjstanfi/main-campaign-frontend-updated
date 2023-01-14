@@ -3,8 +3,8 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <section className="ps-5 ps-lg-0">
-        <div className="container container_modified ps-4">
+      <section className="ms-1 ms-lg-0">
+        <div className="px-3 px-lg-5">
           <div className="d-flex overflow-auto pb-3">
             <a
               className="text-decoration-none ff_thicccboi_bold font-xl color_blue"
@@ -13,43 +13,43 @@ const Header = () => {
               Profile
             </a>
             <a
-              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-5"
+              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-4 ms-sm-5"
               href="#"
             >
               Facebook
             </a>
             <a
-              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-5"
+              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-4 ms-sm-5"
               href="#"
             >
               CRM
             </a>
             <a
-              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-5"
+              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-4 ms-sm-5"
               href="#"
             >
               Business
             </a>
             <a
-              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-5"
+              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-4 ms-sm-5"
               href="#"
             >
               Privacy
             </a>
             <a
-              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-5"
+              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-4 ms-sm-5"
               href="#"
             >
               Billing
             </a>
             <a
-              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-5"
+              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-4 ms-sm-5"
               href="#"
             >
               Team
             </a>
             <a
-              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-5"
+              className="text-decoration-none ff_thicccboi_medium font-xl color_gray ms-4 ms-sm-5"
               href="#"
             >
               Security

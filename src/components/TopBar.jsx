@@ -6,7 +6,7 @@ const TopBar = () => {
   return (
     <>
       <section className="ps-5 ps-lg-0 pt-3 pt-lg-0 vertical_line_asidebar position-relative z_index">
-        <div className="container container_modified ps-4">
+        <div className="px-3 px-lg-5">
           <div className="d-sm-flex pt-lg-5 pb-4 justify-content-between align-items-center">
             <div>
               <h3 className="font-3xl color_dark_black fw_600 mb-1 ff_thicccboi_semibold">
@@ -16,7 +16,7 @@ const TopBar = () => {
                 Change or update your settings
               </p>
             </div>
-            <div className="d-flex align-items-center pt-3 pt-sm-0">
+            <div className="d-flex align-items-center pt-3 pt-sm-0 topbar_icons">
               <a
                 href="#"
                 className="icon_bg_color border_r_12 cursor_pointer icon_size d-flex align-items-center justify-content-center"
