@@ -1,41 +1,195 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html,
+body {
+  font-family: THICCCBOI-normal;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.ff_plex_mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+@font-face {
+  font-family: THICCCBOI-normal;
+  src: url("../src/assets/fonts/THICCCBOI-Regular.ttf");
+}
+
+@font-face {
+  font-family: THICCCBOI-medium;
+  src: url("../src/assets/fonts/THICCCBOI-Medium.ttf");
+}
+
+@font-face {
+  font-family: THICCCBOI-SemiBold;
+  src: url("../src/assets/fonts/THICCCBOI-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: THICCCBOI-Bold;
+  src: url("../src/assets/fonts/THICCCBOI-Bold.ttf");
+}
+
+.ff_thicccboi_medium {
+  font-family: THICCCBOI-medium;
+}
+
+.ff_thicccboi_semibold {
+  font-family: THICCCBOI-SemiBold;
+}
+
+.ff_thicccboi_bold {
+  font-family: THICCCBOI-Bold;
+}
+
+:root {
+  /* FONT SIZES  */
+  --font-xs: 10px;
+  --font-sm: 14px;
+  --font-md: 16px;
+  --font-lg: 18px;
+  --font-xl: 20px;
+  --font-xxl: 26px;
+  --font-2xl: 30px;
+  --font-3xl: 32px;
+  /* COLORS  */
+  --white: #ffffff;
+  --black: #000000;
+  --dark-black: #040310;
+  --light-gray: #ececec;
+  --gray: #7d889e;
+  --blue: #3b5998;
+  --green: #30bd71;
+}
+
+/* ----------------------------------- ONLY-MEDIA-QUERIES ----------------------------------- */
+@media (max-width: 1199.98px) {
+  :root {
+    --font-xxl: 25px;
+    --font-2xl: 28px;
+    --font-3xl: 30px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --font-xl: 19px;
+    --font-xxl: 24px;
+    --font-2xl: 26px;
+    --font-3xl: 28px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width:767.98px) {
+  :root {
+    --font-md: 15px;
+    --font-lg: 16px;
+    --font-xl: 18px;
+    --font-xxl: 22px;
+    --font-2xl: 24px;
+    --font-3xl: 26px;
   }
 }
 
-.card {
-  padding: 2em;
+@media (max-width:575.98px) {
+  :root {
+    --font-sm: 12px;
+    --font-md: 14px;
+    --font-lg: 14px;
+    --font-xl: 16px;
+    --font-xxl: 20px;
+    --font-2xl: 22px;
+    --font-3xl: 24px;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+/*FONT WEIGHT START*/
+.fw_500 {
+  font-weight: 500 !important;
+}
+
+.fw_600 {
+  font-weight: 600 !important;
+}
+
+/*FONT-SIZES START*/
+.font-xs {
+  font-size: var(--font-xs) !important;
+}
+
+.font-sm {
+  font-size: var(--font-sm) !important;
+}
+
+.font-md {
+  font-size: var(--font-md) !important;
+}
+
+.font-lg {
+  font-size: var(--font-lg) !important;
+}
+
+.font-xl {
+  font-size: var(--font-xl) !important;
+}
+
+.font-xxl {
+  font-size: var(--font-xxl) !important;
+}
+
+.font-2xl {
+  font-size: var(--font-2xl) !important;
+}
+
+.font-3xl {
+  font-size: var(--font-3xl) !important;
+}
+
+/*COLORS CLASSES START*/
+.color_white {
+  color: var(--white) !important;
+}
+
+.color_black {
+  color: var(--black) !important;
+}
+
+.color_dark_black {
+  color: var(--dark-black) !important;
+}
+
+.color_light_gray {
+  color: var(--light-gray) !important;
+}
+
+.colort_gray {
+  color: var(--gray) !important;
+}
+
+.colort_green {
+  color: var(--green) !important;
+}
+
+.colort_blue {
+  color: var(--blue) !important;
+}
+
+/*======================= COMMON CLASSES START======================== */
+
+.main_heading {
+  font-size: var(--font-3xl);
+  font-weight: 600;
+  color: var(--dark-black);
+  font-family: THICCCBOI-SemiBold;
+}
+
+.common_btn {
+  font-size: var(--font-sm);
+  font-weight: 600;
+  font-family: THICCCBOI-SemiBold;
+  background-color: var(--blue);
 }
