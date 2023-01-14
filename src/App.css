@@ -166,15 +166,15 @@ body {
   color: var(--light-gray) !important;
 }
 
-.colort_gray {
+.color_gray {
   color: var(--gray) !important;
 }
 
-.colort_green {
+.color_green {
   color: var(--green) !important;
 }
 
-.colort_blue {
+.color_blue {
   color: var(--blue) !important;
 }
 
@@ -192,4 +192,103 @@ body {
   font-weight: 600;
   font-family: THICCCBOI-SemiBold;
   background-color: var(--blue);
+}
+
+.letter_space {
+  letter-spacing: 6px;
+}
+
+.transition_03 {
+  transition: all 0.3s ease-in-out;
+}
+
+/*======================== SIDEBAR CSS ========================*/
+.sidebar_parent {
+  width: 400px;
+  background-color: black;
+  height: 100vh;
+  overflow-y: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-menu {
+  position: absolute;
+  width: 29px;
+  cursor: pointer;
+  height: 25px;
+  z-index: 10;
+  left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.first {
+  top: 0;
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+    transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.sec {
+  top: 11px;
+  background: #ffffff;
+  transition: all 0ms 300ms;
+}
+
+.third {
+  top: 22px;
+
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
+    transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hamburger-menu span {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+}
+
+.toggle_active .sec {
+  opacity: 0;
+}
+
+.toggle_active .first {
+  top: 11px;
+  transform: rotate(45deg);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1),
+    transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.toggle_active .third {
+  top: 11px;
+  transform: rotate(-45deg);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1),
+    transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.toggle_active .hamburger-menu {
+  left: 200px;
+}
+
+/*SIDEBAR*/
+/* .sidebar_tab_effect:hover {
+  background-color: var(--blue);
+} */
+
+@media (max-width: 991.91px) {
+  .sidebar_logo {
+    max-width: 150px;
+  }
+
+  .sidebar_parent {
+    width: 0;
+    position: absolute;
+    z-index: 5;
+  }
+
+  .sidebar_active {
+    width: 200px;
+  }
 }
