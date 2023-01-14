@@ -7,9 +7,7 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <>
-      {/* <TopBar />
-      <Header />
-      <Sidebar /> */}
+      <Sidebar />
       <Profile />
     </>
   );

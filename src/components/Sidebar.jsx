@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Header from "./Header";
+import TopBar from "./TopBar";
 import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
 import {
   AnalyticsIcon,
@@ -19,51 +21,70 @@ const Sidebar = () => {
           }`}
         >
           <div className="pt-4 ps-4 ms-lg-4">
-            <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
+            <a href="/">
+              <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
+            </a>
           </div>
-          <ul className="ps-4 ms-lg-4 mt-5 pt-3">
-            <div className="d-flex align-items-center transition_03 sidebar_tab_effect">
+          <ul className="ps-0 mt-5 pt-3">
+            {/* <a href="/" className="text-decoration-none"> */}
+            <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
               <DashboardIcon />
-              <li className="py-4 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold color_gray">
+              <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                 Dashboard
               </li>
             </div>
-            <div className="d-flex align-items-center transition_03">
+            {/* </a> */}
+            {/* <a href="/" className="text-decoration-none"> */}
+            <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
               <AnalyticsIcon />
-              <li className="py-4 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold color_gray">
+              <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                 Analytics
               </li>
             </div>
-            <div className="d-flex align-items-center transition_03">
+            {/* </a> */}
+            {/* <a href="/" className="text-decoration-none"> */}
+            <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
               <LeadsIcon />
-              <li className="py-4 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold color_gray">
+              <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                 Leads Center
               </li>
             </div>
+            {/* </a> */}
           </ul>
           <div className="pt-4">
             <p className="font-sm fw_600 ff_thicccboi_semibold color_blue letter_space ps-4 ms-lg-4 mb-2">
               MORE
             </p>
-            <ul className="ps-4 ms-lg-4">
-              <div className="d-flex align-items-center transition_03">
+            <ul className="ps-0">
+              {/* <a href="/" className="text-decoration-none"> */}
+              <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
                 <SettingsIcon />
-                <li className="py-4 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold color_gray">
+                <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                   Settings
                 </li>
               </div>
-              <div className="d-flex align-items-center transition_03">
+              {/* </a> */}
+              {/* <a href="/" className="text-decoration-none"> */}
+              <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
                 <SupportIcon />
-                <li className="py-4 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold color_gray">
+                <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                   Support
                 </li>
               </div>
+              {/* </a> */}
             </ul>
+          </div>
+          <div className="d-flex align-items-center px-4 ms-lg-4 me-lg-5 mt-5">
+            {/* <LogoutBtnIcon /> */}
+
+            <p className="py-3 ps-3 font-sm fw_600 ff_thicccboi_semibold color_red mb-0">
+              Logout
+            </p>
           </div>
         </div>
         <div className="w-100 vh-100 overflow-auto">
           <div
-            className={`pt-3 py-3bg-primary position-fixed top-0 w-100 text-white ${
+            className={`mt-1 pt-3 position-fixed top-0 w-100 text-white ${
               sidebarActive ? "toggle_active" : ""
             }`}
           >
@@ -77,6 +98,8 @@ const Sidebar = () => {
               <span className="third"></span>
             </div>
           </div>
+          <TopBar />
+          <Header />
         </div>
       </div>
     </>
