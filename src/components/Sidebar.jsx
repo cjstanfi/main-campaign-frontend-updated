@@ -6,7 +6,7 @@ import {
   LeadsIcon,
   SettingsIcon,
   SupportIcon,
-} from "./common/Icons.2";
+} from "./common/Icons";
 const Sidebar = () => {
   const [sidebarActive, setActive] = useState(false);
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap");
 
 * {
   padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 .ff_plex_mono {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 @font-face {
@@ -84,7 +84,7 @@ body {
   }
 }
 
-@media (max-width:767.98px) {
+@media (max-width: 767.98px) {
   :root {
     --font-md: 15px;
     --font-lg: 16px;
@@ -95,7 +95,7 @@ body {
   }
 }
 
-@media (max-width:575.98px) {
+@media (max-width: 575.98px) {
   :root {
     --font-sm: 12px;
     --font-md: 14px;
