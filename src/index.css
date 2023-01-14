@@ -1,0 +1,30 @@
+/* -----------------------------top section start------------------------------------- */
+
+.icon_bg_color {
+  background: rgba(142, 169, 224, 0.15);
+  backdrop-filter: blur(17.5px);
+}
+.border_r_12 {
+  border-radius: 12px;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.icon_size {
+  height: 50px;
+  width: 50px;
+}
+.ms_30 {
+  margin-left: 30px;
+}
+.user_icon_size {
+  height: 57px;
+  width: 57px;
+  border-radius: 50%;
+}
+.pe_12 {
+  padding-right: 12px;
+}
+.hr_line {
+  border: 2px solid #d9d9d9;
+}
