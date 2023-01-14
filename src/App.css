@@ -64,6 +64,7 @@ body {
   --gray: #7d889e;
   --blue: #3b5998;
   --green: #30bd71;
+  --red: #fb5656;
 }
 
 /* ----------------------------------- ONLY-MEDIA-QUERIES ----------------------------------- */
@@ -178,6 +179,10 @@ body {
   color: var(--blue) !important;
 }
 
+.color_red {
+  color: var(--red) !important;
+}
+
 /*======================= COMMON CLASSES START======================== */
 
 .main_heading {
@@ -205,10 +210,15 @@ body {
 /*======================== SIDEBAR CSS ========================*/
 .sidebar_parent {
   width: 400px;
-  background-color: black;
+  background-color: var(--white);
   height: 100vh;
   overflow-y: auto;
   transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.sidebar_parent::-webkit-scrollbar {
+  display: none;
 }
 
 .hamburger-menu {
@@ -273,9 +283,38 @@ body {
 }
 
 /*SIDEBAR*/
-/* .sidebar_tab_effect:hover {
+.sidebar_tab_effect {
+  border: 1px solid transparent;
+  border-radius: 12px;
+}
+
+.sidebar_tab_text {
+  color: var(--gray);
+}
+
+.sidebar_tab_effect:hover .sidebar_tab_text {
+  color: var(--light-gray);
+}
+
+.sidebar_tab_effect svg {
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar_tab_effect:hover svg path {
+  fill: var(--white);
+}
+
+.sidebar_tab_effect:hover {
   background-color: var(--blue);
-} */
+  border: 1px solid #3B5998;
+  border-radius: 12px;
+}
+
+@media (min-width: 1600px) {
+  .container_modified {
+    max-width: 1540px !important;
+  }
+}
 
 @media (max-width: 991.91px) {
   .sidebar_logo {

@@ -6,8 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <TopBar />
-      <Header />
       <Sidebar />
     </>
   );
