@@ -209,3 +209,26 @@ export const LogoutBtnIcon = () => {
     </svg>
   );
 };
+export const FacebookIcon = () => {
+  return (
+    <svg
+      width="33"
+      height="33"
+      viewBox="0 0 33 33"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_198_1032)">
+        <path
+          d="M29.9062 0H3.09375C1.39219 0 0 1.39219 0 3.09375V29.9062C0 31.6078 1.39219 33 3.09375 33H16.5V18.5625H12.375V14.4375H16.5V12.375C16.5 8.96569 19.2782 6.1875 22.6875 6.1875H26.8125V10.3125H22.6875C21.5531 10.3125 20.625 11.2406 20.625 12.375V14.4375H26.8125L25.7812 18.5625H20.625V33H29.9062C31.6078 33 33 31.6078 33 29.9062V3.09375C33 1.39219 31.6078 0 29.9062 0Z"
+          fill="#1877F2"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_198_1032">
+          <rect width="33" height="33" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};

@@ -81,6 +81,16 @@
   background: #3b5998;
   border-radius: 60px;
 }
+/*--------------------------------------start facebook ----------------------------------------------- */
+.facebook_card {
+  background: rgba(142, 169, 224, 0.15);
+  backdrop-filter: blur(17.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+  max-width: 570px;
+}
+
 @media (max-width: 991.8px) {
   .px_lg_60 {
     padding: 20px !important;
