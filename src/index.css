@@ -14,7 +14,7 @@
   height: 50px;
   width: 50px;
 }
-.ms_30 {
+.user_icon {
   margin-left: 30px;
 }
 .user_icon_size {
@@ -25,7 +25,7 @@
 .pe_12 {
   padding-right: 12px;
 }
-.hr_line {
+.header_hr_line {
   border: 2px solid #d9d9d9 !important;
   margin-top: 10px !important;
 }
@@ -35,6 +35,14 @@
 }
 .header_margin_lg {
   margin-left: 250px;
+}
+.vertical_line_asidebar::after {
+  content: "";
+  background-color: rgba(125, 136, 158, 0.25);
+  height: 100vh;
+  width: 2px;
+  position: absolute;
+  top: 0px;
 }
 
 @media (max-width: 991.8px) {
@@ -78,6 +86,11 @@
 .save_btn {
   background: #3b5998;
   border-radius: 60px;
+}
+@media (max-width: 767.8px) {
+  .user_icon {
+    margin-left: 16px;
+  }
 }
 @media (max-width: 576px) {
   .ms_xsm_16 {

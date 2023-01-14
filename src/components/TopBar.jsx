@@ -1,12 +1,11 @@
 import React from "react";
-import { SettingIcon } from "./common/Icons";
+import { SettingIcon, NotificationIcon } from "./common/Icons";
 import UserIcon from "../assets/images/png/User_icon.png";
 import UserIconTick from "../assets/images/svg/User_icon_tick.svg";
-import { NotificationIcon } from "./common/Icons";
 const TopBar = () => {
   return (
     <>
-      <section className="ps-5 ps-lg-0 pt-3 pt-lg-0">
+      <section className="ps-5 ps-lg-0 pt-3 pt-lg-0 vertical_line_asidebar position-relative">
         <div className="container container_modified ps-4">
           <div className="d-sm-flex pt-lg-5 pb-4 justify-content-between align-items-center">
             <div>
@@ -33,7 +32,7 @@ const TopBar = () => {
               <div className="position-relative pe_12">
                 <a href="#">
                   <img
-                    className="ms_30 user_icon_size"
+                    className="user_icon user_icon_size"
                     src={UserIcon}
                     alt="Icon"
                   />

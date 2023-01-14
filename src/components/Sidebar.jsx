@@ -8,6 +8,7 @@ import {
   LeadsIcon,
   SettingsIcon,
   SupportIcon,
+  LogoutBtnIcon,
 } from "./common/Icons";
 const Sidebar = () => {
   const [sidebarActive, setActive] = useState(false);
@@ -75,7 +76,7 @@ const Sidebar = () => {
             </ul>
           </div>
           <div className="d-flex align-items-center px-4 ms-lg-4 me-lg-5 mt-5">
-            {/* <LogoutBtnIcon /> */}
+            <LogoutBtnIcon />
 
             <p className="py-3 ps-3 font-sm fw_600 ff_thicccboi_semibold color_red mb-0">
               Logout

@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <section className="ps-5 ps-lg-0">
         <div className="container container_modified ps-4">
-          <div className="d-flex overflow-auto">
+          <div className="d-flex overflow-auto pb-3">
             <a
               className="text-decoration-none ff_thicccboi_bold font-xl color_blue"
               href="#"
@@ -55,7 +55,7 @@ const Header = () => {
               Security
             </a>
           </div>
-          <hr className="height_2" />
+          <hr className="header_hr_line" />
         </div>
       </section>
     </>
