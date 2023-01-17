@@ -71,6 +71,7 @@
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   border-radius: 8px;
+  height: 53px !important;
 }
 .form-control:focus {
   background: rgba(142, 169, 224, 0.15);
@@ -90,7 +91,59 @@
   border-radius: 10px;
   max-width: 570px;
 }
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
 
+/*-------------------------------------- crm section ------------------------------------------ */
+.border_radius_18 {
+  border-radius: 18px;
+}
+.airtable {
+  max-width: 163.39px;
+}
+.crm_card {
+  background: rgba(142, 169, 224, 0.15);
+  backdrop-filter: blur(17.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+  max-width: 570px;
+}
+.crm_icon_bg {
+  background: rgba(142, 169, 224, 0.15);
+  backdrop-filter: blur(17.5px);
+  border-radius: 8px;
+  height: 53px !important;
+}
+.material_icon {
+  height: 25px;
+  width: 25px;
+  background-color: #3b5998;
+  border-radius: 50%;
+}
+.z_index_1 {
+  z-index: 1;
+}
+/* ----------------------billing ----------------------------- */
+.bg_light_grey {
+  background: rgba(142, 169, 224, 0.15);
+  backdrop-filter: blur(17.5px);
+  border-radius: 8px;
+}
+.color_light_red {
+  color: #fd5a5a !important;
+}
+.bg_light_blue {
+  background: #3b5998;
+  backdrop-filter: blur(17.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8px;
+}
+.color_light_grey {
+  color: #3b5998;
+}
 @media (max-width: 991.8px) {
   .px_lg_60 {
     padding: 20px !important;
