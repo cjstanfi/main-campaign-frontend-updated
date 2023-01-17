@@ -1,6 +1,7 @@
 import React from "react";
 import Icon from "../assets/images/png/Icon.png";
 import IconTick from "../assets/images/svg/Icon_tick.svg";
+import { PlusIcon } from "./common/Icons";
 const Profile = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Profile = () => {
           <h3 className="ff_thicccboi_bold font-xl color_gray mb-0">
             Profile Picture
           </h3>
-          <p className="ff_thicccboi_medium color_gray font-md mb-0">
+          <p className="fw-normal color_gray font-md mb-0">
             update your Profile Picture
           </p>
           <div className="text-center mt-5">
@@ -26,8 +27,8 @@ const Profile = () => {
               />
             </div>
             <br />
-            <button className="mt-5 ff_thicccboi_semibold font-md color_gray border-0 px-5 py-3 upload_btn">
-              + Upload Picture
+            <button className="mt-5 ff_thicccboi_semibold font-md color_gray border-0 px-5 py-3 upload_btn d-flex align-items-center mx-auto">
+              <PlusIcon /> <span className="ms-2">Upload Picture</span>
             </button>
           </div>
 
@@ -62,7 +63,7 @@ const Profile = () => {
               id="last_name"
             />
           </form>
-          <div className="mt-5 pt-5 text-end">
+          <div className="mt-md-5 pt-sm-5 text-end">
             <button className="mt-5 border-0 text-white save_btn px-4 py-2">
               Save
             </button>

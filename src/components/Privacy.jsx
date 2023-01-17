@@ -116,7 +116,7 @@ const Privacy = () => {
               </div>
             </div>
           </form>
-          <div className="mt-md-5 mt-3 pt-lg-5 text-end">
+          <div className="mt-sm-3 text-end">
             <button className="mt-5 border-0 text-white save_btn px-4 py-2">
               Save
             </button>
