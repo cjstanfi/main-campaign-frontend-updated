@@ -7,6 +7,8 @@ import Crm from "./components/Crm";
 import Business from "./components/Business";
 import Privacy from "./components/Privacy";
 import Billing from "./components/Billing";
+import AppRoutes from "./AppRoutes";
+
 function App() {
   return (
     <>
@@ -15,7 +17,9 @@ function App() {
       {/* <Crm /> */}
       {/* <Business /> */}
       {/* <Privacy /> */}
-      <Billing />
+      {/* <Billing />  */}
+
+      <AppRoutes />
     </>
   );
 }
