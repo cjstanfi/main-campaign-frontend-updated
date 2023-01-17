@@ -75,7 +75,10 @@ const Billing = () => {
                     <span className="ff_thicccboi_bold font-md color_gray">
                       Regular Monthly Subscription - 59$ / month
                     </span>
-                    <a className="text-decoration-none color_light_grey font-sm ff_thicccboi_medium mt-2 mt-sm-0">
+                    <a
+                      href=""
+                      className="text-decoration-none color_light_grey font-sm ff_thicccboi_medium mt-2 mt-sm-0"
+                    >
                       Change
                     </a>
                   </div>
