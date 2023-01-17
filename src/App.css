@@ -318,6 +318,24 @@ body {
   box-shadow: 0px 0px 0px 2px #dee2e6;
 }
 
+/*DASHBOARD CARDS CSS HERE----------------------*/
+.dashboard_card_bg {
+  background: var(--white);
+  border: 1px solid rgba(206, 206, 206, 0.5);
+  box-shadow: 0px 10px 25px rgba(206, 206, 206, 0.2);
+  border-radius: 18px;
+  /* padding: 20px 9px 0px 18px; */
+  height: 160px;
+  width: 274px;
+  margin-left: 30px;
+}
+
+.cards_text_bg {
+  background: rgba(136, 255, 191, 0.15);
+  border-radius: 6px;
+  padding: 6px;
+}
+
 @media (min-width: 1600px) {
   /* .container_modified {
     max-width: 1540px !important;
