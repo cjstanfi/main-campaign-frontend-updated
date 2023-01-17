@@ -74,7 +74,6 @@ const Team = () => {
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0">
                           {item.email}
                         </td>
-                        {/* <div className="d-flex align-items-center justify-content-between border_right"> */}
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3  pe-5 pe-lg-0">
                           {item.role}
                         </td>
@@ -85,7 +84,6 @@ const Team = () => {
                           <a href="#">
                             <EditIcon />
                           </a>
-                          {/* </div> */}
                         </td>
                       </tr>
                     );
