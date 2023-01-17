@@ -2,27 +2,8 @@ import React from "react";
 import { DeleteIcon } from "./common/Icons";
 import { EditIcon } from "./common/Icons";
 import { AddNewUserIcon } from "./common/Icons";
+import { TeamDetails } from "./common/Helper";
 const Team = () => {
-  const TeamDetails = [
-    {
-      username: "john42",
-      name: "John Wick",
-      email: "jhonwick42@gmial.com",
-      role: "Administrator",
-    },
-    {
-      username: "Ryan_parker11",
-      name: "Ryan Parker",
-      email: "ryanparker11142@gmial.com",
-      role: "Analyst",
-    },
-    {
-      username: "bershan_222",
-      name: "Bershan Shaw",
-      email: "bershanshaw-7625@yahoo.com",
-      role: "Member",
-    },
-  ];
   return (
     <>
       <section className="px-lg-5 px-3 py-2">
