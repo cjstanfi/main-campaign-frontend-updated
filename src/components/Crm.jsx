@@ -5,12 +5,12 @@ import { MaterialIcon } from "./common/Icons";
 const Crm = () => {
   return (
     <>
-      <section className="px-lg-5 px-3 py-2">
+      <section className="px-lg-5 px-2 px-sm-3 py-2">
         <div className="box">
           <h3 className="ff_thicccboi_bold font-xl color_gray mb-0">
             CRM Settings
           </h3>
-          <p className="ff_thicccboi_medium color_gray font-md mb-0">
+          <p className="fw-normal color_gray font-md mb-0">
             update your CRM Settings
           </p>
           <div className="p-4 crm_card mx-auto mt-5">
@@ -40,7 +40,7 @@ const Crm = () => {
           </div>
           <form
             action=""
-            className="mt-5 mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-5"
+            className="mt-3 mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-5"
           >
             <div className="d-flex align-items-center">
               <div className="w-100">
@@ -74,7 +74,7 @@ const Crm = () => {
               </div>
             </div>
           </form>
-          <div className="mt-md-5 mt-3 pt-lg-5 text-end">
+          <div className=" text-end">
             <button className="mt-5 border-0 text-white save_btn px-4 py-2">
               Save
             </button>

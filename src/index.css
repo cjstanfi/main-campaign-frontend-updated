@@ -131,6 +131,12 @@
   backdrop-filter: blur(17.5px);
   border-radius: 8px;
 }
+.border_left {
+  border-radius: 12px 0 0 12px;
+}
+.border_right {
+  border-radius: 0 12px 12px 0;
+}
 .color_light_red {
   color: #fd5a5a !important;
 }
@@ -141,6 +147,7 @@
 
   border-radius: 8px;
 }
+
 .color_light_grey {
   color: #3b5998;
 }
@@ -165,6 +172,6 @@
     margin-left: 16px;
   }
   .box {
-    padding: 20px;
+    padding: 12px;
   }
 }
