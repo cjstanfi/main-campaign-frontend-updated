@@ -10,7 +10,6 @@ import {
   SupportIcon,
   LogoutBtnIcon,
 } from "./common/Icons";
-// import Profile from "./Profile";
 const Sidebar = () => {
   const [sidebarActive, setActive] = useState(false);
   return (
@@ -27,52 +26,102 @@ const Sidebar = () => {
             </a>
           </div>
           <ul className="ps-0 mt-lg-5 pt-3">
-            {/* <a href="/" className="text-decoration-none"> */}
-            <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
+            <li className="list-unstyled">
+              <a className="cursor_pointer text-decoration-none">
+                <div className="transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-5 py-2 py-md-3">
+                  <span>
+                    <DashboardIcon />
+                  </span>
+                  <span className="ps-3 font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
+                    Dashboard
+                  </span>
+                </div>
+              </a>
+            </li>
+            <li className="list-unstyled pt-2 pt-md-0">
+              <a className="cursor_pointer text-decoration-none">
+                <div className="transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-5 py-2 py-md-3">
+                  <span>
+                    <AnalyticsIcon />
+                  </span>
+                  <span className="ps-3 font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
+                    Analytics
+                  </span>
+                </div>
+              </a>
+            </li>
+            <li className="list-unstyled pt-2 pt-md-0">
+              <a className="cursor_pointer text-decoration-none">
+                <div className="transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-5 py-2 py-md-3">
+                  <span>
+                    <LeadsIcon />
+                  </span>
+                  <span className="ps-3 font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
+                    Leads Center
+                  </span>
+                </div>
+              </a>
+            </li>
+            {/* <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
               <DashboardIcon />
               <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                 Dashboard
               </li>
-            </div>
-            {/* </a> */}
-            {/* <a href="/" className="text-decoration-none"> */}
-            <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
+            </div> */}
+            {/* <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
               <AnalyticsIcon />
               <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                 Analytics
               </li>
-            </div>
-            {/* </a> */}
-            {/* <a href="/" className="text-decoration-none"> */}
-            <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
+            </div> */}
+            {/* <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
               <LeadsIcon />
               <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                 Leads Center
               </li>
-            </div>
-            {/* </a> */}
+            </div> */}
           </ul>
           <div className="pt-lg-4">
             <p className="font-sm fw_600 ff_thicccboi_semibold color_blue letter_space ps-4 ms-lg-4 mb-2">
               MORE
             </p>
             <ul className="ps-0">
-              {/* <a href="/" className="text-decoration-none"> */}
-              <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
+              {/* <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
                 <SettingsIcon />
                 <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                   Settings
                 </li>
-              </div>
-              {/* </a> */}
-              {/* <a href="/" className="text-decoration-none"> */}
-              <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
+              </div> */}
+              {/* <div className="d-flex align-items-center transition_03 sidebar_tab_effect px-4 ms-lg-4 me-lg-5">
                 <SupportIcon />
                 <li className="py-3 ps-3 list-unstyled font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
                   Support
                 </li>
-              </div>
-              {/* </a> */}
+              </div> */}
+              <li className="list-unstyled pt-2 pt-md-0">
+                <a className="cursor_pointer text-decoration-none">
+                  <div className="transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-5 py-2 py-md-3">
+                    <span>
+                      <SettingsIcon />
+                    </span>
+                    <span className="ps-3 font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
+                      Settings
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li className="list-unstyled pt-2 pt-md-0">
+                <a className="cursor_pointer text-decoration-none">
+                  <div className="transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-5 py-2 py-md-3">
+                    <span>
+                      <SupportIcon />
+                    </span>
+                    <span className="ps-3 font-sm fw_600 ff_thicccboi_semibold sidebar_tab_text">
+                      Support
+                    </span>
+                  </div>
+                </a>
+              </li>
             </ul>
           </div>
           <div className="d-flex align-items-center px-4 ms-lg-4 me-lg-5 mt-5">
