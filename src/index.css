@@ -151,6 +151,14 @@
 .color_light_grey {
   color: #3b5998;
 }
+.stage_circle {
+  width: 12px;
+  height: 12px;
+  background-color: #3b5998;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
 @media (max-width: 991.8px) {
   .px_lg_60 {
     padding: 20px !important;

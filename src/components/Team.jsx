@@ -2,27 +2,8 @@ import React from "react";
 import { DeleteIcon } from "./common/Icons";
 import { EditIcon } from "./common/Icons";
 import { AddNewUserIcon } from "./common/Icons";
+import { TeamDetails } from "./common/Helper";
 const Team = () => {
-  const TeamDetails = [
-    {
-      username: "john42",
-      name: "John Wick",
-      email: "jhonwick42@gmial.com",
-      role: "Administrator",
-    },
-    {
-      username: "Ryan_parker11",
-      name: "Ryan Parker",
-      email: "ryanparker11142@gmial.com",
-      role: "Analyst",
-    },
-    {
-      username: "bershan_222",
-      name: "Bershan Shaw",
-      email: "bershanshaw-7625@yahoo.com",
-      role: "Member",
-    },
-  ];
   return (
     <>
       <section className="px-lg-5 px-3 py-2">
@@ -74,7 +55,6 @@ const Team = () => {
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0">
                           {item.email}
                         </td>
-                        {/* <div className="d-flex align-items-center justify-content-between border_right"> */}
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3  pe-5 pe-lg-0">
                           {item.role}
                         </td>
@@ -85,7 +65,6 @@ const Team = () => {
                           <a href="#">
                             <EditIcon />
                           </a>
-                          {/* </div> */}
                         </td>
                       </tr>
                     );
