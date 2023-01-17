@@ -1,7 +1,7 @@
 import React from "react";
 import { cardsData } from "../components/common/Helper";
-import CardsGraphOne from "../assets/images/svg/cards-graph-1.svg";
-// import CardsGraphTwo from "../assets/images/svg/cards-graph-2.svg";
+import ToolTipIcon from "../assets/images/svg/cards-icon.svg";
+
 const DashboardCards = () => {
   return (
     <>
@@ -13,19 +13,16 @@ const DashboardCards = () => {
               <div key={index}>
                 <div className="dashboard_card_bg position-relative">
                   <div className="position-absolute bottom-0">
-                    <img
-                      className="w-100"
-                      src={CardsGraphOne}
-                      alt="cards-graph"
-                    />
+                    <img className="w-100" src={val.imgUrl} alt="cards-graph" />
                   </div>
+
                   <div className="d-flex justify-content-between pt-3 ps-3">
                     <div className="d-flex justify-content-between pt-1">
                       <h2 className="font-xl fw_600 color_gray ff_thicccboi_semibold pt-1">
                         {val.heading}
                       </h2>
                       <div className="ps-2">
-                        <img src={val.imgUrl} alt="cards-icon" />
+                        <img src={ToolTipIcon} alt="cards-icon" />
                       </div>
                     </div>
                     <div className="cards_text_bg me-2">
