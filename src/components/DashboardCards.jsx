@@ -7,11 +7,11 @@ const DashboardCards = () => {
     <>
       <section className="py-5">
         {/* <div className="row justify-content-between"> */}
-        <div className="d-flex">
+        <div className="d-flex flex-wrap justify-content-center justify-content-xxl-start px-3 px-sm-5">
           {cardsData.map((val, index) => {
             return (
               <div key={index}>
-                <div className="dashboard_card_bg position-relative">
+                <div className="dashboard_card_bg position-relative mt-3">
                   <div className="position-absolute bottom-0">
                     <img className="w-100" src={val.imgUrl} alt="cards-graph" />
                   </div>
@@ -25,8 +25,14 @@ const DashboardCards = () => {
                         <img src={ToolTipIcon} alt="cards-icon" />
                       </div>
                     </div>
-                    <div className="cards_text_bg me-2">
-                      <p className="mb-0 font-sm fw_500 ff_thicccboi_medium color_green">
+                    <div className=" me-2">
+                      <p
+                        className={`mb-0 font-sm fw_500 ff_thicccboi_medium  ${
+                          index <= 3
+                            ? "color_green cards_text_bg"
+                            : "color_pink cards_text_bg_2"
+                        }`}
+                      >
                         {val.subheading}
                       </p>
                     </div>

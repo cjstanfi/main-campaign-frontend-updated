@@ -7,7 +7,7 @@
 
 html,
 body {
-  font-family: THICCCBOI-normal;
+  font-family: THICCCBOI-normal !important;
 }
 
 .ff_plex_mono {
@@ -49,6 +49,7 @@ body {
 :root {
   /* FONT SIZES  */
   --font-xs: 10px;
+  --font-xsm: 12px;
   --font-sm: 14px;
   --font-md: 16px;
   --font-lg: 18px;
@@ -62,9 +63,11 @@ body {
   --dark-black: #040310;
   --light-gray: #ececec;
   --gray: #7d889e;
+  --dark-gray: #484f75;
   --blue: #3b5998;
   --green: #30bd71;
   --red: #fb5656;
+  --pink: #ED58BA;
 }
 
 /* ----------------------------------- ONLY-MEDIA-QUERIES ----------------------------------- */
@@ -122,6 +125,10 @@ body {
   font-size: var(--font-xs) !important;
 }
 
+.font-xsm {
+  font-size: var(--font-xsm) !important;
+}
+
 .font-sm {
   font-size: var(--font-sm) !important;
 }
@@ -167,6 +174,10 @@ body {
   color: var(--light-gray) !important;
 }
 
+.color_dark_gray {
+  color: var(--dark-gray) !important;
+}
+
 .color_gray {
   color: var(--gray) !important;
 }
@@ -181,6 +192,10 @@ body {
 
 .color_red {
   color: var(--red) !important;
+}
+
+.color_pink {
+  color: var(--pink) !important;
 }
 
 /*======================= COMMON CLASSES START======================== */
@@ -335,6 +350,27 @@ body {
   padding: 6px;
 }
 
+.cards_text_bg_2 {
+  background: rgba(237, 88, 186, 0.15);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.map_text_bg {
+  background: var(--white);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1px;
+}
+
+.map_text {
+  left: 8%;
+  top: 16%;
+}
+
+.border_left_map {
+  border-left: 1px solid rgba(206, 206, 206, 0.5);
+}
+
 @media (min-width: 1600px) {
   /* .container_modified {
     max-width: 1540px !important;
@@ -344,6 +380,13 @@ body {
 @media (max-width:1599.98px) {
   .dashboard_card_bg {
     width: unset;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:1199.98px) {
+  .border_left_map {
+    border-left: unset;
   }
 }
 
@@ -366,5 +409,9 @@ body {
 @media (max-width:575.98px) {
   .topbar_icons {
     margin-left: -45px;
+  }
+
+  .dashboard_card_bg {
+    margin-left: 20px;
   }
 }
