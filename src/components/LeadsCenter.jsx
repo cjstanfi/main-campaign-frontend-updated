@@ -35,7 +35,11 @@ const LeadsCenter = () => {
                         className={`${index % 2 ? "" : "bg_light_grey"}  `}
                         key={index}
                       >
-                        <td className="ff_thicccboi_semibold color_gray border_left font-md py-3 text-nowrap ps-3 pe-5 pe-lg-0">
+                        <td
+                          className={`${
+                            index % 2 ? "py-4" : ""
+                          }  ff_thicccboi_semibold color_gray border_left font-md py-3 text-nowrap ps-3 pe-5 pe-lg-0`}
+                        >
                           {item.date}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0">
