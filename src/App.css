@@ -228,7 +228,8 @@ body {
 
 /*======================== SIDEBAR CSS ========================*/
 .sidebar_parent {
-  width: 400px;
+  width: 300px;
+  min-width: 300px;
   background-color: var(--white);
   height: 100vh;
   overflow-y: auto;
@@ -305,29 +306,35 @@ body {
 .sidebar_tab_effect {
   border: 1px solid transparent;
   border-radius: 12px;
+  cursor: pointer;
+}
+
+.sidebar_tab_effect:hover {
+  background-color: #e6e9eda4;
 }
 
 .sidebar_tab_text {
   color: var(--gray);
 }
 
-.sidebar_tab_effect:hover .sidebar_tab_text {
+.sidebar-item-active .sidebar_tab_text {
   color: var(--light-gray);
 }
 
-.sidebar_tab_effect svg {
-  transition: all 0.3s ease-in-out;
+.sidebar-item-active svg {
+  transition: all 0.2s ease-in;
 }
 
-.sidebar_tab_effect:hover svg path {
+.sidebar-item-active svg path {
   fill: var(--white);
 }
 
-.sidebar_tab_effect:hover {
-  background-color: var(--blue);
+.sidebar-item-active {
+  background-color: var(--blue) !important;
   border: 1px solid #3B5998;
-  border-radius: 12px;
 }
+
+
 
 .sidebar_shadow {
   box-shadow: 0px 0px 0px 2px #dee2e6;

@@ -1,5 +1,12 @@
 import CardsGraphOne from "../../assets/images/svg/cards-graph-1.svg";
 import CardsGraphTwo from "../../assets/images/svg/cards-graph-2.svg";
+import {
+  AnalyticsIcon,
+  DashboardIcon,
+  LeadsIcon,
+  SettingsIcon,
+  SupportIcon,
+} from "./Icons";
 export const cardsData = [
   {
     heading: "Total Revenue",
@@ -132,5 +139,43 @@ export const LeadsContactInfo = [
     phone: "+1 202 555 0191",
     stage: "Raw Leads",
     source: "Facebook",
+  },
+];
+
+export const sidebrlinks = [
+  {
+    name: "",
+    list: [
+      {
+        icon: <DashboardIcon />,
+        title: "Dashboard",
+        url: "/dashboard",
+      },
+      {
+        icon: <AnalyticsIcon />,
+        title: "Analytics",
+        url: "/analytics",
+      },
+      {
+        icon: <LeadsIcon />,
+        title: "Leads Center",
+        url: "/leads-center",
+      },
+    ],
+  },
+  {
+    name: "MORE",
+    list: [
+      {
+        icon: <SettingsIcon />,
+        title: "Settings",
+        url: "/settings",
+      },
+      {
+        icon: <SupportIcon />,
+        title: "Support",
+        url: "/support",
+      },
+    ],
   },
 ];
