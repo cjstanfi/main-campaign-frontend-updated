@@ -12,10 +12,7 @@ const Privacy = () => {
             update your Password
           </p>
 
-          <form
-            action=""
-            className="mt-5 mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-5"
-          >
+          <form action="" className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5">
             <div className="d-flex align-items-center">
               <div className="w-100">
                 <div className="d-flex justify-content-between align-items-center">
@@ -34,7 +31,7 @@ const Privacy = () => {
                 </div>
                 <input
                   placeholder="johnwick42@gmail.com"
-                  className="form-control mt-1 profile_input border-0 py-3 "
+                  className="form-control mt-1 profile_input border-0 py-3 px-4"
                   type="email"
                   name="email"
                   id="email"
@@ -63,7 +60,7 @@ const Privacy = () => {
                   </span>
                   <input
                     placeholder="************************"
-                    className="form-control mt-1 profile_input border-0 py-3 "
+                    className="form-control mt-1 profile_input border-0 py-3 px-4"
                     type="password"
                     name="old_password"
                     id="old_password"
@@ -85,7 +82,7 @@ const Privacy = () => {
                   </span>
                   <input
                     placeholder="************************"
-                    className="form-control mt-1 profile_input border-0 py-3 "
+                    className="form-control mt-1 profile_input border-0 py-3 px-4"
                     type="password"
                     name="new_password"
                     id="new_password"
@@ -107,7 +104,7 @@ const Privacy = () => {
                   </span>
                   <input
                     placeholder="************************"
-                    className="form-control mt-1 profile_input border-0 py-3 "
+                    className="form-control mt-1 profile_input border-0 py-3 px-4"
                     type="password"
                     name="confirm_password"
                     id="confirm_password"

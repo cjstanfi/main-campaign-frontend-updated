@@ -1,7 +1,12 @@
 import React from "react";
+import AddManager from "../components/AddManager";
 
 const Support = () => {
-  return <div>Support</div>;
+  return (
+    <>
+      <AddManager />
+    </>
+  );
 };
 
 export default Support;

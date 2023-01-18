@@ -164,14 +164,12 @@
   margin-left: -10px;
 }
 
-.add_manager tbody,
-td,
-th {
+.add_manager tbody td {
   border: solid #d9d9d9;
   border-width: 0px 1px 0px 1px;
 }
-.add_manager tbody,
-th {
+
+.add_manager tbody th {
   border: solid #d9d9d9;
   border-width: 1px 1px 1px 1px;
 }

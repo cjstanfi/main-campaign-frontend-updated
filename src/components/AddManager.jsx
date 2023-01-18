@@ -13,7 +13,7 @@ import { AddManagerDetails } from "../components/common/Helper";
 const AddManager = () => {
   return (
     <>
-      <section className="p-3">
+      <section>
         <div className="box">
           <div className="row">
             <div className="col-12 col-sm-6 mt-3 col-md-4  px-3">

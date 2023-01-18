@@ -12,10 +12,7 @@ const Business = () => {
             update your Business Name
           </p>
 
-          <form
-            action=""
-            className="mt-5 mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-5"
-          >
+          <form action="" className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5">
             <div className="d-flex align-items-center">
               <div className="w-100">
                 <label
@@ -26,7 +23,7 @@ const Business = () => {
                 </label>
                 <input
                   placeholder="Main Capaign"
-                  className="form-control mt-1 profile_input border-0 py-3 "
+                  className="form-control mt-1 profile_input border-0 py-3 px-4"
                   type="text"
                   name="business_name"
                   id="business_name"

@@ -11,7 +11,7 @@ const Security = () => {
           <p className="fw-normal color_gray font-md mb-0">
             setup account your security
           </p>
-          <div className="bg_light_grey p-4 mt-5 mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-5 mt-5">
+          <div className="bg_light_grey px-3 px-lg-4 px-xxl-5 py-3 py-lg-4 mt-5 mx-auto col-sm-12 col-md-10 col-xl-5">
             <h5 className="ff_thicccboi_bold font-xl color_gray mb-0">
               Two-Factor Authentication
             </h5>
