@@ -5,6 +5,7 @@ import { useLayoutProvider } from "../contexts/LayoutProvider";
 
 const Settings = () => {
   const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
+  // const [active, setActive] = useState(false);
 
   return (
     <>

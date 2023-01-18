@@ -13,7 +13,7 @@ export default function LayoutProvider({ children }) {
 
   return (
     <LayoutProviderContext.Provider value={value}>
-      <div className="px-3 px-lg-5">{children}</div>
+      {children}
     </LayoutProviderContext.Provider>
   );
 }

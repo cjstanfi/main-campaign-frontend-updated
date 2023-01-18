@@ -1,5 +1,6 @@
 import React from "react";
 import DashboardCards from "../components/DashboardCards";
+import TotalLeads from "../components/dashboard/TotalLeads";
 import DashboardMap from "../components/DashboardMap";
 
 const DashboardHome = () => {
@@ -7,6 +8,7 @@ const DashboardHome = () => {
     <>
       <div>
         <DashboardCards />
+        {/* <TotalLeads /> */}
         <DashboardMap />
       </div>
     </>

@@ -22,7 +22,6 @@ const Sidebar = () => {
             <a href="/">
               <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
             </a>
-            
           </div>
 
           <div className="pt-lg-4">

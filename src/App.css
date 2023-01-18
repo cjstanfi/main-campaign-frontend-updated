@@ -334,8 +334,6 @@ body {
   border: 1px solid #3B5998;
 }
 
-
-
 .sidebar_shadow {
   box-shadow: 0px 0px 0px 2px #dee2e6;
 }
@@ -416,5 +414,10 @@ body {
 @media (max-width:575.98px) {
   .topbar_icons {
     margin-left: -45px;
+  }
+
+  .dashboard_card_bg {
+    max-width: 345px;
+    margin: auto;
   }
 }

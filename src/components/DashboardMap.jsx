@@ -6,7 +6,7 @@ import AustraliaFlag from "../assets/images/png/australia.png";
 const DashboardMap = () => {
   return (
     <>
-      <section className="py-5 pt-xl-4 px-3">
+      <section className="py-5 pt-xl-4">
         <div className="box">
           <div className="row">
             <div className="col-xl-8 col-xxl-9">
@@ -54,7 +54,7 @@ const DashboardMap = () => {
                   24.2k
                 </p>
               </div>
-              <div className="d-flex justify-content-between align-items-center pt-4 pt-sm-5 mt-sm-3">
+              <div className="d-flex justify-content-between align-items-center pt-4 pt-sm-5 mt-sm-3 px-3">
                 <p className="font-xl fw_500 ff_thicccboi_medium color_black mb-0">
                   15 more countires
                 </p>

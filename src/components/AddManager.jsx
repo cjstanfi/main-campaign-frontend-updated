@@ -1,97 +1,23 @@
 import React from "react";
-import { UpArrowIcon } from "./common/Icons";
+import { FileIcon, UpArrowIcon } from "./common/Icons";
 import Form from "react-bootstrap/Form";
+
+import { AddManagerDetails } from "../components/common/Helper";
 const AddManager = () => {
-  const AddManagerDetails = [
-    {
-      campaign: "Main Campaign",
-      delivery: "Active",
-      budget: 0,
-      leads: 2,
-      reach: 0,
-      impression: "3,456,125",
-      spent: 125,
-      conversion: 0,
-      revenue: 125,
-      roas: "1.00",
-    },
-    {
-      campaign: "Test",
-      delivery: "Active",
-      budget: 0,
-      leads: 5,
-      reach: 0,
-      impression: "0",
-      spent: 412,
-      conversion: 0,
-      revenue: 412,
-      roas: "5.00",
-    },
-    {
-      campaign: "Lead Trainer V1",
-      delivery: "No Ads",
-      budget: 0,
-      leads: 6,
-      reach: 0,
-      impression: "0",
-      spent: 456,
-      conversion: 0,
-      revenue: 456,
-      roas: "0",
-    },
-    {
-      campaign: "Lead Trainer V2",
-      delivery: "Active",
-      budget: 0,
-      leads: 8,
-      reach: 0,
-      impression: "0",
-      spent: 654,
-      conversion: 0,
-      revenue: 654,
-      roas: "0",
-    },
-    {
-      campaign: "John Wick",
-      delivery: "Off",
-      budget: 0,
-      leads: 7,
-      reach: 0,
-      impression: "0",
-      spent: 125,
-      conversion: 0,
-      revenue: 125,
-      roas: "0",
-    },
-    {
-      campaign: "Lead Trainer V2",
-      delivery: "Active",
-      budget: 0,
-      leads: 8,
-      reach: 0,
-      impression: "0",
-      spent: 654,
-      conversion: 0,
-      revenue: 654,
-      roas: "0",
-    },
-    {
-      campaign: "John Wick",
-      delivery: "Off",
-      budget: 0,
-      leads: 7,
-      reach: 0,
-      impression: "0",
-      spent: 125,
-      conversion: 0,
-      revenue: 125,
-      roas: "0",
-    },
-  ];
   return (
     <>
       <section className="p-3">
         <div className="box">
+          <div className="row">
+            <div className="col-4 px-3">
+              <div className="add_manager_campaign p-3 d-flex align-items-center">
+                <FileIcon />
+                <span className="ff_thicccboi_bold font-xl color_blue ms-3">
+                  Campaign
+                </span>
+              </div>
+            </div>
+          </div>
           <div className="overflow-auto pb-3">
             <table className="w-100 mt-4 add_manager">
               <tbody>
@@ -138,16 +64,20 @@ const AddManager = () => {
                   AddManagerDetails.map((item, index) => {
                     return (
                       <tr
-                        className={`${index % 2 ? "" : "bg_light_grey"}  `}
+                        className={`${index % 2 ? "" : "table_bg_grey "}  `}
                         key={index}
                       >
-                        <td className="ff_thicccboi_semibold color_gray font-md py-3 text-nowrap ps-3 pe-5 pe-lg-0">
+                        <td
+                          className={`${
+                            index % 2 ? "py-4" : " "
+                          } ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap ps-3 pe-5 pe-lg-0 `}
+                        >
                           <input type="checkbox" name="" id="" />
                         </td>
-                        <td className="ff_thicccboi_semibold color_gray font-md py-3 text-nowrap pe-5 pe-lg-0 text-center">
+                        <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0 text-center">
                           <Form.Check type="switch" id="custom-switch" />
                         </td>
-                        <td className="ff_thicccboi_semibold color_gray font-md py-3 text-nowrap pe-5 pe-lg-0 ps-3">
+                        <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0 ps-3">
                           {item.campaign}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0 text-center">
@@ -166,13 +96,13 @@ const AddManager = () => {
                           {item.impression}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0 text-center">
-                          {item.spent}
+                          ${item.spent}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0 text-center">
                           {item.conversion}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0 text-center">
-                          {item.revenue}
+                          ${item.revenue}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap pe-5 pe-lg-0 text-center">
                           {item.roas}
