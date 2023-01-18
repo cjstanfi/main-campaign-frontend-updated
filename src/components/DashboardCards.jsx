@@ -5,17 +5,16 @@ import ToolTipIcon from "../assets/images/svg/cards-icon.svg";
 const DashboardCards = () => {
   return (
     <>
-      <section className="py-5">
-        {/* <div className="row justify-content-between"> */}
-        <div className="d-flex flex-wrap justify-content-center justify-content-xxl-start px-3 px-sm-5">
+      <section className="py-5 container-fluid">
+        <div className="row justify-content-center px-2 px-sm-3 px-lg-4">
+          {/* <div className="d-flexflex-wrap justify-content-center justify-content-xxl-start px-3 px-sm-5"> */}
           {cardsData.map((val, index) => {
             return (
-              <div key={index}>
+              <div className="col-6 col-md-4 col-xl-3 col-xxl" key={index}>
                 <div className="dashboard_card_bg position-relative mt-3">
-                  <div className="position-absolute bottom-0">
+                  <div className="position-absolute w-100 bottom-0">
                     <img className="w-100" src={val.imgUrl} alt="cards-graph" />
                   </div>
-
                   <div className="d-flex justify-content-between pt-3 ps-3">
                     <div className="d-flex justify-content-between pt-1">
                       <h2 className="font-xl fw_600 color_gray ff_thicccboi_semibold pt-1">
@@ -44,6 +43,7 @@ const DashboardCards = () => {
               </div>
             );
           })}
+          {/* </div> */}
         </div>
       </section>
     </>
