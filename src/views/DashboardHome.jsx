@@ -1,10 +1,14 @@
 import React from "react";
 import DashboardCards from "../components/DashboardCards";
+import TotalLeads from "../components/dashboard/TotalLeads";
 
 const DashboardHome = () => {
   return (
     <>
-      <DashboardCards />
+      <div>
+        <DashboardCards />
+        <TotalLeads />
+      </div>
     </>
   );
 };
