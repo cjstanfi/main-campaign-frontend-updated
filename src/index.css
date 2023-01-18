@@ -185,6 +185,16 @@ th {
   border: 1px solid #ececec;
   border-radius: 15px;
 }
+.into_icon {
+  transform: rotate(-45deg);
+}
+.search_input {
+  background: #ffffff;
+  border: 1px solid #3b5998;
+  border-radius: 15px;
+  outline: none;
+}
+
 @media (max-width: 991.8px) {
   .px_lg_60 {
     padding: 20px !important;
