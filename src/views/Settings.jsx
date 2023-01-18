@@ -4,7 +4,7 @@ import TopBar from "../components/TopBar";
 import { useLayoutProvider } from "../contexts/LayoutProvider";
 
 const Settings = () => {
-  const { setActiveSidebar, activeSidebar } = useLayoutProvider();
+  const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
 
   return (
     <>
@@ -12,12 +12,12 @@ const Settings = () => {
       <div className="w-100 vh-100 overflow-auto">
         <div
           className={`mt-1 pt-3 position-fixed top-0 w-100 text-white ${
-            activeSidebar ? "toggle_active" : ""
+            sidebarOpen ? "toggle_active" : ""
           }`}
         >
           <div
             id="main-menu"
-            onClick={() => setActiveSidebar(!activeSidebar)}
+            onClick={() => setSidebarOpen(!sidebarOpen)}
             className="hamburger-menu d-inline-block d-lg-none"
           >
             <span className="first"></span>
@@ -27,7 +27,6 @@ const Settings = () => {
         </div>
         <TopBar />
         <Header />
-        {/* <Profile /> */}
       </div>
     </>
   );

@@ -4,9 +4,8 @@ import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
 import { useLayoutProvider } from "../contexts/LayoutProvider";
 import { sidebrlinks } from "./common/Helper";
 import { LogoutBtnIcon } from "./common/Icons";
-import { Link } from "react-router-dom";
 const Sidebar = () => {
-  const { setActiveSidebar, activeSidebar } = useLayoutProvider();
+  const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
   const navigate = useNavigate();
   const path = useLocation().pathname;
   const [active, setActive] = useState(0);
@@ -15,7 +14,7 @@ const Sidebar = () => {
     <>
       <div
         className={`sidebar_parent pt-lg-5 d-flex flex-column justify-content-between  ${
-          activeSidebar ? "sidebar_active sidebar_shadow" : ""
+          sidebarOpen ? "sidebar_active sidebar_shadow" : ""
         }`}
       >
         <div>
@@ -23,6 +22,7 @@ const Sidebar = () => {
             <a href="/">
               <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
             </a>
+            
           </div>
 
           <div className="pt-lg-4">

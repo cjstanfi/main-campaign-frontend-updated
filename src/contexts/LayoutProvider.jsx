@@ -7,13 +7,13 @@ export function useLayoutProvider() {
 }
 
 export default function LayoutProvider({ children }) {
-  const [activeSidebar, setActiveSidebar] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  const value = { activeSidebar, setActiveSidebar };
+  const value = { sidebarOpen, setSidebarOpen };
 
   return (
     <LayoutProviderContext.Provider value={value}>
-      {children}
+      <div className="px-3 px-lg-5">{children}</div>
     </LayoutProviderContext.Provider>
   );
 }

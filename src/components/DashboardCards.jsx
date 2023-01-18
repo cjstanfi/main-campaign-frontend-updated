@@ -5,12 +5,15 @@ import ToolTipIcon from "../assets/images/svg/cards-icon.svg";
 const DashboardCards = () => {
   return (
     <>
-      <section className="py-5 container-fluid">
-        <div className="row justify-content-center px-2 px-sm-3 px-lg-4">
+      <section className="pt-5 pb-sm-3 py-lg-5 container-fluid">
+        <div className="row justify-content-center">
           {/* <div className="d-flexflex-wrap justify-content-center justify-content-xxl-start px-3 px-sm-5"> */}
           {cardsData.map((val, index) => {
             return (
-              <div className="col-6 col-md-4 col-xl-3 col-xxl" key={index}>
+              <div
+                className="col-10 col-sm-6 col-md-4 col-xl-3 col-xxl"
+                key={index}
+              >
                 <div className="dashboard_card_bg position-relative mt-3">
                   <div className="position-absolute w-100 bottom-0">
                     <img className="w-100" src={val.imgUrl} alt="cards-graph" />

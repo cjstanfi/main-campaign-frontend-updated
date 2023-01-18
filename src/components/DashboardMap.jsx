@@ -6,7 +6,7 @@ import AustraliaFlag from "../assets/images/png/australia.png";
 const DashboardMap = () => {
   return (
     <>
-      <section className="px-3 px-lg-5 py-5 pt-xl-4">
+      <section className="py-5 pt-xl-4 px-3">
         <div className="box">
           <div className="row">
             <div className="col-xl-8 col-xxl-9">
@@ -32,7 +32,7 @@ const DashboardMap = () => {
                 225.25k
               </p>
               <img className="w-100" src={MapSmallImg} alt="small-map" />
-              <div className="d-flex justify-content-between align-items-center pt-4 px-xxl-3">
+              <div className="d-flex justify-content-between align-items-center pt-4 px-3">
                 <div className="d-flex align-items-center">
                   <img src={UnitedKingdomFlag} alt="united-kingdom" />
                   <p className="font-xl fw_500 ff_thicccboi_medium color_dark_black mb-0 ps-3">
@@ -43,7 +43,7 @@ const DashboardMap = () => {
                   41.2k
                 </p>
               </div>
-              <div className="d-flex justify-content-between align-items-center pt-4 mt-sm-2 px-xxl-3">
+              <div className="d-flex justify-content-between align-items-center pt-4 mt-sm-2 px-3">
                 <div className="d-flex align-items-center">
                   <img src={AustraliaFlag} alt="united-kingdom" />
                   <p className="font-xl fw_500 ff_thicccboi_medium color_dark_black mb-0 ps-3">

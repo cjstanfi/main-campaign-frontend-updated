@@ -1,10 +1,14 @@
 import React from "react";
 import DashboardCards from "../components/DashboardCards";
+import DashboardMap from "../components/DashboardMap";
 
 const DashboardHome = () => {
   return (
     <>
-      <DashboardCards />
+      <div>
+        <DashboardCards />
+        <DashboardMap />
+      </div>
     </>
   );
 };
