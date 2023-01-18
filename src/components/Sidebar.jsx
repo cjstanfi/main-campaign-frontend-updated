@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className={`sidebar_parent pt-lg-5 d-flex flex-column justify-content-between  ${
+        className={`sidebar_parent pt-lg-5 d-flex flex-column justify-content-between vertical_line_asidebar position-relative ${
           sidebarOpen ? "sidebar_active sidebar_shadow" : ""
         }`}
       >

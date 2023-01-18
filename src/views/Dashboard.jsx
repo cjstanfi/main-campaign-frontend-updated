@@ -8,11 +8,10 @@ const Dashboard = () => {
     <>
       <div className="d-flex">
         <Sidebar />
-        <div className="px-3 px-lg-5">
+        <div className="px-3 w-100 px-lg-5 w-100 vh-100 overflow-auto">
           <Outlet />
         </div>
       </div>
-      {/* <AddManager /> */}
     </>
   );
 };

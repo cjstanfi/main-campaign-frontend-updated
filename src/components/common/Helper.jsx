@@ -1,5 +1,13 @@
 import CardsGraphOne from "../../assets/images/svg/cards-graph-1.svg";
 import CardsGraphTwo from "../../assets/images/svg/cards-graph-2.svg";
+import Profile from "../Profile";
+import Facebook from "../Facebook";
+import Crm from "../Crm";
+import Privacy from "../Privacy";
+import Business from "../Business";
+import Billing from "../Billing";
+import Team from "../Team";
+import Security from "../Security";
 import {
   AnalyticsIcon,
   DashboardIcon,
@@ -263,5 +271,40 @@ export const AddManagerDetails = [
     conversion: 0,
     revenue: 125,
     roas: "0",
+  },
+];
+
+export const TabData = [
+  {
+    tabHeading: "Profile",
+    content: <Profile />,
+  },
+  {
+    tabHeading: "Facebook",
+    content: <Facebook />,
+  },
+  {
+    tabHeading: "CRM",
+    content: <Crm />,
+  },
+  {
+    tabHeading: "Business",
+    content: <Business />,
+  },
+  {
+    tabHeading: "Privacy",
+    content: <Privacy />,
+  },
+  {
+    tabHeading: "Billing",
+    content: <Billing />,
+  },
+  {
+    tabHeading: "Team",
+    content: <Team />,
+  },
+  {
+    tabHeading: "Security",
+    content: <Security />,
   },
 ];

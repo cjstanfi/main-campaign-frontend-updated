@@ -10,7 +10,7 @@ const Settings = () => {
   return (
     <>
       {" "}
-      <div className="w-100 vh-100 overflow-auto">
+      <div>
         <div
           className={`mt-1 pt-3 position-fixed top-0 w-100 text-white ${
             sidebarOpen ? "toggle_active" : ""

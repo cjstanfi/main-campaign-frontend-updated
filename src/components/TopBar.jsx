@@ -5,7 +5,7 @@ import UserIconTick from "../assets/images/svg/User_icon_tick.svg";
 const TopBar = () => {
   return (
     <>
-      <section className="ps-5 ps-lg-0 pt-3 pt-lg-0 vertical_line_asidebar position-relative z_index">
+      <section className="ps-5 ps-lg-0 pt-3 pt-lg-0  position-relative z_index">
         <div className="px-3 px-lg-5">
           <div className="d-sm-flex pt-lg-5 pb-4 justify-content-between align-items-center">
             <div>
