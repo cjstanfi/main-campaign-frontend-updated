@@ -5,7 +5,7 @@ const Billing = () => {
   return (
     <>
       <>
-        <section className="px-lg-5 px-3 py-2">
+        <section>
           <div className="box">
             <h3 className="ff_thicccboi_bold font-xl color_gray mb-0">
               Payment Method
