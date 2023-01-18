@@ -8,7 +8,7 @@ const DashboardHome = () => {
     <>
       <div>
         <DashboardCards />
-        {/* <TotalLeads /> */}
+        <TotalLeads />
         <DashboardMap />
       </div>
     </>

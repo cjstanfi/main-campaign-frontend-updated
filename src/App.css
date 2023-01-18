@@ -409,6 +409,10 @@ body {
   .sidebar_active {
     width: 200px;
   }
+
+  .sidebar_parent {
+    min-width: 0px;
+  }
 }
 
 @media (max-width:575.98px) {
