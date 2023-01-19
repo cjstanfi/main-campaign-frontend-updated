@@ -9,9 +9,20 @@ const DashboardHome = () => {
     <>
       <div>
         <DashboardCards />
-        <TotalLeads />
-        <AgeGroupBarChart />
-        <TopDemoGraphics />
+        <div className="row mx-0 total-leads-wrapper">
+          <div className="col-8">
+            <TotalLeads />
+          </div>
+          <div className="col-4 border_left_1px"></div>
+        </div>
+        <div className="row mx-0 total-leads-wrapper mt-4">
+          <div className="col-8">
+            <TopDemoGraphics />
+          </div>
+          <div className="col-4 border_left_1px d-flex flex-column justify-content-center">
+            <AgeGroupBarChart />
+          </div>
+        </div>
       </div>
     </>
   );

@@ -337,7 +337,9 @@ body {
 /* .sidebar_shadow {
   box-shadow: 0px 0px 0px 2px #dee2e6;
 } */
-
+.border_left_1px {
+  border-left: 1px solid rgba(206, 206, 206, 0.5);
+}
 /*DASHBOARD CARDS CSS HERE----------------------*/
 .dashboard_card_bg {
   background: var(--white);

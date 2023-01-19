@@ -4,7 +4,7 @@ import TotalLeadsBarChart from "./TotalLeadsBarChart";
 const TotalLeads = () => {
   return (
     <>
-      <div className="total-leads-wrapper">
+      <div className="overflow-hidden">
         <TotalLeadsBarChart />
       </div>
     </>

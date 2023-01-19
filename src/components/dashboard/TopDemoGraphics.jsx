@@ -17,7 +17,7 @@ const TopDemoGraphics = () => {
   };
   return (
     <>
-      <div id="geo_chart_div" className="chart geo-map">
+      <div id="geo_chart_div" className="chart geo-map py-3">
         <Chart
           chartType="GeoChart"
           width="100%"
