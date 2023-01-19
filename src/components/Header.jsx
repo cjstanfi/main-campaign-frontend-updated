@@ -12,7 +12,7 @@ const Header = () => {
                 <a
                   onClick={() => setShowtab(item)}
                   className={`${
-                    item == showtab ? "tab_border color_blue " : ""
+                    item == showtab ? "tab_border color_blue " : "header_tabs"
                   } text-decoration-none ff_thicccboi_bold font-xl color_gray position-relative  me-4 me-sm-5`}
                   href="#"
                 >

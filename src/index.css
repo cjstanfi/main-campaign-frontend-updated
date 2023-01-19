@@ -82,6 +82,21 @@
 .save_btn {
   background: #3b5998;
   border-radius: 60px;
+  transition: all 0.3s ease-in-out;
+}
+.save_btn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+.add_user_btn {
+  transition: all 0.3s ease-in-out;
+}
+.header_tabs:hover {
+  color: #a8afbc !important;
+}
+.add_user_btn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
 }
 /*--------------------------------------start facebook ----------------------------------------------- */
 .facebook_card {
