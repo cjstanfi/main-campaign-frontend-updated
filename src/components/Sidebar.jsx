@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
 import { useLayoutProvider } from "../contexts/LayoutProvider";
 import { sidebrlinks } from "./common/Helper";
@@ -12,19 +12,26 @@ const Sidebar = () => {
   console.log(path);
   return (
     <>
+      {sidebarOpen && (
+        <div
+          onClick={() => setSidebarOpen(false)}
+          className="sidebar-overlay"
+        ></div>
+      )}
+
       <div
-        className={`sidebar_parent pt-lg-5 d-flex flex-column justify-content-between vertical_line_asidebar position-relative ${
+        className={`sidebar_parent pt-lg-5 d-flex flex-column justify-content-between vertical_line_asidebar ${
           sidebarOpen ? "sidebar_active sidebar_shadow" : ""
         }`}
       >
         <div>
           <div className="pt-3 pt-lg-4 ps-4 ms-lg-4">
-            <a href="/">
+            <Link to="/">
               <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
-            </a>
+            </Link>
           </div>
 
-          <div className="pt-lg-4">
+          <div className="pt-4">
             {sidebrlinks &&
               sidebrlinks.map((obj, index) => (
                 <div className="pt-lg-4" key={index}>
@@ -38,7 +45,7 @@ const Sidebar = () => {
                           onClick={() => navigate(item.url)}
                           className={`${
                             item.url === path ? "sidebar-item-active" : ""
-                          } transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-5 py-2 py-md-3 mt-2`}
+                          } transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-3 me-xl-5 py-2 py-md-3 mt-2`}
                           key={index}
                         >
                           <span>{item.icon}</span>

@@ -18,7 +18,7 @@ const Team = () => {
             <span className="ff_thicccboi_semibold color_gray font-xl">
               User Details
             </span>
-            <button className="border-0 py-2 px-4 bg_light_blue text-white fs-md ff_thicccboi_semibold d-flex align-items-center">
+            <button className="border-0 py-2 px-4 bg_light_blue text-white fs-md ff_thicccboi_semibold d-flex align-items-center add_user_btn">
               <AddNewUserIcon /> <span className="ms-2">Add New User</span>
             </button>
           </div>

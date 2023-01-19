@@ -67,7 +67,7 @@ body {
   --blue: #3b5998;
   --green: #30bd71;
   --red: #fb5656;
-  --pink: #ED58BA;
+  --pink: #ed58ba;
 }
 
 /* ----------------------------------- ONLY-MEDIA-QUERIES ----------------------------------- */
@@ -242,7 +242,7 @@ body {
   background-color: var(--white);
   height: 100vh;
   overflow-y: auto;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in;
   position: relative;
 }
 
@@ -257,7 +257,7 @@ body {
   height: 25px;
   z-index: 10;
   left: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in;
 }
 
 .first {
@@ -340,11 +340,14 @@ body {
 
 .sidebar-item-active {
   background-color: var(--blue) !important;
-  border: 1px solid #3B5998;
+  border: 1px solid #3b5998;
 }
 
-.sidebar_shadow {
+/* .sidebar_shadow {
   box-shadow: 0px 0px 0px 2px #dee2e6;
+} */
+.border_left_1px {
+  border-left: 1px solid rgba(206, 206, 206, 0.5);
 }
 
 /*DASHBOARD CARDS CSS HERE----------------------*/
@@ -406,14 +409,31 @@ body {
 }
 
 @media (max-width:1599.98px) {
+  #SvgjsG1515 {
+    transform: translateX(-18px) !important;
+  }
+}
+
+@media (max-width: 1599.98px) {
   .dashboard_card_bg {
     width: unset;
   }
 }
 
-@media (max-width:1199.98px) {
+@media (max-width: 1499.98px) {
+  .min_width_900 {
+    min-width: 900px;
+  }
+}
+
+@media (max-width: 1199.98px) {
   .border_left_map {
     border-left: unset;
+  }
+
+  .sidebar_parent {
+    width: 280px;
+    min-width: 280px;
   }
 }
 
@@ -422,22 +442,35 @@ body {
     max-width: 150px;
   }
 
+  .border_left_1px {
+    border-left: none;
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in;
+    z-index: 4;
+  }
+
   .sidebar_parent {
-    width: 0;
-    position: absolute;
+    position: fixed;
+    left: -250px;
     z-index: 5;
+    width: 250px;
+    min-width: 250px;
   }
 
-  .sidebar_active {
-    width: 200px;
-  }
-
-  .sidebar_parent {
-    min-width: unset;
+  .sidebar_parent.sidebar_active {
+    left: 0px;
   }
 }
 
-@media (max-width:575.98px) {
+@media (max-width: 575.98px) {
   .topbar_icons {
     margin-left: -45px;
   }

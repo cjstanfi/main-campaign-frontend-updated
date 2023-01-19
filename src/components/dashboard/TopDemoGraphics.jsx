@@ -4,12 +4,12 @@ import { Chart } from "react-google-charts";
 const TopDemoGraphics = () => {
   const data = [
     ["Country", "Leads"],
-    ["Germany", 200],
-    ["United States", 800],
-    ["Brazil", 400],
-    ["Australia", 500],
+    ["Germany", 600],
+    ["United States", 600],
+    ["Brazil", 600],
+    ["Australia", 600],
     ["France", 600],
-    ["India", 400],
+    ["India", 600],
   ];
   const options = {
     colors: ["#3B5998"],
@@ -17,8 +17,9 @@ const TopDemoGraphics = () => {
   };
   return (
     <>
-      <div id="geo_chart_div" className="chart geo-map">
+      <div id="geo_chart_div" className="chart geo-map py-3 overflow-auto">
         <Chart
+          className="mw-100"
           chartType="GeoChart"
           width="100%"
           height="400px"
