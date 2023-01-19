@@ -11,7 +11,7 @@ const Dashboard = () => {
       <div className="d-flex">
         <Sidebar />
         <div className="px-3 px-xxl-4 px-3xl-5 w-100 vh-100  w-100  overflow-auto">
-          <div className="d-flex d-lg-none align-items-center justify-content-between p-2">
+          <div className="d-flex d-lg-none align-items-center justify-content-between py-2 p-lg-2">
             <Link to="/">
               <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
             </Link>

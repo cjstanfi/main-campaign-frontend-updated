@@ -476,10 +476,6 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .topbar_icons {
-    margin-left: -45px;
-  }
-
   .dashboard_card_bg {
     max-width: 345px;
     margin: auto;
