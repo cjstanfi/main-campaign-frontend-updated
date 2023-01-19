@@ -411,7 +411,9 @@ body {
 .overflow_x_auto_dropdown {
   overflow-x: auto;
 }
-
+.over_y_hidden {
+  overflow-y: hidden;
+}
 @media (max-width: 1599.98px) {
   .bar_status .apexcharts-xaxis {
     transform: translateX(-18px) !important;
