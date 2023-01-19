@@ -7,7 +7,7 @@ const AgeGroupBarChart = () => {
       plotOptions: {
         bar: {
           dataLabels: {
-            position: "top", // top, center, bottom
+            position: "center", // top, center, bottom
           },
         },
       },
@@ -29,7 +29,7 @@ const AgeGroupBarChart = () => {
       },
       xaxis: {
         categories: ["18-24", "25-34", "45-54", "65+"],
-        position: "bottom",
+        position: "center",
       },
       fill: {
         gradient: {
@@ -90,7 +90,7 @@ const AgeGroupBarChart = () => {
           options={state.options}
           series={state.series}
           type="bar"
-          height="300"
+          height="100%"
         />
       </div>
     </>
