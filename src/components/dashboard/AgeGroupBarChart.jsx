@@ -85,7 +85,7 @@ const AgeGroupBarChart = () => {
   });
   return (
     <>
-      <div className="bg-age-group-wrapper bar_status">
+      <div className="bar_status">
         <ReactApexChart
           width="100%"
           options={state.options}

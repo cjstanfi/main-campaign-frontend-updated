@@ -418,6 +418,7 @@ body {
   .dashboard_card_bg {
     width: unset;
   }
+
   .sidebar_parent {
     width: 280px;
     min-width: 280px;
@@ -475,10 +476,6 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .topbar_icons {
-    margin-left: -45px;
-  }
-
   .dashboard_card_bg {
     max-width: 345px;
     margin: auto;

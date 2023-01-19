@@ -4,7 +4,7 @@ const Header = () => {
   const [showtab, setShowtab] = useState(TabData[0]);
   return (
     <>
-      <section className="ms-1 ms-lg-0">
+      <section>
         <div className="d-flex overflow-auto pb-3">
           {TabData &&
             TabData.map((item, index) => {
