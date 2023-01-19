@@ -8,12 +8,13 @@ import {
   UpArrowIcon,
 } from "./common/Icons";
 import Form from "react-bootstrap/Form";
-
-import { AddManagerDetails } from "../components/common/Helper";
+import DashboardCards from "./DashboardCards";
+import { AddManagerDetails, TableTabs } from "../components/common/Helper";
 const AddManager = () => {
   return (
     <>
-      <section className="p-3">
+      <DashboardCards />
+      <section>
         <div className="box">
           <div className="row">
             <div className="col-12 col-sm-6 mt-3 col-md-4  px-3">
@@ -143,6 +144,16 @@ const AddManager = () => {
                           {item.campaign}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap px-4 px-lg-0 text-center">
+                          {" "}
+                          <span
+                            className={
+                              item.delivery == "Active"
+                                ? "delivery_status_active"
+                                : item.delivery == "No Ads"
+                                ? "delivery_status_noadds"
+                                : ""
+                            }
+                          ></span>{" "}
                           {item.delivery}
                         </td>
                         <td className="ff_thicccboi_semibold color_dark_black font-md py-3 text-nowrap px-4 px-lg-0 text-center">
@@ -181,6 +192,25 @@ const AddManager = () => {
                   })}
               </tbody>
             </table>
+            <div className="d-flex pt-4 mt-3">
+              {TableTabs &&
+                TableTabs.map((item, index) => {
+                  return (
+                    <button
+                      className={`${
+                        index === 0
+                          ? "table_tabs_btn_active"
+                          : index === TableTabs.length - 1
+                          ? "table_tabs_btn_active"
+                          : "table_tabs_btn"
+                      } me-3 px-3 py-2`}
+                      key={index}
+                    >
+                      {item.pageNo}
+                    </button>
+                  );
+                })}
+            </div>
           </div>
         </div>
       </section>

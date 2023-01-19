@@ -416,3 +416,35 @@ export const SearchIcon = () => {
     </svg>
   );
 };
+export const LeftArrowIcon = () => {
+  return (
+    <svg
+      width="7"
+      height="10"
+      viewBox="0 0 7 10"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M6.54838 8.63375L2.92255 5L6.54838 1.36625L5.43213 0.25L0.682129 5L5.43213 9.75L6.54838 8.63375Z"
+        fill="white"
+      />
+    </svg>
+  );
+};
+export const RightArrowIcon = () => {
+  return (
+    <svg
+      width="7"
+      height="11"
+      viewBox="0 0 7 11"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0.507286 9.13375L4.13312 5.5L0.507286 1.86625L1.62354 0.75L6.37354 5.5L1.62354 10.25L0.507286 9.13375Z"
+        fill="white"
+      />
+    </svg>
+  );
+};

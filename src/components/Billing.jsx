@@ -5,7 +5,7 @@ const Billing = () => {
   return (
     <>
       <>
-        <section className="px-lg-5 px-3 py-2">
+        <section>
           <div className="box">
             <h3 className="ff_thicccboi_bold font-xl color_gray mb-0">
               Payment Method
@@ -16,21 +16,21 @@ const Billing = () => {
 
             <form
               action=""
-              className="mt-5 mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-5"
+              className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5"
             >
               <h5 className="text-black ff_thicccboi_bold font-xl mb-3 ">
                 Payment Options
               </h5>
               <div className="bg_light_grey p-3">
-                <div className="text-end ff_thicccboi_medium font-sm">
-                  <a className="color_light_red cursor_pointer text-decoration-none">
+                <div className="text-end ">
+                  <a className="color_light_red cursor_pointer text-decoration-none ff_thicccboi_medium font-sm fw_500">
                     Delete
                   </a>
                 </div>
                 <div className="d-flex">
                   <img src={MasterCard} alt="MasterCard" />
                   <span className="ff_thicccboi_bold font-xl color_gray mb-0 ms-4">
-                    **** **** **** 5214
+                    **** &nbsp; **** &nbsp; **** &nbsp; 5214
                   </span>
                 </div>
                 <div className="d-flex align-items-center justify-content-between mt-4">

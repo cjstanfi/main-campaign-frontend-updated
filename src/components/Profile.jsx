@@ -5,7 +5,7 @@ import { PlusIcon } from "./common/Icons";
 const Profile = () => {
   return (
     <>
-      <section className="px-lg-5 px-3 py-2">
+      <section>
         <div className="box">
           <h3 className="ff_thicccboi_bold font-xl color_gray mb-0">
             Profile Picture
@@ -32,10 +32,7 @@ const Profile = () => {
             </button>
           </div>
 
-          <form
-            action=""
-            className="mt-5 mx-auto col-sm-10 col-md-8 col-lg-7 col-xl-5"
-          >
+          <form action="" className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5">
             <label
               className="ff_thicccboi_bold font-xl color_gray"
               htmlFor="name"
@@ -44,7 +41,7 @@ const Profile = () => {
             </label>
             <input
               placeholder="John"
-              className="form-control mt-1 profile_input border-0 py-3"
+              className="form-control mt-1 profile_input border-0 py-3 px-4"
               type="text"
               name="name"
               id="name"
@@ -57,13 +54,13 @@ const Profile = () => {
             </label>
             <input
               placeholder="Wick"
-              className="form-control mt-1 profile_input border-0 py-3"
+              className="form-control mt-1 profile_input border-0 py-3 px-4"
               type="text"
               name="last_name"
               id="last_name"
             />
           </form>
-          <div className="mt-md-5 pt-sm-5 text-end">
+          <div className="mt-md-5  text-end">
             <button className="mt-5 border-0 text-white save_btn px-4 py-2">
               Save
             </button>

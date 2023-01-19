@@ -345,8 +345,6 @@ body {
   box-shadow: 0px 10px 25px rgba(206, 206, 206, 0.2);
   border-radius: 18px;
   height: 160px;
-  /* width: 274px; */
-  /* margin-left: 30px; */
 }
 
 .cards_text_bg {
@@ -376,16 +374,9 @@ body {
   border-left: 1px solid rgba(206, 206, 206, 0.5);
 }
 
-@media (min-width: 1600px) {
-  /* .container_modified {
-    max-width: 1540px !important;
-  } */
-}
-
 @media (max-width:1599.98px) {
   .dashboard_card_bg {
     width: unset;
-    /* margin-left: 20px; */
   }
 }
 
@@ -411,7 +402,7 @@ body {
   }
 
   .sidebar_parent {
-    min-width: 0px;
+    min-width: unset;
   }
 }
 

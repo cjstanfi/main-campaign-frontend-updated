@@ -3,7 +3,7 @@ import { FacebookIcon } from "./common/Icons";
 const Facebook = () => {
   return (
     <>
-      <section className="px-lg-5 px-3 py-2">
+      <section>
         <div className="box overflow-y-scroll">
           <h3 className="ff_thicccboi_bold font-xl color_gray mb-0">
             Facebook Settings
@@ -24,9 +24,9 @@ const Facebook = () => {
                   </p>
                 </div>
               </div>
-              <div className="mt-3 mt-sm-2  d-flex flex-column ms-5 ps-2 ps-sm-0 ms-sm-0">
+              <div className="mt-3 mt-sm-2  d-flex flex-column align-items-sm-center ms-5 ps-2 ps-sm-0 ms-sm-0">
                 <a
-                  className="text-decoration-none color_blue font-sm ff_thicccboi_medium ms-1"
+                  className="text-decoration-none color_blue font-sm ff_thicccboi_medium ms-xl-1"
                   href="#"
                 >
                   Change account
@@ -51,7 +51,7 @@ const Facebook = () => {
                     Track your Facebook campaigns, see conversion rates, and
                     more.
                   </p>
-                  <button className="mt-3 border-0 text-white save_btn px-4 py-2">
+                  <button className="mt-4 border-0 text-white save_btn px-4 py-2">
                     Connect
                   </button>
                 </div>
