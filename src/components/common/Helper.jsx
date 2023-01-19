@@ -8,6 +8,7 @@ import Business from "../Business";
 import Billing from "../Billing";
 import Team from "../Team";
 import Security from "../Security";
+import LeadsCenter from "../LeadsCenter";
 import {
   AnalyticsIcon,
   DashboardIcon,
@@ -334,5 +335,31 @@ export const TableTabs = [
   },
   {
     pageNo: <RightArrowIcon />,
+  },
+];
+export const LeadsCenterContactDetails = [
+  {
+    tabHeading: "All",
+    content: <LeadsCenter />,
+  },
+  {
+    tabHeading: "Unread",
+    content: <LeadsCenter />,
+  },
+  {
+    tabHeading: "Raw Leads",
+    content: <LeadsCenter />,
+  },
+  {
+    tabHeading: "In Porgress Leads",
+    content: <LeadsCenter />,
+  },
+  {
+    tabHeading: "Interested Leads",
+    content: <LeadsCenter />,
+  },
+  {
+    tabHeading: "Converted Leads",
+    content: <LeadsCenter />,
   },
 ];

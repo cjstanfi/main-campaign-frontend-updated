@@ -85,8 +85,9 @@
   transition: all 0.3s ease-in-out;
 }
 .save_btn:hover {
-  opacity: 0.9;
+  /* opacity: 0.9; */
   transform: scale(1.03);
+  box-shadow: 4px 4px 10px #a8c0f4;
 }
 .add_user_btn {
   transition: all 0.3s ease-in-out;
