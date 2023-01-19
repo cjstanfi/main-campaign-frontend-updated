@@ -16,7 +16,7 @@ const DashboardHome = () => {
           <div className="col-4 border_left_1px"></div>
         </div>
         <div className="row mx-0 total-leads-wrapper mt-4">
-          <div className="col-8">
+          <div className="col-8  d-flex flex-column justify-content-center align-item-center">
             <TopDemoGraphics />
           </div>
           <div className="col-4 border_left_1px d-flex flex-column justify-content-center">
