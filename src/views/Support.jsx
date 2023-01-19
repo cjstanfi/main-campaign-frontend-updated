@@ -1,10 +1,10 @@
 import React from "react";
-import AddManager from "../components/AddManager";
+import DashboardCost from "../components/DashboardCost";
 
 const Support = () => {
   return (
     <>
-      <AddManager />
+      <DashboardCost />
     </>
   );
 };

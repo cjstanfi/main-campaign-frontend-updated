@@ -60,7 +60,7 @@ const Privacy = () => {
                   </span>
                   <input
                     placeholder="************************"
-                    className="form-control mt-1 profile_input border-0 py-3 px-4"
+                    className="form-control mt-1 profile_input border-0 placeholder_padding px-4"
                     type="password"
                     name="old_password"
                     id="old_password"
@@ -82,7 +82,7 @@ const Privacy = () => {
                   </span>
                   <input
                     placeholder="************************"
-                    className="form-control mt-1 profile_input border-0 py-3 px-4"
+                    className="form-control mt-1 profile_input border-0 placeholder_padding px-4"
                     type="password"
                     name="new_password"
                     id="new_password"
@@ -104,7 +104,7 @@ const Privacy = () => {
                   </span>
                   <input
                     placeholder="************************"
-                    className="form-control mt-1 profile_input border-0 py-3 px-4"
+                    className="form-control mt-1 profile_input border-0 placeholder_padding px-4"
                     type="password"
                     name="confirm_password"
                     id="confirm_password"

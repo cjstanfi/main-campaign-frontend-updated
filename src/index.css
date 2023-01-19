@@ -94,6 +94,12 @@
 .header_tabs:hover {
   color: #a8afbc !important;
 }
+.placeholder_padding {
+  padding-top: 10px;
+}
+.dashboard_cost {
+  max-width: 352px;
+}
 .add_user_btn:hover {
   opacity: 0.9;
   transform: scale(1.03);
