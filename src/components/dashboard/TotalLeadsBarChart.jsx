@@ -16,7 +16,7 @@ const TotalLeadsBarChart = () => {
         type: "pattern",
         pattern: {
           style: "verticalLines",
-          width: 6,
+          width: 2,
           height: 1,
           strokeWidth: 12,
         },
@@ -146,15 +146,15 @@ const TotalLeadsBarChart = () => {
   });
   return (
     <>
-      <div>
+      <div className="overflow-auto">
         <Chart
           height={350}
-          className="w-100 "
           options={state.options}
           data={state.data}
           series={state.series}
           type="bar"
-          width="1100"
+          width="100%"
+          className="min_width_900"
         />
       </div>
     </>

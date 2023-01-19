@@ -1,6 +1,7 @@
 import React from "react";
 import { cardsData } from "../components/common/Helper";
 import ToolTipIcon from "../assets/images/svg/cards-icon.svg";
+import SplineChart from "./dashboard/SplineChart";
 
 const DashboardCards = () => {
   return (
@@ -13,10 +14,18 @@ const DashboardCards = () => {
                 className="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl"
                 key={index}
               >
-                <div className="dashboard_card_bg position-relative mt-3">
-                  <div className="position-absolute w-100 bottom-0">
-                    <img className="w-100" src={val.imgUrl} alt="cards-graph" />
-                  </div>
+                <div className="dashboard_card_bg overflow-hidden position-relative mt-3">
+                  <div
+                    className="position-absolute"
+                    style={{
+                      bottom: "-30px",
+                      left: "-30px",
+                    }}
+                  >
+                    <SplineChart
+                      spineColor={val.subheading > 0 ? "#88FFBF" : "#FF95DB"}
+                    />
+                  </div>{" "}
                   <div className="d-flex justify-content-between pt-3 ps-3">
                     <div className="d-flex justify-content-between pt-1">
                       <h2 className="font-xl fw_600 color_gray ff_thicccboi_semibold pt-1">
@@ -27,14 +36,17 @@ const DashboardCards = () => {
                       </div>
                     </div>
                     <div className=" mx-2">
-                      <p
-                        className={`mb-0 font-sm fw_500 ff_thicccboi_medium  ${
-                          index <= 3
-                            ? "color_green cards_text_bg"
-                            : "color_pink cards_text_bg_2"
-                        }`}
-                      >
-                        {val.subheading}
+                      <p className={`mb-0 font-sm fw_500 ff_thicccboi_medium `}>
+                        {val.subheading > 0 ? (
+                          <span className="color_green cards_text_bg">
+                            {" "}
+                            +{val.subheading}%
+                          </span>
+                        ) : (
+                          <span className="color_pink cards_text_bg_2">
+                            {val.subheading}%
+                          </span>
+                        )}
                       </p>
                     </div>
                   </div>

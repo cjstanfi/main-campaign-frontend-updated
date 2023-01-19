@@ -337,6 +337,9 @@ body {
 /* .sidebar_shadow {
   box-shadow: 0px 0px 0px 2px #dee2e6;
 } */
+.border_left_1px {
+  border-left: 1px solid rgba(206, 206, 206, 0.5);
+}
 
 /*DASHBOARD CARDS CSS HERE----------------------*/
 .dashboard_card_bg {
@@ -344,7 +347,7 @@ body {
   border: 1px solid rgba(206, 206, 206, 0.5);
   box-shadow: 0px 10px 25px rgba(206, 206, 206, 0.2);
   border-radius: 18px;
-  height: 160px;
+  height: 240px;
 }
 
 .cards_text_bg {
@@ -373,10 +376,17 @@ body {
 .border_left_map {
   border-left: 1px solid rgba(206, 206, 206, 0.5);
 }
-
+#SvgjsG1515 {
+  transform: translateX(-18px) !important;
+}
 @media (max-width: 1599.98px) {
   .dashboard_card_bg {
     width: unset;
+  }
+}
+@media (max-width: 1499.98px) {
+  .min_width_900 {
+    min-width: 900px;
   }
 }
 
@@ -393,6 +403,9 @@ body {
 @media (max-width: 991.91px) {
   .sidebar_logo {
     max-width: 150px;
+  }
+  .border_left_1px {
+    border-left: none;
   }
   .sidebar-overlay {
     position: fixed;
