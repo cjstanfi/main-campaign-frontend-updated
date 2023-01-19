@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <hr className="header_hr_line" />
       </section>
-      <div>{showtab.content}</div>
+      <div className="mb-3">{showtab.content}</div>
     </>
   );
 };

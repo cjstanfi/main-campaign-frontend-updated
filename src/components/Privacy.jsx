@@ -1,6 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { EyeIcon } from "./common/Icons";
 const Privacy = () => {
+  const [showOldPassword, setShowOldPassword] = useState("password");
+  const [showNewPassword, setshowNewPassword] = useState("password");
+  const [showConPassword, setshowConPassword] = useState("password");
+  const showOldPass = () => {
+    if (showOldPassword === "password") {
+      setShowOldPassword("text");
+    } else {
+      setShowOldPassword("password");
+    }
+  };
+  const showNewPass = () => {
+    if (showNewPassword === "password") {
+      setshowNewPassword("text");
+    } else {
+      setshowNewPassword("password");
+    }
+  };
+  const showConPass = () => {
+    if (showConPassword === "password") {
+      setshowConPassword("text");
+    } else {
+      setshowConPassword("password");
+    }
+  };
   return (
     <>
       <section>
@@ -55,13 +79,16 @@ const Privacy = () => {
                   Enter Old Password
                 </label>
                 <div className="position-relative">
-                  <span className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer">
+                  <span
+                    onClick={() => showOldPass()}
+                    className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer"
+                  >
                     <EyeIcon />
                   </span>
                   <input
                     placeholder="************************"
                     className="form-control mt-1 profile_input border-0 placeholder_padding px-4"
-                    type="password"
+                    type={showOldPassword}
                     name="old_password"
                     id="old_password"
                   />
@@ -77,13 +104,16 @@ const Privacy = () => {
                   Enter New Password
                 </label>
                 <div className="position-relative">
-                  <span className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer">
+                  <span
+                    onClick={() => showNewPass()}
+                    className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer"
+                  >
                     <EyeIcon />
                   </span>
                   <input
                     placeholder="************************"
                     className="form-control mt-1 profile_input border-0 placeholder_padding px-4"
-                    type="password"
+                    type={showNewPassword}
                     name="new_password"
                     id="new_password"
                   />
@@ -99,13 +129,16 @@ const Privacy = () => {
                   Confirm New Password
                 </label>
                 <div className="position-relative">
-                  <span className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer">
+                  <span
+                    onClick={() => showConPass()}
+                    className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer"
+                  >
                     <EyeIcon />
                   </span>
                   <input
                     placeholder="************************"
                     className="form-control mt-1 profile_input border-0 placeholder_padding px-4"
-                    type="password"
+                    type={showConPassword}
                     name="confirm_password"
                     id="confirm_password"
                   />
