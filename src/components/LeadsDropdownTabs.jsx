@@ -18,11 +18,11 @@ const LeadsDropdownTabs = () => {
               >
                 All Forms
               </Dropdown.Toggle>
-              {/* <Dropdown.Menu>
+              <Dropdown.Menu>
                 <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                 <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-              </Dropdown.Menu> */}
+              </Dropdown.Menu>
             </Dropdown>
           </button>
           <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ms-3 ms-sm-4">
