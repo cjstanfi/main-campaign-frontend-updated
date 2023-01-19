@@ -6,6 +6,7 @@ const AgeGroupBarChart = () => {
     options: {
       plotOptions: {
         bar: {
+          position: "center",
           dataLabels: {
             position: "center", // top, center, bottom
           },
@@ -14,7 +15,7 @@ const AgeGroupBarChart = () => {
       colors: "#3B5998",
       stroke: {
         colors: ["transparent"],
-        width: 0,
+        width: 35,
       },
       dataLabels: {
         enabled: false,
@@ -84,13 +85,12 @@ const AgeGroupBarChart = () => {
   });
   return (
     <>
-      <div className="bg-age-group-wrapper">
+      <div className="bg-age-group-wrapper bar_status">
         <ReactApexChart
           width="100%"
           options={state.options}
           series={state.series}
           type="bar"
-          height="100%"
         />
       </div>
     </>
