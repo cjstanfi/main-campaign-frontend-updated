@@ -45,7 +45,7 @@ const Sidebar = () => {
                           onClick={() => navigate(item.url)}
                           className={`${
                             item.url === path ? "sidebar-item-active" : ""
-                          } transition_03 sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-3 me-xl-5 py-2 py-md-3 mt-2`}
+                          } sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-4  py-2 py-md-3 mt-2`}
                           key={index}
                         >
                           <span>{item.icon}</span>
