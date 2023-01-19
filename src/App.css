@@ -403,17 +403,17 @@ body {
 .dropdown-toggle::after {
   display: inline-block;
   border-top: 0.3em solid;
-  border-right: 0.3em solid #3B5998 !important;
+  border-right: 0.3em solid #3b5998 !important;
   border-bottom: 0;
-  border-left: 0.3em solid #3B5998 !important;
+  border-left: 0.3em solid #3b5998 !important;
 }
 
 .overflow_x_auto_dropdown {
   overflow-x: auto;
 }
 
-@media (max-width:1599.98px) {
-  #SvgjsG1515 {
+@media (max-width: 1599.98px) {
+  .bar_status .apexcharts-xaxis {
     transform: translateX(-18px) !important;
   }
 }
