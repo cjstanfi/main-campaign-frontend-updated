@@ -1,11 +1,12 @@
 import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
 import { PlusIcon } from "./common/icons";
 const LeadsDropdownTabs = () => {
   return (
     <>
-      <section className="">
-        <div className="pt-4 pb-3 d-flex align-items-center overflow-auto">
+      <section>
+        <div className="pt-4 pb-3 text-nowrap overflow_x_auto_dropdown">
           <button className="font-sm fw_600 ff_thicccboi_semibold color_white leads_filter_btn text-nowrap">
             + Add Filters
           </button>
@@ -14,15 +15,15 @@ const LeadsDropdownTabs = () => {
               <Dropdown.Toggle
                 variant="success"
                 id="dropdown-basic"
-                className="bg-\transparent border-0 p-0"
+                className="bgtransparent border-0 p-0"
               >
                 All Forms
               </Dropdown.Toggle>
-              {/* <Dropdown.Menu>
+              <Dropdown.Menu>
                 <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                 <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-              </Dropdown.Menu> */}
+              </Dropdown.Menu>
             </Dropdown>
           </button>
           <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ms-3 ms-sm-4">
