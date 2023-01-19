@@ -397,6 +397,9 @@ body {
   .sidebar_logo {
     max-width: 150px;
   }
+  .border_left_1px {
+    border-left: none;
+  }
   .sidebar-overlay {
     position: fixed;
     top: 0;
