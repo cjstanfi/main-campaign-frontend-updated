@@ -376,10 +376,17 @@ body {
 .border_left_map {
   border-left: 1px solid rgba(206, 206, 206, 0.5);
 }
-
+#SvgjsG1515 {
+  transform: translateX(-18px) !important;
+}
 @media (max-width: 1599.98px) {
   .dashboard_card_bg {
     width: unset;
+  }
+}
+@media (max-width: 1499.98px) {
+  .min_width_900 {
+    min-width: 900px;
   }
 }
 

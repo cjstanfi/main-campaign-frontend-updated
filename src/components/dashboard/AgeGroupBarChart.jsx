@@ -6,15 +6,16 @@ const AgeGroupBarChart = () => {
     options: {
       plotOptions: {
         bar: {
+          position: "center",
           dataLabels: {
-            position: "top", // top, center, bottom
+            position: "center", // top, center, bottom
           },
         },
       },
       colors: "#3B5998",
       stroke: {
         colors: ["transparent"],
-        width: 0,
+        width: 35,
       },
       dataLabels: {
         enabled: false,
@@ -29,7 +30,7 @@ const AgeGroupBarChart = () => {
       },
       xaxis: {
         categories: ["18-24", "25-34", "45-54", "65+"],
-        position: "bottom",
+        position: "center",
       },
       fill: {
         gradient: {
@@ -84,13 +85,12 @@ const AgeGroupBarChart = () => {
   });
   return (
     <>
-      <div className="bg-age-group-wrapper">
+      <div className="bg-age-group-wrapper bar_status">
         <ReactApexChart
           width="100%"
           options={state.options}
           series={state.series}
           type="bar"
-          height="300"
         />
       </div>
     </>
