@@ -408,14 +408,8 @@ body {
   border-left: 0.3em solid #3b5998 !important;
 }
 
-.overflow_x_auto_dropdown {
-  overflow-x: auto;
-}
-.over_y_hidden {
-  overflow-y: hidden;
-}
 @media (max-width: 1599.98px) {
-  .bar_status .apexcharts-xaxis {
+  #SvgjsG1515 {
     transform: translateX(-18px) !important;
   }
 }
@@ -423,6 +417,11 @@ body {
 @media (max-width: 1599.98px) {
   .dashboard_card_bg {
     width: unset;
+  }
+
+  .sidebar_parent {
+    width: 280px;
+    min-width: 280px;
   }
 }
 
@@ -477,12 +476,15 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .topbar_icons {
-    margin-left: -45px;
-  }
-
   .dashboard_card_bg {
     max-width: 345px;
     margin: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  .px-3xl-5 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }

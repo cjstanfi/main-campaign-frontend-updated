@@ -4,7 +4,7 @@ const Facebook = () => {
   return (
     <>
       <section>
-        <div className="box overflow-y-scroll">
+        <div className="box">
           <h3 className="ff_thicccboi_bold font-xl color_gray mb-0">
             Facebook Settings
           </h3>

@@ -4,6 +4,7 @@ import TotalLeads from "../components/dashboard/TotalLeads";
 import AgeGroupBarChart from "../components/dashboard/AgeGroupBarChart";
 import TopDemoGraphics from "../components/dashboard/TopDemoGraphics";
 import SplineChart from "../components/dashboard/SplineChart";
+import DashboardCost from "../components/DashboardCost";
 
 const DashboardHome = () => {
   return (
@@ -14,7 +15,9 @@ const DashboardHome = () => {
           <div className="col-lg-8">
             <TotalLeads />
           </div>
-          <div className="col-lg-4 border_left_1px"></div>
+          <div className="col-lg-4 border_left_1px p-4">
+            <DashboardCost />
+          </div>
         </div>
         <div className="row mb-4 mx-0 total-leads-wrapper mt-4 justify-content-center">
           <div className="col-lg-8  d-flex flex-column justify-content-center align-item-center">

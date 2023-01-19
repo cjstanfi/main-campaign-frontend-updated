@@ -2,17 +2,17 @@ import React from "react";
 import Header from "../components/Header";
 import TopBar from "../components/TopBar";
 
-import { useLayoutProvider } from "../contexts/LayoutProvider";
+// import { useLayoutProvider } from "../contexts/LayoutProvider";
 
 const Settings = () => {
-  const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
+  // const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
   // const [active, setActive] = useState(false);
 
   return (
     <>
       {" "}
       <div>
-        <div
+        {/* <div
           className={`mt-1 pt-3 position-fixed top-0 w-100 text-white ${
             sidebarOpen ? "toggle_active" : ""
           }`}
@@ -26,7 +26,7 @@ const Settings = () => {
             <span className="sec"></span>
             <span className="third"></span>
           </div>
-        </div>
+        </div> */}
         <TopBar />
         <Header />
       </div>

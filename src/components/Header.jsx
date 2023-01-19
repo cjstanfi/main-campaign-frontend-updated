@@ -4,7 +4,7 @@ const Header = () => {
   const [showtab, setShowtab] = useState(TabData[0]);
   return (
     <>
-      <section className="ms-1 ms-lg-0">
+      <section>
         <div className="d-flex overflow-auto pb-3">
           {TabData &&
             TabData.map((item, index) => {
@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <hr className="header_hr_line" />
       </section>
-      <div>{showtab.content}</div>
+      <div className="mb-3">{showtab.content}</div>
     </>
   );
 };
