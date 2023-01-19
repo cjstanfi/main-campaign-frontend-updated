@@ -67,7 +67,7 @@ const Privacy = () => {
                 Password
               </h5>
               <p className="fw-normal color_gray font-sm mb-0">
-                update your Password
+                Last change 10 Oct, 2022
               </p>
             </div>
             <div className="d-flex align-items-center mt-2">
