@@ -382,6 +382,11 @@ body {
     width: unset;
   }
 }
+@media (max-width: 1499.98px) {
+  .min_width_900 {
+    min-width: 900px;
+  }
+}
 
 @media (max-width: 1199.98px) {
   .border_left_map {
