@@ -12,6 +12,8 @@ import {
   AnalyticsIcon,
   DashboardIcon,
   LeadsIcon,
+  LeftArrowIcon,
+  RightArrowIcon,
   SettingsIcon,
   SupportIcon,
 } from "./Icons";
@@ -306,5 +308,31 @@ export const TabData = [
   {
     tabHeading: "Security",
     content: <Security />,
+  },
+];
+export const TableTabs = [
+  {
+    pageNo: <LeftArrowIcon />,
+  },
+  {
+    pageNo: 1,
+  },
+  {
+    pageNo: 2,
+  },
+  {
+    pageNo: 3,
+  },
+  {
+    pageNo: 4,
+  },
+  {
+    pageNo: "...",
+  },
+  {
+    pageNo: 10,
+  },
+  {
+    pageNo: <RightArrowIcon />,
   },
 ];
