@@ -4,27 +4,34 @@
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
 }
+
 .border_r_12 {
   border-radius: 12px;
 }
+
 .cursor_pointer {
   cursor: pointer;
 }
+
 .icon_size {
   height: 50px;
   width: 50px;
 }
+
 .user_icon {
   margin-left: 30px;
 }
+
 .user_icon_size {
   height: 57px;
   width: 57px;
   border-radius: 50%;
 }
+
 .pe_12 {
   padding-right: 12px;
 }
+
 .header_hr_line {
   border: 2px solid #d9d9d9 !important;
   margin-top: -5px !important;
@@ -33,12 +40,15 @@
 .px_lg_60 {
   padding: 0px 60px !important;
 }
+
 .header_margin_lg {
   margin-left: 250px;
 }
+
 .z_index {
   z-index: -1;
 }
+
 .vertical_line_asidebar::after {
   content: "";
   background-color: rgba(125, 136, 158, 0.25);
@@ -56,55 +66,63 @@
   border-radius: 18px;
   padding: 30px;
 }
+
 .translate_middle_y {
   transform: translateY(-100%);
 }
+
 .profile_icon_size {
   height: 178px;
   width: 178px;
 }
+
 .upload_btn {
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   border-radius: 8px;
 }
+
 .profile_input {
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   border-radius: 8px;
   height: 53px !important;
 }
+
 .form-control:focus {
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   box-shadow: none;
 }
+
 .save_btn {
   background: #3b5998;
   border-radius: 60px;
   transition: all 0.3s ease-in-out;
 }
+
 .save_btn:hover {
-  /* opacity: 0.9; */
   transform: scale(1.03);
   box-shadow: 4px 4px 10px #a8c0f4;
 }
+
 .add_user_btn {
   transition: all 0.3s ease-in-out;
 }
+
 .header_tabs:hover {
   color: #a8afbc !important;
 }
+
 .placeholder_padding {
   padding-top: 10px;
 }
-.dashboard_cost {
-  max-width: 352px;
-}
+
 .add_user_btn:hover {
   opacity: 0.9;
   transform: scale(1.03);
 }
+
 /*--------------------------------------start facebook ----------------------------------------------- */
 .facebook_card {
   background: rgba(142, 169, 224, 0.15);
@@ -114,6 +132,7 @@
   border-radius: 10px;
   max-width: 570px;
 }
+
 .overflow-y-scroll {
   overflow-y: scroll;
 }
@@ -122,9 +141,11 @@
 .border_radius_18 {
   border-radius: 18px;
 }
+
 .airtable {
   max-width: 163.39px;
 }
+
 .crm_card {
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
@@ -133,39 +154,48 @@
   border-radius: 10px;
   max-width: 570px;
 }
+
 .crm_card_input {
   max-width: 570px;
 }
+
 .crm_icon_bg {
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   border-radius: 8px;
   height: 53px !important;
 }
+
 .material_icon {
   height: 25px;
   width: 25px;
   background-color: #3b5998;
   border-radius: 50%;
 }
+
 .z_index_1 {
   z-index: 1;
 }
+
 /* ----------------------billing ----------------------------- */
 .bg_light_grey {
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   border-radius: 8px;
 }
+
 .border_left {
   border-radius: 12px 0 0 12px;
 }
+
 .border_right {
   border-radius: 0 12px 12px 0;
 }
+
 .color_light_red {
   color: #fd5a5a !important;
 }
+
 .bg_light_blue {
   background: #3b5998;
   backdrop-filter: blur(17.5px);
@@ -177,6 +207,7 @@
 .color_light_grey {
   color: #3b5998;
 }
+
 .stage_circle {
   width: 12px;
   height: 12px;
@@ -185,6 +216,7 @@
   display: inline-block;
   margin-right: 8px;
 }
+
 .uparrow {
   margin-left: -10px;
 }
@@ -198,26 +230,32 @@
   border: solid #d9d9d9;
   border-width: 1px 1px 1px 1px;
 }
+
 .add_manager {
   border-collapse: collapse !important;
 }
+
 .table_bg_grey {
   background: rgba(142, 169, 224, 0.15);
 }
+
 .add_manager_campaign {
   background: #ffffff;
   border: 1px solid #ececec;
   border-radius: 15px;
 }
+
 .into_icon {
   transform: rotate(-45deg);
 }
+
 .search_input {
   background: #ffffff;
   border: 1px solid #3b5998;
   border-radius: 15px;
   outline: none;
 }
+
 .tab_border::before {
   content: "";
   position: absolute;
@@ -226,6 +264,7 @@
   height: 2px;
   bottom: -13px;
 }
+
 .delivery_status_active {
   width: 11px;
   height: 11px;
@@ -233,6 +272,7 @@
   background-color: #30bd71;
   display: inline-block;
 }
+
 .delivery_status_noadds {
   width: 11px;
   height: 11px;
@@ -240,37 +280,45 @@
   background-color: #7d889e;
   display: inline-block;
 }
+
 .table_tabs_btn {
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   border-radius: 12px;
   border: 1px solid rgba(142, 169, 224, 0.15);
 }
+
 .table_tabs_btn_active {
   background: #3b5998;
   border-radius: 12px;
   border: 1px solid #3b5998;
 }
+
 @media (max-width: 991.8px) {
   .px_lg_60 {
     padding: 20px !important;
   }
+
   .header_margin_lg {
     margin-left: 0;
   }
+
   .vertical_line_asidebar::after {
     display: none;
   }
 }
+
 @media (max-width: 767.8px) {
   .user_icon {
     margin-left: 16px;
   }
 }
+
 @media (max-width: 576px) {
   .ms_xsm_16 {
     margin-left: 16px;
   }
+
   .box {
     padding: 12px;
   }

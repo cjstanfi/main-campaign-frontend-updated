@@ -408,6 +408,11 @@ body {
   border-left: 0.3em solid #3b5998 !important;
 }
 
+.age_chart_bg {
+  background: #EEF2FA;
+  border-radius: 8px;
+}
+
 @media (max-width: 1599.98px) {
   #SvgjsG1515 {
     transform: translateX(-18px) !important;
