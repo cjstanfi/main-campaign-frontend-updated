@@ -58,7 +58,10 @@ const Sidebar = () => {
                     {obj.list &&
                       obj.list.map((item, index) => (
                         <li
-                          onClick={() => navigate(item.url)}
+                          onClick={() => {
+                            navigate(item.url);
+                            setSidebarOpen(false);
+                          }}
                           className={`${
                             item.url === path ? "sidebar-item-active" : ""
                           } sidebar_tab_effect px-4 ms-lg-4 mx-2 me-lg-4  py-2 py-md-3 mt-2`}

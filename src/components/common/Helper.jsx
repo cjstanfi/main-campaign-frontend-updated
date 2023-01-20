@@ -326,15 +326,7 @@ export const TableTabs = [
   {
     pageNo: 1,
   },
-  {
-    pageNo: 2,
-  },
-  {
-    pageNo: 3,
-  },
-  {
-    pageNo: 4,
-  },
+
   {
     pageNo: "...",
   },

@@ -12,7 +12,10 @@ const Business = () => {
             update your Business Name
           </p>
 
-          <form action="" className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5">
+          <form
+            action=""
+            className="mt-4 mt-sm-5 mx-auto col-sm-12 col-md-10 col-xl-5"
+          >
             <div className="d-flex align-items-center">
               <div className="w-100">
                 <label

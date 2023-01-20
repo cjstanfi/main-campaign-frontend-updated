@@ -13,7 +13,7 @@ const Crm = () => {
           <p className="fw-normal color_gray font-md mb-0">
             update your CRM Settings
           </p>
-          <div className="p-4 crm_card mx-auto mt-5">
+          <div className="p-4 crm_card mx-auto mt-4 mt-sm-5">
             <div className="mb-4">
               <h3 className="ff_thicccboi_bold font-xl color_gray mb-0 ">
                 Current CRM

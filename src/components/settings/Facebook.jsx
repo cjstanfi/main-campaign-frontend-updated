@@ -11,7 +11,7 @@ const Facebook = () => {
           <p className="fw-normal color_gray font-md mb-0">
             update your Facebook Settings
           </p>
-          <div className="mt-5">
+          <div className="mt-4 mt-sm-5">
             <div className="p-4 facebook_card mx-auto d-flex flex-column flex-sm-row justify-content-between">
               <div className="d-flex">
                 <FacebookIcon />
