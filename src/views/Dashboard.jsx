@@ -1,11 +1,17 @@
-import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, Outlet, useNavigate } from "react-router-dom";
+import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
 import Sidebar from "../components/common/Sidebar";
 import { useLayoutProvider } from "../contexts/LayoutProvider";
-import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   const { setSidebarOpen } = useLayoutProvider();
+
+  useEffect(() => {
+    navigate("/dashboard");
+  }, []);
+
   return (
     <>
       <div className="d-flex">

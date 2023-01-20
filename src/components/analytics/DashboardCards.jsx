@@ -6,7 +6,7 @@ import SplineChart from "../dashboard/SplineChart";
 const DashboardCards = () => {
   return (
     <>
-      <section className="pt-5 pb-sm-3 py-lg-5">
+      <section className="py-4 py-sm-5">
         <div className="row justify-content-center">
           {cardsData.map((val, index) => {
             return (
@@ -26,6 +26,9 @@ const DashboardCards = () => {
                       spineColor={val.subheading > 0 ? "#88FFBF" : "#FF95DB"}
                     />
                   </div>{" "}
+                  <div className="position-absolute w-100 bottom-0">
+                    <img className="w-100" src={val.imgUrl} alt="" />
+                  </div>
                   <div className="d-flex justify-content-between pt-3 ps-3">
                     <div className="d-flex justify-content-between pt-1">
                       <h2 className="font-xl fw_600 color_gray ff_thicccboi_semibold pt-1">

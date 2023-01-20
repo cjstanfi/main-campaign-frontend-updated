@@ -60,7 +60,7 @@ const DashboardNavTabs = () => {
         <div className="position-relative w-100 mt-4 mt-md-0">
           <label
             htmlFor="search"
-            className="position-absolute top-50 cursor_pointer ms-3 translate-middle-y"
+            className="position-absolute  top-50 cursor_pointer ms-3 translate-middle-y"
           >
             {" "}
             <SearchIcon />

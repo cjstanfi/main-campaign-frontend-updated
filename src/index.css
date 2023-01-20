@@ -254,8 +254,19 @@
   border: 1px solid #3b5998;
   border-radius: 15px;
   outline: none;
+  height: 50px;
 }
-
+.form-check-input {
+  background-color: white;
+}
+.form-check-input:checked {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+.form-check-input:focus {
+  box-shadow: none;
+  border-color: #3b5998;
+}
 .tab_border::before {
   content: "";
   position: absolute;

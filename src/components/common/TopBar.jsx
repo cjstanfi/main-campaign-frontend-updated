@@ -33,7 +33,7 @@ const TopBar = ({ heading, para }) => {
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <button className="ff_thicccboi_semibold font-sm ms-sm-2 border-0 text-white save_btn px-4 py-2 mt-2 mt-sm-0">
+              <button className="ff_thicccboi_semibold font-sm ms-sm-2 border-0 text-white save_btn px-4 py-2 mt-3 mt-sm-0">
                 + Add a Business
               </button>
             </div>
