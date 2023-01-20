@@ -1,7 +1,8 @@
 import React from "react";
-import { SettingIcon, NotificationIcon } from "./common/Icons";
-import UserIcon from "../assets/images/png/User_icon.png";
-import UserIconTick from "../assets/images/svg/User_icon_tick.svg";
+import { SettingIcon, NotificationIcon } from "./Icons";
+import UserIcon from "../../assets/images/png/User_icon.png";
+import UserIconTick from "../../assets/images/svg/User_icon_tick.svg";
+
 const TopBar = () => {
   return (
     <>

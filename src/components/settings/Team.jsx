@@ -1,8 +1,8 @@
 import React from "react";
-import { DeleteIcon } from "./common/Icons";
-import { EditIcon } from "./common/Icons";
-import { AddNewUserIcon } from "./common/Icons";
-import { TeamDetails } from "./common/Helper";
+import { DeleteIcon } from "../common/Icons";
+import { EditIcon } from "../common/Icons";
+import { AddNewUserIcon } from "../common/Icons";
+import { TeamDetails } from "../common/Helper";
 const Team = () => {
   return (
     <>

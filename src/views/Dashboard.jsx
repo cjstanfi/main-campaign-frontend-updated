@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import AddManager from "../components/AddManager";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/common/Sidebar";
 import { useLayoutProvider } from "../contexts/LayoutProvider";
 import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
+
 const Dashboard = () => {
-  const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
+  const { setSidebarOpen } = useLayoutProvider();
   return (
     <>
       <div className="d-flex">

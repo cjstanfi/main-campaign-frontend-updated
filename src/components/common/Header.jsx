@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TabData } from "./common/Helper";
+import { TabData } from "./Helper";
 const Header = () => {
   const [showtab, setShowtab] = useState(TabData[0]);
   return (

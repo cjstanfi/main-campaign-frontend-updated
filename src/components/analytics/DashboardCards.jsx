@@ -1,7 +1,7 @@
 import React from "react";
-import { cardsData } from "../components/common/Helper";
-import ToolTipIcon from "../assets/images/svg/cards-icon.svg";
-import SplineChart from "./dashboard/SplineChart";
+import { cardsData } from "../common/Helper";
+import ToolTipIcon from "../../assets/images/svg/cards-icon.svg";
+import SplineChart from "../dashboard/SplineChart";
 
 const DashboardCards = () => {
   return (

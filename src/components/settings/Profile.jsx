@@ -1,7 +1,7 @@
 import React from "react";
-import Icon from "../assets/images/png/Icon.png";
-import IconTick from "../assets/images/svg/Icon_tick.svg";
-import { PlusIcon } from "./common/Icons";
+import Icon from "../../assets/images/png/Icon.png";
+import IconTick from "../../assets/images/svg/Icon_tick.svg";
+import { PlusIcon } from "../common/Icons";
 const Profile = () => {
   return (
     <>

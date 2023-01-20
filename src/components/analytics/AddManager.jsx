@@ -6,10 +6,10 @@ import {
   PlusIcon,
   SearchIcon,
   UpArrowIcon,
-} from "./common/Icons";
+} from "../common/Icons";
 import Form from "react-bootstrap/Form";
 import DashboardCards from "./DashboardCards";
-import { AddManagerDetails, TableTabs } from "../components/common/Helper";
+import { AddManagerDetails, TableTabs } from "../common/Helper";
 const AddManager = () => {
   return (
     <>

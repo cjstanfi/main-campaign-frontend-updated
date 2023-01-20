@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LeadsCenterContactDetails } from "./common/Helper";
+import { LeadsCenterContactDetails } from "../common/Helper";
 const LeadsCenterContactInfo = () => {
   const [showtab, setShowtab] = useState(LeadsCenterContactDetails[0]);
   return (

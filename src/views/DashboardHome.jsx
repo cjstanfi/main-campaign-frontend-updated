@@ -1,5 +1,5 @@
 import React from "react";
-import AddManager from "../components/AddManager";
+import AddManager from "../components/analytics/AddManager";
 
 const DashboardHome = () => {
   return (

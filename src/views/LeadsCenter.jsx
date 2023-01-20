@@ -1,5 +1,5 @@
 import React from "react";
-import LeadsCenterContactInfo from "../components/LeadsCenterContactInfo";
+import LeadsCenterContactInfo from "../components/leadscenter/LeadsCenterContactInfo";
 const LeadsCenter = () => {
   return (
     <>

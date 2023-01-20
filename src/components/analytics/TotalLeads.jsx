@@ -1,5 +1,5 @@
 import React from "react";
-import TotalLeadsBarChart from "./TotalLeadsBarChart";
+import TotalLeadsBarChart from "../dashboard/TotalLeadsBarChart";
 
 const TotalLeads = () => {
   return (

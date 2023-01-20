@@ -1,9 +1,9 @@
 import React from "react";
-import AgeGroupBarChart from "../components/dashboard/AgeGroupBarChart";
-import TopDemoGraphics from "../components/dashboard/TopDemoGraphics";
-import TotalLeads from "../components/dashboard/TotalLeads";
-import DashboardCards from "../components/DashboardCards";
-import DashboardCost from "../components/DashboardCost";
+import AgeGroupBarChart from "../components/analytics/AgeGroupBarChart";
+import TopDemoGraphics from "../components/analytics/TopDemoGraphics";
+import TotalLeads from "../components/analytics/TotalLeads";
+import DashboardCards from "../components/analytics/DashboardCards";
+import DashboardCost from "../components/dashboard/DashboardCost";
 
 const Analytics = () => {
   return (

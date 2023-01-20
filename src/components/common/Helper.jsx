@@ -1,14 +1,14 @@
 import CardsGraphOne from "../../assets/images/svg/cards-graph-1.svg";
 import CardsGraphTwo from "../../assets/images/svg/cards-graph-2.svg";
-import Profile from "../Profile";
-import Facebook from "../Facebook";
-import Crm from "../Crm";
-import Privacy from "../Privacy";
-import Business from "../Business";
-import Billing from "../Billing";
-import Team from "../Team";
-import Security from "../Security";
-import LeadsCenter from "../LeadsCenter";
+import Profile from "../settings/Profile";
+import Facebook from "../settings/Facebook";
+import Crm from "../settings/Crm";
+import Privacy from "../settings/Privacy";
+import Business from "../settings/Business";
+import Billing from "../settings/Billing";
+import Team from "../settings/Team";
+import Security from "../settings/Security";
+import LeadsCenter from "../leadscenter/LeadsCenter";
 import {
   AnalyticsIcon,
   DashboardIcon,

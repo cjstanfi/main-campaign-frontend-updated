@@ -1,5 +1,5 @@
 import React from "react";
-import { LeadsContactInfo, TableTabs } from "./common/Helper";
+import { LeadsContactInfo, TableTabs } from "../common/Helper";
 const LeadsCenter = () => {
   return (
     <>
