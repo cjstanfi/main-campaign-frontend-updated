@@ -336,3 +336,10 @@
   padding: 10px;
   max-width: 300px;
 }
+
+.dashboard_tabs_svg svg path {
+  fill: #3b5998;
+}
+.dashboard_tabs_svg_2 svg path {
+  fill: #7d889e;
+}

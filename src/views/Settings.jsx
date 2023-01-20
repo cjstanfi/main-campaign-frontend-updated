@@ -27,7 +27,7 @@ const Settings = () => {
             <span className="third"></span>
           </div>
         </div> */}
-        <TopBar />
+        <TopBar heading="Settings" para="Change or update your settings" />
         <Header />
       </div>
     </>

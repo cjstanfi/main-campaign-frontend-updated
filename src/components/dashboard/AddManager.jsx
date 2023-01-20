@@ -1,86 +1,19 @@
 import React from "react";
-import {
-  AddIcon,
-  FileIcon,
-  MenuIcon,
-  PlusIcon,
-  SearchIcon,
-  UpArrowIcon,
-} from "../common/Icons";
+import { UpArrowIcon } from "../common/Icons";
 import Form from "react-bootstrap/Form";
-import DashboardCards from "./DashboardCards";
-import { AddManagerDetails, TableTabs } from "../common/Helper";
+import DashboardCards from "../analytics/DashboardCards";
+import { AddManagerDetails } from "../common/Helper";
+import TablePagination from "../common/TablePagination";
+import DashboardNavTabs from "./DashboardNavTabs";
+import TopBar from "../common/TopBar";
 const AddManager = () => {
   return (
     <>
+      <TopBar heading="Welcome back!" />
       <DashboardCards />
       <section>
         <div className="box">
-          <div className="row">
-            <div className="col-12 col-sm-6 mt-3 col-md-4  px-3">
-              <div className="add_manager_campaign p-3 d-flex align-items-center">
-                <span>
-                  {" "}
-                  <FileIcon />
-                </span>
-                <span className="ff_thicccboi_medium font-xl color_blue ms-3">
-                  Campaign
-                </span>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 mt-3 col-md-4  px-3">
-              <div className="add_manager_campaign p-3 d-flex align-items-center">
-                <MenuIcon />
-                <span className="ff_thicccboi_medium font-xl  color_gray ms-3">
-                  Ad set
-                </span>
-              </div>
-            </div>
-            <div className="col-12 col-sm-6 mt-3 col-md-4  px-3">
-              <div className="add_manager_campaign p-3 d-flex align-items-center">
-                <AddIcon />
-                <span className="ff_thicccboi_medium font-xl  color_gray ms-3">
-                  Ad
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex align-items-md-center mt-5 flex-column flex-md-row">
-            <div className="d-flex me-4 d-flex flex-column flex-sm-row">
-              <div className="d-flex">
-                <button className="ff_thicccboi_semibold border-0 text-white save_btn px-4 py-2 text-nowrap">
-                  Sort
-                </button>
-                <button className="ff_thicccboi_semibold ms-3 border-0 text-white save_btn px-4 py-2 text-nowrap">
-                  + Add Filters
-                </button>
-              </div>
-              <div>
-                <button className="ff_thicccboi_semibold ms-1 ms-sm-4 mt-3 mt-sm-0 clear_filter_custom_margin border-0 color_gray bg-transparent py-2 d-flex align-items-center text-nowrap">
-                  <span className="into_icon">
-                    {" "}
-                    <PlusIcon />
-                  </span>{" "}
-                  <span className="ms-2"> Clear Filters</span>
-                </button>
-              </div>
-            </div>
-            <div className="position-relative w-100 mt-4 mt-md-0">
-              <label
-                htmlFor="search"
-                className="position-absolute top-50 cursor_pointer ms-3 translate-middle-y"
-              >
-                {" "}
-                <SearchIcon />
-              </label>
-              <input
-                className="py-2 px-5 search_input w-100"
-                type="text"
-                id="search"
-                placeholder="Search here"
-              />
-            </div>
-          </div>
+          <DashboardNavTabs />
           <div className="overflow-auto pb-3">
             <table className="w-100 mt-4 add_manager">
               <tbody>
@@ -192,25 +125,7 @@ const AddManager = () => {
                   })}
               </tbody>
             </table>
-            <div className="d-flex pt-4 mt-3">
-              {TableTabs &&
-                TableTabs.map((item, index) => {
-                  return (
-                    <button
-                      className={`${
-                        index === 0
-                          ? "table_tabs_btn_active"
-                          : index === TableTabs.length - 1
-                          ? "table_tabs_btn_active"
-                          : "table_tabs_btn"
-                      } me-3 px-3 py-2`}
-                      key={index}
-                    >
-                      {item.pageNo}
-                    </button>
-                  );
-                })}
-            </div>
+            <TablePagination />
           </div>
         </div>
       </section>

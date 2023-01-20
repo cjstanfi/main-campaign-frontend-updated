@@ -3,18 +3,16 @@ import { SettingIcon, NotificationIcon } from "./Icons";
 import UserIcon from "../../assets/images/png/User_icon.png";
 import UserIconTick from "../../assets/images/svg/User_icon_tick.svg";
 
-const TopBar = () => {
+const TopBar = ({ heading, para }) => {
   return (
     <>
       <section className="pt-3 pt-lg-0  position-relative">
         <div className="d-sm-flex pt-lg-5 pb-4 justify-content-between align-items-center">
           <div>
             <h3 className="font-3xl color_dark_black fw_600 mb-1 ff_thicccboi_semibold">
-              Settings
+              {heading}
             </h3>
-            <p className="font-md color_gray fw_400 mb-0">
-              Change or update your settings
-            </p>
+            <p className="font-md color_gray fw_400 mb-0">{para}</p>
           </div>
           <div className="d-flex align-items-center pt-3 pt-sm-0 ">
             <a

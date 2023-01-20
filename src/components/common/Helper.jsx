@@ -10,6 +10,13 @@ import Team from "../settings/Team";
 import Security from "../settings/Security";
 import LeadsCenter from "../leadscenter/LeadsCenter";
 import {
+  AddIcon,
+  FileIcon,
+  MenuIcon,
+  PlusIcon,
+  SearchIcon,
+} from "../common/Icons";
+import {
   AnalyticsIcon,
   DashboardIcon,
   LeadsIcon,
@@ -370,5 +377,20 @@ export const LeadsCenterContactDetails = [
     content: <LeadsCenter />,
     noOfLeads: "0",
     arrow: <LeadsRightArrowIcon />,
+  },
+];
+
+export const dashboardNavTabsData = [
+  {
+    icon: <FileIcon />,
+    name: "Campaign",
+  },
+  {
+    icon: <MenuIcon />,
+    name: "Ad set",
+  },
+  {
+    icon: <AddIcon />,
+    name: "Ad",
   },
 ];
