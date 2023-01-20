@@ -30,9 +30,9 @@ const Dashboard = () => {
                 <path
                   d="M2.75 12.25H13.25M2.75 8.25H13.25M2.75 4.25H13.25"
                   stroke="black"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>

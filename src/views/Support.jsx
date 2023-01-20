@@ -3,7 +3,12 @@ import DashboardCost from "../components/DashboardCost";
 import LeadsCenterContactInfo from "../components/LeadsCenterContactInfo";
 
 const Support = () => {
-  return <>{/* <LeadsCenterContactInfo /> */}</>;
+  return (
+    <>
+      {" "}
+      <LeadsCenterContactInfo />{" "}
+    </>
+  );
 };
 
 export default Support;

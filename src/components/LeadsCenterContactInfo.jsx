@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { LeadsCenterContactDetails } from "./common/Helper";
 const LeadsCenterContactInfo = () => {
   const [showtab, setShowtab] = useState(LeadsCenterContactDetails[0]);
-  console.log(LeadsCenterContactDetails);
   return (
     <>
       <>
@@ -16,10 +15,22 @@ const LeadsCenterContactInfo = () => {
                     onClick={() => setShowtab(item)}
                     className={`${
                       item == showtab ? "tab_border color_blue " : "header_tabs"
-                    } text-decoration-none ff_thicccboi_medium font-xl color_gray position-relative  me-4 me-sm-5`}
+                    } text-decoration-none ff_thicccboi_medium font-xl color_gray position-relative  me-4 me-sm-5 text-nowrap`}
                     href="#"
                   >
-                    {item.tabHeading}
+                    {item.tabHeading}{" "}
+                    <span
+                      className={
+                        item.noOfLeads
+                          ? "color_dark_black font-sm ff_thicccboi_medium ms-2 py-1 px-2 bg_light_grey"
+                          : "d-none"
+                      }
+                    >
+                      {item.noOfLeads}
+                    </span>
+                    <span className={item.arrow ? "ms-4" : "d-none"}>
+                      {item.arrow}
+                    </span>
                   </a>
                 );
               })}

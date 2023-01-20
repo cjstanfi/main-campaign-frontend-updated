@@ -13,6 +13,7 @@ import {
   AnalyticsIcon,
   DashboardIcon,
   LeadsIcon,
+  LeadsRightArrowIcon,
   LeftArrowIcon,
   RightArrowIcon,
   SettingsIcon,
@@ -349,17 +350,25 @@ export const LeadsCenterContactDetails = [
   {
     tabHeading: "Raw Leads",
     content: <LeadsCenter />,
+    noOfLeads: "2",
+    arrow: <LeadsRightArrowIcon />,
   },
   {
     tabHeading: "In Porgress Leads",
     content: <LeadsCenter />,
+    noOfLeads: "0",
+    arrow: <LeadsRightArrowIcon />,
   },
   {
     tabHeading: "Interested Leads",
     content: <LeadsCenter />,
+    noOfLeads: "0",
+    arrow: <LeadsRightArrowIcon />,
   },
   {
     tabHeading: "Converted Leads",
     content: <LeadsCenter />,
+    noOfLeads: "0",
+    arrow: <LeadsRightArrowIcon />,
   },
 ];
