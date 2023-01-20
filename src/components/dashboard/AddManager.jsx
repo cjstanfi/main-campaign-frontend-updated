@@ -12,9 +12,9 @@ const AddManager = () => {
       <TopBar heading="Welcome back!" />
       <DashboardCards />
       <section>
-        <div className="box">
+        <div className="box mb-3">
           <DashboardNavTabs />
-          <div className="overflow-auto pb-3">
+          <div className="overflow-auto ">
             <table className="w-100 mt-4 add_manager">
               <tbody>
                 <tr>
@@ -125,8 +125,8 @@ const AddManager = () => {
                   })}
               </tbody>
             </table>
-            <TablePagination />
           </div>
+          <TablePagination />
         </div>
       </section>
     </>

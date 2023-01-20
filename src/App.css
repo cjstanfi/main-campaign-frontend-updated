@@ -410,7 +410,7 @@ body {
   backdrop-filter: blur(17.5px);
   border-radius: 12px;
   padding: 12px 18px;
-  border: 1px solid rgba(142, 169, 224, 0.15);
+  border: 1px solid transparent;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
@@ -430,22 +430,33 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .dropdown-toggle::after {
   border-top: 0.3em solid var(--blue);
   width: 10px;
+  margin-left: 12px;
 }
 
 .dropdown_tab {
   border: 0.5px solid var(--blue);
   border-radius: 12px;
+  height: 49px;
 }
 
-input[type=date]:invalid::-webkit-datetime-edit {
-  color: #999;
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  border-color: var(--blue) !important;
 }
 
-@media (max-width: 1599.98px) {
+input:checked {
+  accent-color: var(--blue);
+}
+
+.date_input {
+  color: var(--blue) !important;
+}
+
+/* @media (max-width: 1599.98px) {
   #SvgjsG1515 {
     transform: translateX(-18px) !important;
   }
-}
+} */
 
 @media (max-width: 1599.98px) {
   .dashboard_card_bg {
@@ -512,6 +523,10 @@ input[type=date]:invalid::-webkit-datetime-edit {
   .dashboard_card_bg {
     max-width: 345px;
     margin: auto;
+  }
+
+  .date_input {
+    padding: 10px;
   }
 }
 
