@@ -51,12 +51,12 @@ const AgeGroupBarChart = () => {
           show: true,
         },
         axisTicks: {
-          show: true,
+          show: false,
         },
         labels: {
           show: true,
           formatter: function (val) {
-            return Number(val).toLocaleString() + "€";
+            return Number(val).toLocaleString() + "%";
           },
         },
       },
