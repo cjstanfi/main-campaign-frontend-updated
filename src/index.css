@@ -293,6 +293,10 @@
   border-radius: 12px;
   border: 1px solid #3b5998;
 }
+.spline-chart-wrapper {
+  bottom: -30px;
+  left: -30px;
+}
 
 @media (max-width: 991.8px) {
   .px_lg_60 {
@@ -318,7 +322,10 @@
   .ms_xsm_16 {
     margin-left: 16px;
   }
-
+  .spline-chart-wrapper {
+    bottom: -30px;
+    left: 0px;
+  }
   .box {
     padding: 12px;
   }
