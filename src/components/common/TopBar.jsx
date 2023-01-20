@@ -6,6 +6,7 @@ import ProfileMenu from "./ProfileMenu";
 
 const TopBar = ({ heading, para }) => {
   const path = useLocation().pathname;
+
   return (
     <>
       <section className="pt-3 pt-lg-0 position-relative">
@@ -15,10 +16,10 @@ const TopBar = ({ heading, para }) => {
               {heading}
             </h3>
             <p className="font-md color_gray fw_400 mb-0">{para}</p>
-            {path === "/dashboard" && <AddBussinessDropdown />}
+            {path === "/dashboard" ? <AddBussinessDropdown /> : ""}
           </div>
           <div className="d-md-flex align-items-center pt-3 pt-xxl-0">
-            {path === "/dashboard" && <DashBoardCalendarly />}
+            {path === "/dashboard" ? <DashBoardCalendarly /> : ""}
 
             <ProfileMenu />
           </div>

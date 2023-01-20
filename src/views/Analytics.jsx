@@ -4,10 +4,16 @@ import TopDemoGraphics from "../components/analytics/TopDemoGraphics";
 import TotalLeads from "../components/analytics/TotalLeads";
 import DashboardCards from "../components/analytics/DashboardCards";
 import DashboardCost from "../components/dashboard/DashboardCost";
+import TopBar from "../components/common/TopBar";
 
 const Analytics = () => {
   return (
     <>
+      <TopBar
+        heading="Welcome Back!"
+        para="Track your Facbook Data Analytics here"
+      />
+
       <div>
         <DashboardCards />
         <div className="row mx-0 total-leads-wrapper mt-4 mt-lg-0">
