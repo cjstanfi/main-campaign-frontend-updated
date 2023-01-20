@@ -14,8 +14,7 @@ const Header = () => {
                   onClick={() => setShowtab(item)}
                   className={`${
                     item == showtab ? "tab_border color_blue " : "header_tabs"
-                  } text-decoration-none ff_thicccboi_medium font-xl color_gray position-relative  me-4 me-sm-5`}
-                  href="#"
+                  } text-decoration-none ff_thicccboi_medium font-xl color_gray position-relative  me-4 me-sm-5 cursor_pointer`}
                 >
                   {item.tabHeading}
                 </a>
