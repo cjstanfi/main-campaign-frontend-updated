@@ -5,7 +5,7 @@ const LeadsCenterContactInfo = () => {
   return (
     <>
       <>
-        <section className="p-3">
+        {/* <section className="p-3">
           <div className="d-flex overflow-auto pb-3">
             {LeadsCenterContactDetails &&
               LeadsCenterContactDetails.map((item, index) => {
@@ -36,7 +36,7 @@ const LeadsCenterContactInfo = () => {
               })}
           </div>
           <hr className="header_hr_line" />
-        </section>
+        </section> */}
         <div className="mb-3">{showtab.content}</div>
       </>
     </>
