@@ -12,7 +12,7 @@ const SplineChart = ({ spineColor }) => {
     ],
     options: {
       chart: {
-        height: 350,
+        height: 150,
         type: "area",
 
         toolbar: {
@@ -20,6 +20,9 @@ const SplineChart = ({ spineColor }) => {
           tools: {
             download: false,
           },
+        },
+        sparkline: {
+          enabled: false,
         },
       },
       dataLabels: {
@@ -86,6 +89,7 @@ const SplineChart = ({ spineColor }) => {
           },
         },
       },
+      xaxis: { type: "category", tickPlacement: "on" },
       yaxis: {
         axisBorder: {
           show: false,
@@ -102,6 +106,8 @@ const SplineChart = ({ spineColor }) => {
         grid: {
           show: false,
         },
+        type: "category",
+        tickPlacement: "on",
       },
       legend: {
         show: false,
@@ -115,12 +121,11 @@ const SplineChart = ({ spineColor }) => {
   };
   return (
     <>
-      {" "}
       <Chart
         options={state.options}
         series={state.series}
         type="area"
-        width={322}
+        width={"100%"}
       />
     </>
   );

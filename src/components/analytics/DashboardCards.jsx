@@ -15,13 +15,7 @@ const DashboardCards = () => {
                 key={index}
               >
                 <div className="dashboard_card_bg overflow-hidden position-relative mt-3">
-                  <div
-                    className="position-absolute"
-                    style={{
-                      bottom: "-30px",
-                      left: "-30px",
-                    }}
-                  >
+                  <div className="position-absolute">
                     <SplineChart
                       spineColor={val.subheading > 0 ? "#88FFBF" : "#FF95DB"}
                     />
