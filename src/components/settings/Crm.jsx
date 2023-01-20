@@ -55,7 +55,7 @@ const Crm = () => {
                   id="account_no"
                 />
               </div>
-              <div className="ms-4">
+              <div className="ms-3 ms-sm-4">
                 <label
                   className="ff_thicccboi_bold font-xl color_gray "
                   htmlFor="icon"

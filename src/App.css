@@ -73,9 +73,9 @@ body {
 /* ----------------------------------- ONLY-MEDIA-QUERIES ----------------------------------- */
 @media (max-width: 1599.98px) {
   :root {
-    --font-xl: 19px;
+    --font-xl: 17px;
     --font-xxl: 25px;
-    --font-2xl: 28px;
+    --font-2xl: 25px;
     --font-3xl: 30px;
   }
 }

@@ -65,7 +65,7 @@ const Privacy = () => {
                 />
               </div>
             </div>
-            <div className="d-flex mt-5 align-items-center justify-content-between">
+            <div className="d-flex mt-4 mt-sm-5 align-items-center justify-content-between">
               <h5 className="text-black ff_thicccboi_bold font-xl mb-0 ">
                 Password
               </h5>
