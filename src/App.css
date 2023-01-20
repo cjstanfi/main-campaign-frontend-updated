@@ -400,17 +400,45 @@ body {
   padding: 12px 24px;
 }
 
-.dropdown-toggle::after {
-  display: inline-block;
-  border-top: 0.3em solid;
-  border-right: 0.3em solid #3b5998 !important;
-  border-bottom: 0;
-  border-left: 0.3em solid #3b5998 !important;
-}
-
 .age_chart_bg {
   background: #EEF2FA;
   border-radius: 8px;
+}
+
+.date_input {
+  background: rgba(142, 169, 224, 0.15);
+  backdrop-filter: blur(17.5px);
+  border-radius: 12px;
+  padding: 12px 18px;
+  border: 1px solid rgba(142, 169, 224, 0.15);
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url("./assets/images/svg/calendar-img.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+.date_input:focus-visible {
+  outline: unset !important;
+}
+
+.dropdown-toggle::after {
+  border-top: 0.3em solid var(--blue);
+  width: 10px;
+}
+
+.dropdown_tab {
+  border: 0.5px solid var(--blue);
+  border-radius: 12px;
+}
+
+input[type=date]:invalid::-webkit-datetime-edit {
+  color: #999;
 }
 
 @media (max-width: 1599.98px) {
