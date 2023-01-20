@@ -16,7 +16,7 @@ const Billing = () => {
 
             <form
               action=""
-              className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5"
+              className="mt-4 mt-sm-5 mx-auto col-sm-12 col-md-10 col-xl-5"
             >
               <h5 className="text-black ff_thicccboi_bold font-xl mb-3 ">
                 Payment Options

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { EyeIcon } from "../common/Icons";
+import { EyeIcon, EyeCloseIcon } from "../common/Icons";
 const Privacy = () => {
   const [showOldPassword, setShowOldPassword] = useState("password");
   const [showNewPassword, setshowNewPassword] = useState("password");
@@ -36,7 +36,10 @@ const Privacy = () => {
             update your Password
           </p>
 
-          <form action="" className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5">
+          <form
+            action=""
+            className="mt-4 mt-sm-5 mx-auto col-sm-12 col-md-10 col-xl-5"
+          >
             <div className="d-flex align-items-center">
               <div className="w-100">
                 <div className="d-flex justify-content-between align-items-center">
@@ -83,7 +86,11 @@ const Privacy = () => {
                     onClick={() => showOldPass()}
                     className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer"
                   >
-                    <EyeIcon />
+                    {showOldPassword === "password" ? (
+                      <EyeIcon />
+                    ) : (
+                      <EyeCloseIcon />
+                    )}
                   </span>
                   <input
                     placeholder="************************"
@@ -108,7 +115,11 @@ const Privacy = () => {
                     onClick={() => showNewPass()}
                     className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer"
                   >
-                    <EyeIcon />
+                    {showNewPassword === "password" ? (
+                      <EyeIcon />
+                    ) : (
+                      <EyeCloseIcon />
+                    )}
                   </span>
                   <input
                     placeholder="************************"
@@ -133,7 +144,11 @@ const Privacy = () => {
                     onClick={() => showConPass()}
                     className="position-absolute top-50 z_index_1 end-0 me-4 translate-middle-y cursor_pointer"
                   >
-                    <EyeIcon />
+                    {showConPassword === "password" ? (
+                      <EyeIcon />
+                    ) : (
+                      <EyeCloseIcon />
+                    )}
                   </span>
                   <input
                     placeholder="************************"
