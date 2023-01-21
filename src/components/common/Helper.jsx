@@ -1,17 +1,26 @@
 import CardsGraphOne from "../../assets/images/svg/cards-graph-1.svg";
 import CardsGraphTwo from "../../assets/images/svg/cards-graph-2.svg";
-import Profile from "../Profile";
-import Facebook from "../Facebook";
-import Crm from "../Crm";
-import Privacy from "../Privacy";
-import Business from "../Business";
-import Billing from "../Billing";
-import Team from "../Team";
-import Security from "../Security";
+import Profile from "../settings/Profile";
+import Facebook from "../settings/Facebook";
+import Crm from "../settings/Crm";
+import Privacy from "../settings/Privacy";
+import Business from "../settings/Business";
+import Billing from "../settings/Billing";
+import Team from "../settings/Team";
+import Security from "../settings/Security";
+import LeadsCenter from "../leadscenter/LeadsCenter";
+import {
+  AddIcon,
+  FileIcon,
+  MenuIcon,
+  PlusIcon,
+  SearchIcon,
+} from "../common/Icons";
 import {
   AnalyticsIcon,
   DashboardIcon,
   LeadsIcon,
+  LeadsRightArrowIcon,
   LeftArrowIcon,
   RightArrowIcon,
   SettingsIcon,
@@ -326,6 +335,7 @@ export const TableTabs = [
   {
     pageNo: 4,
   },
+
   {
     pageNo: "...",
   },
@@ -334,5 +344,54 @@ export const TableTabs = [
   },
   {
     pageNo: <RightArrowIcon />,
+  },
+];
+export const LeadsCenterContactDetails = [
+  {
+    tabHeading: "All",
+    content: <LeadsCenter />,
+  },
+  {
+    tabHeading: "Unread",
+    content: <LeadsCenter />,
+  },
+  {
+    tabHeading: "Raw Leads",
+    content: <LeadsCenter />,
+    noOfLeads: "2",
+    arrow: <LeadsRightArrowIcon />,
+  },
+  {
+    tabHeading: "In Porgress Leads",
+    content: <LeadsCenter />,
+    noOfLeads: "0",
+    arrow: <LeadsRightArrowIcon />,
+  },
+  {
+    tabHeading: "Interested Leads",
+    content: <LeadsCenter />,
+    noOfLeads: "0",
+    arrow: <LeadsRightArrowIcon />,
+  },
+  {
+    tabHeading: "Converted Leads",
+    content: <LeadsCenter />,
+    noOfLeads: "0",
+    arrow: <LeadsRightArrowIcon />,
+  },
+];
+
+export const dashboardNavTabsData = [
+  {
+    icon: <FileIcon />,
+    name: "Campaign",
+  },
+  {
+    icon: <MenuIcon />,
+    name: "Ad set",
+  },
+  {
+    icon: <AddIcon />,
+    name: "Ad",
   },
 ];

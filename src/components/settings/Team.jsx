@@ -1,8 +1,8 @@
 import React from "react";
-import { DeleteIcon } from "./common/Icons";
-import { EditIcon } from "./common/Icons";
-import { AddNewUserIcon } from "./common/Icons";
-import { TeamDetails } from "./common/Helper";
+import { DeleteIcon } from "../common/Icons";
+import { EditIcon } from "../common/Icons";
+import { AddNewUserIcon } from "../common/Icons";
+import { TeamDetails } from "../common/Helper";
 const Team = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const Team = () => {
           <p className="fw-normal color_gray font-md mb-0">
             add team members for management
           </p>
-          <div className="d-flex justify-content-between align-items-center mt-5 pt-4">
+          <div className="d-flex justify-content-between align-items-center mt-4 mt-sm-5 pt-sm-4">
             <span className="ff_thicccboi_semibold color_gray font-xl">
               User Details
             </span>

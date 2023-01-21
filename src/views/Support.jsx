@@ -1,10 +1,9 @@
 import React from "react";
-import DashboardCost from "../components/DashboardCost";
 
 const Support = () => {
   return (
     <>
-      <DashboardCost />
+      <h1>Support</h1>
     </>
   );
 };

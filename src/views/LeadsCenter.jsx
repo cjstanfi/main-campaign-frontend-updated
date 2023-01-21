@@ -1,10 +1,9 @@
 import React from "react";
-
+import LeadsCenterContactInfo from "../components/leadscenter/LeadsCenterContactInfo";
 const LeadsCenter = () => {
   return (
     <>
-      {" "}
-      <h1>Leads Center</h1>
+      <LeadsCenterContactInfo />
     </>
   );
 };

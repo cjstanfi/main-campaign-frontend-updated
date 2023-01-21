@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/Header";
-import TopBar from "../components/TopBar";
+import Header from "../components/common/Header";
+import TopBar from "../components/common/TopBar";
 
 // import { useLayoutProvider } from "../contexts/LayoutProvider";
 
@@ -27,7 +27,7 @@ const Settings = () => {
             <span className="third"></span>
           </div>
         </div> */}
-        <TopBar />
+        <TopBar heading="Settings" para="Change or update your settings" />
         <Header />
       </div>
     </>

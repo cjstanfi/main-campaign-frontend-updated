@@ -1,11 +1,20 @@
-import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import AddManager from "../components/AddManager";
-import Sidebar from "../components/Sidebar";
-import { useLayoutProvider } from "../contexts/LayoutProvider";
+import React, { useEffect } from "react";
+import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
+import Sidebar from "../components/common/Sidebar";
+import { useLayoutProvider } from "../contexts/LayoutProvider";
+
 const Dashboard = () => {
-  const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
+  const path = useLocation().pathname;
+  const navigate = useNavigate();
+  const { setSidebarOpen } = useLayoutProvider();
+
+  useEffect(() => {
+    if (path === "/") {
+      navigate("/dashboard");
+    }
+  }, [path]);
+
   return (
     <>
       <div className="d-flex">
@@ -30,9 +39,9 @@ const Dashboard = () => {
                 <path
                   d="M2.75 12.25H13.25M2.75 8.25H13.25M2.75 4.25H13.25"
                   stroke="black"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>

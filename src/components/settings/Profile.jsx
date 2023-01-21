@@ -1,7 +1,7 @@
 import React from "react";
-import Icon from "../assets/images/png/Icon.png";
-import IconTick from "../assets/images/svg/Icon_tick.svg";
-import { PlusIcon } from "./common/Icons";
+import Icon from "../../assets/images/png/Icon.png";
+import IconTick from "../../assets/images/svg/Icon_tick.svg";
+import { PlusIcon } from "../common/Icons";
 const Profile = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Profile = () => {
           <p className="fw-normal color_gray font-md mb-0">
             update your Profile Picture
           </p>
-          <div className="text-center mt-5">
+          <div className="text-center mt-4 mt-sm-5">
             <div className="position-relative d-inline-block">
               <img
                 className="rounded-circle profile_icon_size"
@@ -32,7 +32,10 @@ const Profile = () => {
             </button>
           </div>
 
-          <form action="" className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5">
+          <form
+            action=""
+            className="mt-4 mt-sm-5 mx-auto col-sm-12 col-md-10 col-xl-5"
+          >
             <label
               className="ff_thicccboi_bold font-xl color_gray"
               htmlFor="name"

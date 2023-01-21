@@ -1,12 +1,12 @@
 import React from "react";
-import { cardsData } from "../components/common/Helper";
-import ToolTipIcon from "../assets/images/svg/cards-icon.svg";
-import SplineChart from "./dashboard/SplineChart";
+import { cardsData } from "../common/Helper";
+import ToolTipIcon from "../../assets/images/svg/cards-icon.svg";
+// import SplineChart from "../dashboard/SplineChart";
 
 const DashboardCards = () => {
   return (
     <>
-      <section className="pt-5 pb-sm-3 py-lg-5">
+      <section className="pb-5">
         <div className="row justify-content-center">
           {cardsData.map((val, index) => {
             return (
@@ -15,26 +15,32 @@ const DashboardCards = () => {
                 key={index}
               >
                 <div className="dashboard_card_bg overflow-hidden position-relative mt-3">
-                  <div
-                    className="position-absolute"
-                    style={{
-                      bottom: "-30px",
-                      left: "-30px",
-                    }}
-                  >
+                  {/* <div className="position-absolute">
                     <SplineChart
                       spineColor={val.subheading > 0 ? "#88FFBF" : "#FF95DB"}
                     />
-                  </div>{" "}
-                  <div className="d-flex justify-content-between pt-3 ps-3">
+                  </div>{" "} */}
+                  <div className="position-absolute w-100 bottom-0">
+                    <img className="w-100" src={val.imgUrl} alt="" />
+                  </div>
+                  <div className="d-flex justify-content-between align-items-center pt-3 ps-3">
                     <div className="d-flex justify-content-between pt-1">
                       <h2 className="font-xl fw_600 color_gray ff_thicccboi_semibold pt-1">
                         {val.heading}
                       </h2>
                       <div className="ps-2">
-                        <img src={ToolTipIcon} alt="cards-icon" />
+                        <button
+                          type="button"
+                          class="btn btn-secondary border-0 bg-transparent p-0"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        >
+                          <img src={ToolTipIcon} alt="cards-icon" />
+                        </button>
                       </div>
                     </div>
+
                     <div className=" mx-2">
                       <p className={`mb-0 font-sm fw_500 ff_thicccboi_medium `}>
                         {val.subheading > 0 ? (

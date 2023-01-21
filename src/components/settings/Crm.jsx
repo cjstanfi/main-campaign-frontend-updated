@@ -1,7 +1,7 @@
 import React from "react";
-import Airtable from "../assets/images/svg/Airtable.svg";
-import AirTableIcon from "../assets/images/svg/AirtableIcon.svg";
-import { MaterialIcon } from "./common/Icons";
+import Airtable from "../../assets/images/svg/Airtable.svg";
+import AirTableIcon from "../../assets/images/svg/AirtableIcon.svg";
+import { MaterialIcon } from "../common/Icons";
 const Crm = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Crm = () => {
           <p className="fw-normal color_gray font-md mb-0">
             update your CRM Settings
           </p>
-          <div className="p-4 crm_card mx-auto mt-5">
+          <div className="p-4 crm_card mx-auto mt-4 mt-sm-5">
             <div className="mb-4">
               <h3 className="ff_thicccboi_bold font-xl color_gray mb-0 ">
                 Current CRM
@@ -55,7 +55,7 @@ const Crm = () => {
                   id="account_no"
                 />
               </div>
-              <div className="ms-4">
+              <div className="ms-3 ms-sm-4">
                 <label
                   className="ff_thicccboi_bold font-xl color_gray "
                   htmlFor="icon"

@@ -1,6 +1,6 @@
 import React from "react";
-import MasterCard from "../assets/images/svg/mastercard_logo.svg";
-import { PlusIcon } from "./common/Icons";
+import MasterCard from "../../assets/images/svg/mastercard_logo.svg";
+import { PlusIcon } from "../common/Icons";
 const Billing = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Billing = () => {
 
             <form
               action=""
-              className="mt-5 mx-auto col-sm-12 col-md-10 col-xl-5"
+              className="mt-4 mt-sm-5 mx-auto col-sm-12 col-md-10 col-xl-5"
             >
               <h5 className="text-black ff_thicccboi_bold font-xl mb-3 ">
                 Payment Options
@@ -54,7 +54,7 @@ const Billing = () => {
                   <span className="ps-2">Add New Card</span>
                 </button>
               </div>
-              <h5 className="text-black ff_thicccboi_bold font-xl mt-5 ">
+              <h5 className="text-black ff_thicccboi_bold font-xl mt-4 mt-sm-5">
                 Billing
               </h5>
               <div className="mt-3 p-2 bg_light_grey d-flex flex-column flex-sm-row">

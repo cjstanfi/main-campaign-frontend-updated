@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { PlusIcon } from "./common/icons";
+import { PlusIcon } from "../common/Icons";
 const LeadsDropdownTabs = () => {
   const [hello, setHello] = useState(false);
   return (
