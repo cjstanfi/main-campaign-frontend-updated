@@ -536,3 +536,15 @@ input:checked {
     padding-right: 3rem !important;
   }
 }
+
+.custom_tooltip {
+  width: 300px;
+  background-color: #7d889e;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  left: 100%;
+  transform: translateX(-50%);
+}
