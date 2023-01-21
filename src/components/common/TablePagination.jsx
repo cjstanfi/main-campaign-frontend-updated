@@ -1,5 +1,4 @@
 import React from "react";
-
 import { TableTabs } from "./Helper";
 const TablePagination = () => {
   return (

@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import ToolTipIcon from "../../assets/images/svg/cards-icon.svg";
 import ToolTipArrowIcon from "../../assets/images/svg/tooltip-icon.svg";
 
-const Tooltip = () => {
+const Tooltip = ({ val }) => {
   const [showTooltip, setShowTooltip] = useState(false);
   return (
     <>
-      <div className="position-relative d-inline ms-5ps-5">
+      <div className="position-relative d-inline">
         <img
           onMouseOver={() => setShowTooltip(true)}
           onMouseOut={() => setShowTooltip(false)}
-          className="cursor_pointer ms-5ps-5"
+          className="cursor_pointer"
           src={ToolTipIcon}
           alt="ToolTipIcon"
         />
@@ -21,10 +21,7 @@ const Tooltip = () => {
             alt="tooltip-icon"
           />
 
-          <p className="mb-0 font-xs">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-            nulla.
-          </p>
+          <p className="mb-0 font-xs">{val.heading}</p>
         </div>
       </div>
     </>
