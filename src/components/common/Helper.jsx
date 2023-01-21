@@ -9,13 +9,7 @@ import Billing from "../settings/Billing";
 import Team from "../settings/Team";
 import Security from "../settings/Security";
 import LeadsCenter from "../leadscenter/LeadsCenter";
-import {
-  AddIcon,
-  FileIcon,
-  MenuIcon,
-  PlusIcon,
-  SearchIcon,
-} from "../common/Icons";
+import { AddIcon, FileIcon, MenuIcon, PlusIcon, SearchIcon } from "./Icons";
 import {
   AnalyticsIcon,
   DashboardIcon,

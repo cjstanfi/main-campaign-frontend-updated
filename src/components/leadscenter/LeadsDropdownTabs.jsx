@@ -6,7 +6,7 @@ const LeadsDropdownTabs = () => {
   return (
     <>
       <section className="">
-        <div className=" pb-3 over_y_hidden overflow_x_auto_dropdown leads_dropdown d-flex">
+        <div className=" pb-3 over_y_hidden overflow_x_auto_dropdown leads_dropdown d-flex align-items-center">
           <button className="font-sm fw_600 ff_thicccboi_semibold color_white leads_filter_btn text-nowrap">
             + Add Filters
           </button>
@@ -26,19 +26,6 @@ const LeadsDropdownTabs = () => {
               </Dropdown.Menu>
             </Dropdown>
           </button>
-
-          {/* <button onClick={() => setHello(!hello)}>Hello</button>
-          {hello ? (
-            <div className="position-absolute bg-danger">
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-              <p>Lorem ipsum</p>
-            </div>
-          ) : (
-            ""
-          )} */}
 
           <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
             <Dropdown>

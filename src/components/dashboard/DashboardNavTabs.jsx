@@ -10,7 +10,10 @@ const DashboardNavTabs = () => {
         {dashboardNavTabsData &&
           dashboardNavTabsData.map((item, index) => {
             return (
-              <div className="col-12 col-sm-6 mt-3 col-md-4" key={index}>
+              <div
+                className="col-12 col-sm-6 mt-3 mt-md-0 col-md-4"
+                key={index}
+              >
                 <button
                   className="add_manager_campaign p-3 d-flex align-items-center w-100"
                   onClick={() => setActiveTab(item)}
@@ -37,7 +40,7 @@ const DashboardNavTabs = () => {
             );
           })}
       </div>
-      <div className="d-flex align-items-md-center mt-3 mt-sm-5 flex-column flex-md-row">
+      <div className="d-flex align-items-md-center mt-3 mt-sm-4 pt-lg-2 flex-column flex-md-row">
         <div className="d-flex me-4 d-flex flex-column flex-sm-row">
           <div className="d-flex">
             <button className="ff_thicccboi_semibold border-0 text-white common_btn px-4 py-2 text-nowrap">

@@ -4,7 +4,7 @@ import { TableTabs } from "./Helper";
 const TablePagination = () => {
   return (
     <>
-      <div className="d-flex justify-content-between align-items-sm-center pt-4 mt-lg-3 flex-column flex-sm-row">
+      <div className="d-flex justify-content-between align-items-sm-center mt-3 flex-column flex-sm-row">
         <div className="d-flex ">
           {TableTabs &&
             TableTabs.map((item, index) => {

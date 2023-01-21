@@ -15,7 +15,7 @@ const AddManager = () => {
         <div className="box mb-3">
           <DashboardNavTabs />
           <div className="overflow-auto ">
-            <table className="w-100 mt-4 add_manager">
+            <table className="w-100 mt-4 add_manager mb-3">
               <tbody>
                 <tr>
                   <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap py-3 ps-3 pe-5 pe-lg-0"></th>
