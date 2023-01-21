@@ -18,14 +18,22 @@ const Analytics = () => {
         <DashboardCards />
         <div className="row mx-0 total-leads-wrapper mt-4 mt-lg-0">
           <div className="col-lg-8 py-3">
-            <div>
-              <h4 className="font-xl fw-bold ff_thicccboi_bold color_gray">
-                Total Leads
-              </h4>
-              <p className="font-sm fw-normal color_gray">
-                June 1, 2021 - June 2, 2022
-              </p>
+            <div className="d-flex align-items-center justify-content-between">
+              <div>
+                <h4 className="font-xl fw-bold ff_thicccboi_bold color_gray">
+                  Total Leads
+                </h4>
+                <p className="font-sm fw-normal color_gray">
+                  June 1, 2021 - June 2, 2022
+                </p>
+              </div>
+              <div>
+                {/* <p className="font-sm fw-normal color_gray">
+                  June 1, 2021 - June 2, 2022
+                </p> */}
+              </div>
             </div>
+
             <TotalLeads />
           </div>
           <div className="col-lg-4 border_left_1px p-xl-4 p-3 my-lg-3">
