@@ -4,7 +4,7 @@ import TablePagination from "../common/TablePagination";
 const LeadsCenter = () => {
   return (
     <>
-      <section className="p-3">
+      <section>
         <div className="box">
           <div className="overflow-auto pb-3">
             <table className="w-100 mt-4 ">
