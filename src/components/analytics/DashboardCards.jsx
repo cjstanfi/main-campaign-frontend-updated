@@ -1,6 +1,6 @@
 import React from "react";
 import { cardsData } from "../common/Helper";
-import ToolTipIcon from "../../assets/images/svg/cards-icon.svg";
+// import ToolTipIcon from "../../assets/images/svg/cards-icon.svg";
 import SplineChart from "../dashboard/SplineChart";
 import Tooltip from "../common/Tooltip";
 
@@ -28,18 +28,11 @@ const DashboardCards = () => {
                         {val.heading}
                       </h2>
                       <div className="ps-2">
-                        <button
-                          type="button"
-                          className="btn btn-secondary border-0 bg-transparent p-0"
-                          data-bs-toggle="tooltip"
-                          data-bs-placement="top"
-                          title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-                        >
-                          <Tooltip />
+                        <button className="btn btn-secondary border-0 bg-transparent p-0">
+                          <Tooltip val={val} />
                         </button>
                       </div>
                     </div>
-
                     <div className=" mx-2">
                       <p className={`mb-0 font-sm fw_500 ff_thicccboi_medium `}>
                         {val.subheading > 0 ? (

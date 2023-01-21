@@ -343,13 +343,6 @@ body {
   border: 1px solid #3b5998;
 }
 
-/* .sidebar_shadow {
-  box-shadow: 0px 0px 0px 2px #dee2e6;
-} */
-.border_left_1px {
-  border-left: 1px solid rgba(206, 206, 206, 0.5);
-}
-
 /*DASHBOARD CARDS CSS HERE----------------------*/
 .dashboard_card_bg {
   background: var(--white);
@@ -482,8 +475,9 @@ input:checked {
   color: #3b5998;
   font-weight: 700 !important;
 }
+
 .custom_tooltip {
-  width: 130px;
+  width: 100px;
   background-color: #7d889e;
   border-radius: 8px;
   color: white;
@@ -537,10 +531,6 @@ input:checked {
 @media (max-width: 991.91px) {
   .sidebar_logo {
     max-width: 150px;
-  }
-
-  .border_left_1px {
-    border-left: none;
   }
 
   .sidebar-overlay {
