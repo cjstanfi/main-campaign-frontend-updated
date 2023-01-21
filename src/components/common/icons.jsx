@@ -55,9 +55,9 @@ export const NotificationIcon = () => {
           y2="1.03621"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3B5998" />
-          <stop offset="1" stop-color="#6BF3AA" />
-          <stop offset="1" stop-color="#3EFE97" />
+          <stop stopColor="#3B5998" />
+          <stop offset="1" stopColor="#6BF3AA" />
+          <stop offset="1" stopColor="#3EFE97" />
         </linearGradient>
       </defs>
     </svg>
