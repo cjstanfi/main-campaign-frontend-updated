@@ -6,7 +6,7 @@ const LeadsDropdownTabs = () => {
   return (
     <>
       <section className="">
-        <div className="pt-4 pb-3 over_y_hidden overflow_x_auto_dropdown  ">
+        <div className=" pb-3 over_y_hidden overflow_x_auto_dropdown  ">
           <button className="font-sm fw_600 ff_thicccboi_semibold color_white leads_filter_btn text-nowrap">
             + Add Filters
           </button>
