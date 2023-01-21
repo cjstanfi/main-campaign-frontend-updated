@@ -163,10 +163,7 @@ const AgeGroupBarChart = () => {
           <p className="font-xl font_xl_15 fw_500 ff_thicccboi_medium color_black mb-0">
             15 more countires
           </p>
-          <a
-            href="/"
-            className="font-md fw-normal font_xl_15 color_blue text-decoration-none"
-          >
+          <a className="font-md fw-normal font_xl_15 color_blue text-decoration-none cursor_pointer view_all_btn">
             View all
           </a>
         </div>

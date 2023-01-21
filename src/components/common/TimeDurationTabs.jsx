@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { timedurationdata } from "./Helper";
 
 const TimeDurationTabs = () => {
-  const [avtiveValue, setActiveValue] = useState("");
+  const [avtiveValue, setActiveValue] = useState(
+    timedurationdata[timedurationdata.length - 1]
+  );
 
   return (
     <>

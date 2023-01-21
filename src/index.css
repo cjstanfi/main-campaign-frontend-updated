@@ -296,7 +296,12 @@
   background: rgba(142, 169, 224, 0.15);
   backdrop-filter: blur(17.5px);
   border-radius: 12px;
+  transition: all 0.3s ease-in-out;
   border: 1px solid rgba(142, 169, 224, 0.15);
+}
+.table_tabs_btn:hover {
+  background-color: #3b5998;
+  color: white;
 }
 
 .table_tabs_btn_active {
@@ -350,16 +355,15 @@
   content: "";
   position: absolute;
 
-  background: linear-gradient(
-    180deg,
-    #88ffbf 0%,
-    rgba(62, 254, 151, 0.17) 100%
-  );
+  background: #78d8a5;
   height: 90%;
   top: 50%;
   transform: translateY(-50%);
   width: 3px;
   left: -8px;
+}
+.view_all_btn:hover {
+  color: #15181e !important;
 }
 
 @media (max-width: 991.8px) {

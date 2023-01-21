@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import UserIcon from "../../assets/images/png/User_icon.png";
 import UserIconTick from "../../assets/images/svg/User_icon_tick.svg";
 import { NotificationIcon, SettingIcon } from "./Icons";
@@ -18,7 +18,10 @@ const ProfileMenu = () => {
           <span className="icon_bg_color border_r_12 cursor_pointer icon_size d-flex align-items-center justify-content-center ms-3">
             <NotificationIcon />
           </span>
-          <div className="position-relative pe_12">
+          <Link
+            to="/dashboard/settings"
+            className="position-relative pe_12 cursor_pointer"
+          >
             <span>
               <img
                 className="user_icon user_icon_size"
@@ -31,7 +34,7 @@ const ProfileMenu = () => {
                 alt="Verified"
               />
             </span>
-          </div>
+          </Link>
         </div>
       </div>
     </>

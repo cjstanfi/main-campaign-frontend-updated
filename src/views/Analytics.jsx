@@ -16,8 +16,8 @@ const Analytics = () => {
 
       <div>
         <DashboardCards />
-        <div className="row mx-0 total-leads-wrapper mt-4 mt-lg-0">
-          <div className="col-lg-8 py-3">
+        <div className="row mx-0 total-leads-wrapper mt-4 mt-lg-0 p-3">
+          <div className="col-lg-8">
             <div className="d-flex align-items-center justify-content-between">
               <div>
                 <h4 className="font-xl fw-bold ff_thicccboi_bold color_gray mb-2">
@@ -47,15 +47,15 @@ const Analytics = () => {
 
             <TotalLeads />
           </div>
-          <div className="col-lg-4 border_left_1px p-3">
+          <div className="col-lg-4 border_left_1px">
             <DashboardCost />
           </div>
         </div>
-        <div className="row mb-4 mx-0 total-leads-wrapper mt-4 ">
-          <div className="col-lg-8  d-flex flex-column justify-content-start p-3 align-item-center">
+        <div className="row mb-4 mx-0 total-leads-wrapper mt-4 p-3">
+          <div className="col-lg-8  d-flex flex-column justify-content-start align-item-center">
             <TopDemoGraphics />
           </div>
-          <div className="col-lg-4 col-sm-10 p-3 border_left_1px d-flex flex-column justify-content-center">
+          <div className="col-lg-4 col-sm-10  border_left_1px d-flex flex-column justify-content-center">
             <AgeGroupBarChart />
           </div>
         </div>
