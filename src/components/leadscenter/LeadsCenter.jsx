@@ -6,7 +6,7 @@ const LeadsCenter = () => {
     <>
       <section>
         <div className="box">
-          <div className="overflow-auto pb-3">
+          <div className="overflow-auto">
             <table className="w-100 mt-4 ">
               <tbody>
                 <tr>
@@ -64,8 +64,8 @@ const LeadsCenter = () => {
                   })}
               </tbody>
             </table>
-            <TablePagination />
           </div>
+          <TablePagination />
         </div>
       </section>
     </>
