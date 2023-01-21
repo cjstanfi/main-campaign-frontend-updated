@@ -29,9 +29,18 @@ const DashboardCards = () => {
                         {val.heading}
                       </h2>
                       <div className="ps-2">
-                        <img src={ToolTipIcon} alt="cards-icon" />
+                        <button
+                          type="button"
+                          class="btn btn-secondary border-0 bg-transparent p-0"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="top"
+                          title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        >
+                          <img src={ToolTipIcon} alt="cards-icon" />
+                        </button>
                       </div>
                     </div>
+
                     <div className=" mx-2">
                       <p className={`mb-0 font-sm fw_500 ff_thicccboi_medium `}>
                         {val.subheading > 0 ? (
