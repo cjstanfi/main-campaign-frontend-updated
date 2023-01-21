@@ -16,10 +16,10 @@ const TopBar = ({ heading, para }) => {
               {heading}
             </h3>
             <p className="font-md color_gray fw_400 mb-0">{para}</p>
-            {path === "/dashboard" ? <AddBussinessDropdown /> : ""}
+            {path === "/dashboard/home" ? <AddBussinessDropdown /> : ""}
           </div>
           <div className="d-md-flex align-items-center pt-3 pt-xxl-0">
-            {path === "/dashboard" ? <DashBoardCalendarly /> : ""}
+            {path === "/dashboard/home" ? <DashBoardCalendarly /> : ""}
 
             <ProfileMenu />
           </div>

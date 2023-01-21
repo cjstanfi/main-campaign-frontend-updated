@@ -30,7 +30,7 @@ const DashboardCards = () => {
                       <div className="ps-2">
                         <button
                           type="button"
-                          class="btn btn-secondary border-0 bg-transparent p-0"
+                          className="btn btn-secondary border-0 bg-transparent p-0"
                           data-bs-toggle="tooltip"
                           data-bs-placement="top"
                           title="Lorem ipsum dolor sit amet consectetur adipisicing elit."

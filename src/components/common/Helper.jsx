@@ -389,3 +389,22 @@ export const dashboardNavTabsData = [
     name: "Ad",
   },
 ];
+
+export const timedurationdata = [
+  {
+    value: "24 hours",
+    id: 0,
+  },
+  {
+    value: "7 days",
+    id: 1,
+  },
+  {
+    value: "30 days",
+    id: 2,
+  },
+  {
+    value: "1 year",
+    id: 3,
+  },
+];
