@@ -52,10 +52,10 @@ const Analytics = () => {
           </div>
         </div>
         <div className="row mb-4 mx-0 total-leads-wrapper mt-4 ">
-          <div className="col-lg-8  d-flex flex-column justify-content-center align-item-center">
+          <div className="col-lg-8  d-flex flex-column justify-content-start p-3 align-item-center">
             <TopDemoGraphics />
           </div>
-          <div className="col-lg-4 col-sm-10 pb-3 my-lg-3 border_left_1px d-flex flex-column justify-content-center">
+          <div className="col-lg-4 col-sm-10 p-3 border_left_1px d-flex flex-column justify-content-center">
             <AgeGroupBarChart />
           </div>
         </div>
