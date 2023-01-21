@@ -1,7 +1,7 @@
 import React from "react";
 import { cardsData } from "../common/Helper";
 import ToolTipIcon from "../../assets/images/svg/cards-icon.svg";
-// import SplineChart from "../dashboard/SplineChart";
+import SplineChart from "../dashboard/SplineChart";
 
 const DashboardCards = () => {
   return (
@@ -16,13 +16,11 @@ const DashboardCards = () => {
               >
                 <div className="dashboard_card_bg overflow-hidden position-relative mt-3">
                   {/* <div className="position-absolute">
-                    <SplineChart
-                      spineColor={val.subheading > 0 ? "#88FFBF" : "#FF95DB"}
-                    />
+                  
                   </div>{" "} */}
-                  <div className="position-absolute w-100 bottom-0">
+                  {/* <div className="position-absolute w-100 bottom-0">
                     <img className="w-100" src={val.imgUrl} alt="" />
-                  </div>
+                  </div> */}
                   <div className="d-flex justify-content-between align-items-center pt-3 ps-3">
                     <div className="d-flex justify-content-between pt-1">
                       <h2 className="font-xl fw_600 color_gray ff_thicccboi_semibold pt-1">
@@ -56,9 +54,14 @@ const DashboardCards = () => {
                       </p>
                     </div>
                   </div>
-                  <p className="font-2xl fw_600 color_dark_black ff_thicccboi_semibold ps-3">
+                  <p className="font-2xl fw_600 color_dark_black ff_thicccboi_semibold ps-3 mb-0">
                     {val.amount}
                   </p>
+                  <div className="position-absolute bottom-30 w-100 ">
+                    <SplineChart
+                      spineColor={val.subheading > 0 ? "#88FFBF" : "#FF95DB"}
+                    />
+                  </div>
                 </div>
               </div>
             );

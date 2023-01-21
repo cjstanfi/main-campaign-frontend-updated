@@ -60,7 +60,7 @@ const TotalLeadsBarChart = () => {
       },
       stroke: {
         colors: ["transparent"],
-        width: 14,
+        width: 10,
       },
       yaxis: {
         labels: {
@@ -124,7 +124,6 @@ const TotalLeadsBarChart = () => {
           "Mar 2023",
           "Apr 2023",
           "May 2023",
-          "Jun 2023",
         ],
         axisTicks: {
           show: false,

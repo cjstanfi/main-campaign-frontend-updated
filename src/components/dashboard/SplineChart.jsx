@@ -12,111 +12,27 @@ const SplineChart = ({ spineColor }) => {
     ],
     options: {
       chart: {
-        height: 150,
         type: "area",
-
-        toolbar: {
-          show: false,
-          tools: {
-            download: false,
-          },
-        },
+        height: 200,
         sparkline: {
-          enabled: false,
+          enabled: true,
         },
-      },
-      dataLabels: {
-        enabled: false,
       },
       stroke: {
-        curve: "smooth",
+        curve: "straight",
       },
-
-      xaxis: {
-        type: "datetime",
-        categories: [
-          "2018-09-19T00:00:00.000Z",
-          "2018-09-19T01:30:00.000Z",
-          "2018-09-19T02:30:00.000Z",
-          "2018-09-19T03:30:00.000Z",
-          "2018-09-19T04:30:00.000Z",
-          "2018-09-19T05:30:00.000Z",
-          "2018-09-19T06:30:00.000Z",
-          "2018-09-19T06:30:00.000Z",
-        ],
-        labels: {
-          show: false,
-        },
-        grid: {
-          show: false,
-        },
-        lines: {
-          show: false,
-        },
-        axisBorder: {
-          show: false,
-        },
-        axisTicks: {
-          show: false,
-        },
-      },
-
-      //   annotations: {
-      //     yaxis: [
-      //       {
-      //         y: 0,
-      //         strokeDashArray: 0,
-      //         borderColor: "#333",
-      //         fillColor: "#c2c2c2",
-      //         opacity: 0.8,
-      //         offsetX: 0,
-      //         offsetY: 0,
-      //       },
-      //     ],
-      //   },
-      //   xaxis: {
-      //     axisBorder: {
-      //       show: false,
-      //     },
-      //     axisTicks: {
-      //       show: false,
-      //     },
-      //   },
-      grid: {
-        yaxis: {
-          lines: {
-            show: false,
-          },
-        },
-      },
-      xaxis: { type: "category", tickPlacement: "on" },
-      yaxis: {
-        axisBorder: {
-          show: false,
-        },
-        axisTicks: {
-          show: false,
-        },
-        labels: {
-          show: false,
-        },
-        lines: {
-          show: false,
-        },
-        grid: {
-          show: false,
-        },
-        type: "category",
-        tickPlacement: "on",
-      },
-      legend: {
-        show: false,
+      fill: {
+        opacity: 0.3,
       },
       tooltip: {
-        x: {
-          format: "dd/MM/yy HH:mm",
+        enabled: false,
+      },
+      yaxis: {
+        lines: {
+          show: false,
         },
       },
+      colors: ["#DCE6EC"],
     },
   };
   return (
@@ -125,7 +41,7 @@ const SplineChart = ({ spineColor }) => {
         options={state.options}
         series={state.series}
         type="area"
-        width={"100%"}
+        height="90"
       />
     </>
   );
