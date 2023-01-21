@@ -31,7 +31,7 @@ const Crm = () => {
                   Change CRM
                 </a>
                 <div className="">
-                  <button className=" border-0 text-white save_btn px-4 py-2 mt-3">
+                  <button className=" border-0 text-white common_btn px-4 py-2 mt-3">
                     Connected
                   </button>
                 </div>
@@ -72,7 +72,7 @@ const Crm = () => {
             </div>
           </form>
           <div className=" text-end">
-            <button className="mt-5 border-0 text-white save_btn px-4 py-2">
+            <button className="mt-5 border-0 text-white common_btn px-4 py-2">
               Save
             </button>
           </div>

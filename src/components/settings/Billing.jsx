@@ -86,7 +86,7 @@ const Billing = () => {
               </div>
             </form>
             <div className="mt-md-5  text-end">
-              <button className="mt-5 border-0 text-white save_btn px-4 py-2">
+              <button className="mt-5 border-0 text-white common_btn px-4 py-2">
                 Save
               </button>
             </div>

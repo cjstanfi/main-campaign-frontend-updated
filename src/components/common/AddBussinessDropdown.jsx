@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 
 const AddBussinessDropdown = () => {
@@ -19,12 +19,12 @@ const AddBussinessDropdown = () => {
             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <button className="ff_thicccboi_semibold font-sm ms-sm-2 border-0 text-white save_btn px-4 py-2 mt-3 mt-sm-0">
+        <button className="ff_thicccboi_semibold font-sm ms-sm-2 border-0 text-white common_btn px-4 py-2 mt-3 mt-sm-0">
           + Add a Business
         </button>
       </div>
     </>
   );
-}
+};
 
-export default AddBussinessDropdown
+export default AddBussinessDropdown;

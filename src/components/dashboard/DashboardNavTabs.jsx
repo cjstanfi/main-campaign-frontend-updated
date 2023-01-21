@@ -40,10 +40,10 @@ const DashboardNavTabs = () => {
       <div className="d-flex align-items-md-center mt-3 mt-sm-5 flex-column flex-md-row">
         <div className="d-flex me-4 d-flex flex-column flex-sm-row">
           <div className="d-flex">
-            <button className="ff_thicccboi_semibold border-0 text-white save_btn px-4 py-2 text-nowrap">
+            <button className="ff_thicccboi_semibold border-0 text-white common_btn px-4 py-2 text-nowrap">
               Sort
             </button>
-            <button className="ff_thicccboi_semibold ms-3 border-0 text-white save_btn px-4 py-2 text-nowrap">
+            <button className="ff_thicccboi_semibold ms-3 border-0 text-white common_btn px-4 py-2 text-nowrap">
               + Add Filters
             </button>
           </div>

@@ -20,7 +20,7 @@ const Security = () => {
               from cyberattacks by enabling two way authentication.
             </p>
             <div className="text-end">
-              <button className="mt-5 border-0 text-white save_btn px-4 py-2">
+              <button className="mt-5 border-0 text-white common_btn px-4 py-2">
                 Enable
               </button>
             </div>
