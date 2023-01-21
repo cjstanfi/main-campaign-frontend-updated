@@ -6,11 +6,11 @@ const LeadsDropdownTabs = () => {
   return (
     <>
       <section className="">
-        <div className=" pb-3 over_y_hidden overflow_x_auto_dropdown  ">
+        <div className=" pb-3 over_y_hidden overflow_x_auto_dropdown leads_dropdown d-flex">
           <button className="font-sm fw_600 ff_thicccboi_semibold color_white leads_filter_btn text-nowrap">
             + Add Filters
           </button>
-          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ms-3 ms-sm-4 mt-3">
+          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
             <Dropdown>
               <Dropdown.Toggle
                 variant="success"
@@ -40,7 +40,7 @@ const LeadsDropdownTabs = () => {
             ""
           )} */}
 
-          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ms-3 ms-sm-4 mt-3">
+          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
             <Dropdown>
               <Dropdown.Toggle
                 variant="success"
@@ -57,7 +57,7 @@ const LeadsDropdownTabs = () => {
             </Dropdown>
           </button>
 
-          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ms-3 ms-sm-4 mt-3">
+          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
             <Dropdown>
               <Dropdown.Toggle
                 variant="success"
@@ -74,7 +74,7 @@ const LeadsDropdownTabs = () => {
             </Dropdown>
           </button>
 
-          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ms-3 ms-sm-4 mt-3">
+          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
             <Dropdown>
               <Dropdown.Toggle
                 variant="success"
@@ -91,7 +91,7 @@ const LeadsDropdownTabs = () => {
             </Dropdown>
           </button>
 
-          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray border-0 bg-transparent text-nowrap ms-3 ms-sm-4 mt-3">
+          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray border-0 bg-transparent text-nowrap ">
             <span className="into_icon d-inline-block me-1">
               <PlusIcon />
             </span>
