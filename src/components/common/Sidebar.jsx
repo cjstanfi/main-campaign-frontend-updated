@@ -25,7 +25,7 @@ const Sidebar = () => {
         }`}
       >
         <div>
-          <div className="w-100 d-flex pt-3 pt-lg-4 ps-4 pe-2 ms-lg-4 flex justify-content-between align-items-center">
+          <div className="w-100 d-flex pt-3 pt-lg-4 ps-xl-4 ps-4 ps-lg-3 pe-2 ms-xl-4 flex justify-content-between align-items-center">
             <Link to="/">
               <img className="sidebar_logo" src={SidebarLogo} alt="logo" />
             </Link>
