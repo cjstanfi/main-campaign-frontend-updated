@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { LeadsCenterContactDetails } from "../common/Helper";
+import LeadsDropdownTabs from "./LeadsDropdownTabs";
 const LeadsCenterContactInfo = () => {
   const [showtab, setShowtab] = useState(LeadsCenterContactDetails[0]);
   return (
@@ -43,6 +44,7 @@ const LeadsCenterContactInfo = () => {
               })}
           </div>
           <hr className="header_hr_line" />
+          <LeadsDropdownTabs />
         </section>
         <div className="mb-3">{showtab.content}</div>
       </>
