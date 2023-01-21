@@ -38,7 +38,7 @@ const ProfileMenu = () => {
             </button>
           ))}
         </div>
-        <div className="d-flex pt-3 pt-md-0">
+        <div className="d-flex pt-3 pt-md-0 align-items-center">
           <a
             href="#"
             className="icon_bg_color border_r_12 cursor_pointer icon_size d-flex align-items-center justify-content-center"
