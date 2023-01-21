@@ -9,12 +9,6 @@ const Dashboard = () => {
   const navigate = useNavigate();
   const { setSidebarOpen } = useLayoutProvider();
 
-  useEffect(() => {
-    if (path === "/") {
-      navigate("/dashboard");
-    }
-  }, [path]);
-
   return (
     <>
       <div className="d-flex">

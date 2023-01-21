@@ -168,17 +168,17 @@ export const sidebrlinks = [
       {
         icon: <DashboardIcon />,
         title: "Dashboard",
-        url: "/dashboard",
+        url: "/dashboard/home",
       },
       {
         icon: <AnalyticsIcon />,
         title: "Analytics",
-        url: "/analytics",
+        url: "/dashboard/analytics",
       },
       {
         icon: <LeadsIcon />,
         title: "Leads Center",
-        url: "/leads-center",
+        url: "/dashboard/leads-center",
       },
     ],
   },
@@ -188,12 +188,12 @@ export const sidebrlinks = [
       {
         icon: <SettingsIcon />,
         title: "Settings",
-        url: "/settings",
+        url: "/dashboard/settings",
       },
       {
         icon: <SupportIcon />,
         title: "Support",
-        url: "/support",
+        url: "/dashboard/support",
       },
     ],
   },
