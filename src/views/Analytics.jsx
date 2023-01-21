@@ -47,7 +47,7 @@ const Analytics = () => {
 
             <TotalLeads />
           </div>
-          <div className="col-lg-4 border_left_1px p-xl-4 p-3 my-lg-3">
+          <div className="col-lg-4 border_left_1px p-3">
             <DashboardCost />
           </div>
         </div>

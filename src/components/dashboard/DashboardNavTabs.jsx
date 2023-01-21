@@ -10,7 +10,7 @@ const DashboardNavTabs = () => {
         {dashboardNavTabsData &&
           dashboardNavTabsData.map((item, index) => {
             return (
-              <div className="col-12 col-sm-6 mt-3 col-md-4 px-3" key={index}>
+              <div className="col-12 col-sm-6 mt-3 col-md-4" key={index}>
                 <button
                   className="add_manager_campaign p-3 d-flex align-items-center w-100"
                   onClick={() => setActiveTab(item)}
