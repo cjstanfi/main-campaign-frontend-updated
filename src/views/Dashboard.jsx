@@ -1,16 +1,19 @@
 import React, { useEffect } from "react";
-import { Link, Outlet, useNavigate } from "react-router-dom";
+import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
 import Sidebar from "../components/common/Sidebar";
 import { useLayoutProvider } from "../contexts/LayoutProvider";
 
 const Dashboard = () => {
+  const path = useLocation().pathname;
   const navigate = useNavigate();
   const { setSidebarOpen } = useLayoutProvider();
 
   useEffect(() => {
-    navigate("/dashboard");
-  }, []);
+    if (path === "/") {
+      navigate("/dashboard");
+    }
+  }, [path]);
 
   return (
     <>

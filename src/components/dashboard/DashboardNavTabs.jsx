@@ -37,7 +37,7 @@ const DashboardNavTabs = () => {
             );
           })}
       </div>
-      <div className="d-flex align-items-md-center mt-5 flex-column flex-md-row">
+      <div className="d-flex align-items-md-center mt-3 mt-sm-5 flex-column flex-md-row">
         <div className="d-flex me-4 d-flex flex-column flex-sm-row">
           <div className="d-flex">
             <button className="ff_thicccboi_semibold border-0 text-white save_btn px-4 py-2 text-nowrap">
@@ -57,7 +57,7 @@ const DashboardNavTabs = () => {
             </button>
           </div>
         </div>
-        <div className="position-relative w-100 mt-4 mt-md-0">
+        <div className="position-relative w-100 mt-3 mt-sm-4 mt-md-0">
           <label
             htmlFor="search"
             className="position-absolute  top-50 cursor_pointer ms-3 translate-middle-y"

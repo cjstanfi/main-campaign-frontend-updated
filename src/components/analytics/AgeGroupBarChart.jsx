@@ -6,18 +6,27 @@ import UnitedStatesFlag from "../../assets/images/png/united-states.png";
 const AgeGroupBarChart = () => {
   const [state, setState] = useState({
     options: {
+      data: [
+        { x: "05/06/2014", y: 54 },
+        { x: "05/08/2014", y: 17 },
+      ],
+
+      grid: {
+        yaxis: {
+          lines: {
+            show: false,
+          },
+          color: ["#000000"],
+        },
+      },
       plotOptions: {
         bar: {
-          position: "center",
-          dataLabels: {
-            position: "center", // top, center, bottom
-          },
+          columnWidth: "30%",
         },
       },
       colors: "#3B5998",
       stroke: {
         colors: ["transparent"],
-        width: 35,
       },
       dataLabels: {
         enabled: false,
@@ -32,11 +41,14 @@ const AgeGroupBarChart = () => {
       },
       xaxis: {
         categories: ["18-24", "25-34", "45-54", "65+"],
-        position: "center",
+
+        axisTicks: {
+          show: false,
+        },
       },
       fill: {
         gradient: {
-          shade: "light",
+          // shade: "",
           type: "horizontal",
           shadeIntensity: 0.25,
           gradientToColors: undefined,
@@ -51,12 +63,12 @@ const AgeGroupBarChart = () => {
           show: true,
         },
         axisTicks: {
-          show: true,
+          show: false,
         },
         labels: {
           show: true,
           formatter: function (val) {
-            return Number(val).toLocaleString() + "€";
+            return Number(val).toLocaleString() + "%";
           },
         },
       },
@@ -66,10 +78,11 @@ const AgeGroupBarChart = () => {
         offsetY: 0,
         align: "center",
         style: {
-          color: "#444",
+          color: "#000000",
         },
       },
       chart: {
+        fontFamily: " font-family: THICCCBOI-normal",
         toolbar: {
           show: false,
           tools: {
@@ -81,7 +94,7 @@ const AgeGroupBarChart = () => {
     series: [
       {
         name: "Chiffre d'affaires",
-        data: [8976, 12987, 9853, 10986],
+        data: [80, 30, 90, 20],
       },
     ],
   });

@@ -54,7 +54,7 @@ const Billing = () => {
                   <span className="ps-2">Add New Card</span>
                 </button>
               </div>
-              <h5 className="text-black ff_thicccboi_bold font-xl mt-5 ">
+              <h5 className="text-black ff_thicccboi_bold font-xl mt-4 mt-sm-5">
                 Billing
               </h5>
               <div className="mt-3 p-2 bg_light_grey d-flex flex-column flex-sm-row">
