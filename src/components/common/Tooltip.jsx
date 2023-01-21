@@ -21,7 +21,7 @@ const Tooltip = () => {
             alt="tooltip-icon"
           />
 
-          <p className="mb-0">
+          <p className="mb-0 font-xs">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
             nulla.
           </p>

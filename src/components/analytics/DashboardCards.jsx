@@ -2,6 +2,7 @@ import React from "react";
 import { cardsData } from "../common/Helper";
 import ToolTipIcon from "../../assets/images/svg/cards-icon.svg";
 import SplineChart from "../dashboard/SplineChart";
+import Tooltip from "../common/Tooltip";
 
 const DashboardCards = () => {
   return (
@@ -34,7 +35,7 @@ const DashboardCards = () => {
                           data-bs-placement="top"
                           title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
                         >
-                          <img src={ToolTipIcon} alt="cards-icon" />
+                          <Tooltip />
                         </button>
                       </div>
                     </div>
