@@ -4,28 +4,28 @@ import TablePagination from "../common/TablePagination";
 const LeadsCenter = () => {
   return (
     <>
-      <section className="p-3">
+      <section>
         <div className="box">
-          <div className="overflow-auto pb-3">
-            <table className="w-100 mt-4 ">
+          <div className="overflow-auto">
+            <table className="w-100">
               <tbody>
                 <tr>
-                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap py-3 ps-3 pe-5 pe-xxl-0">
+                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap pb-3 ps-3 pe-5 pe-xxl-0">
                     Created Date
                   </th>
-                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap py-3 pe-5 pe-xxl-0">
+                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap pb-3 pe-5 pe-xxl-0">
                     Name
                   </th>
-                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap py-3 pe-5 pe-xxl-0">
+                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap pb-3 pe-5 pe-xxl-0">
                     Email
                   </th>
-                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap py-3 pe-5 pe-xxl-0">
+                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap pb-3 pe-5 pe-xxl-0">
                     Phone
                   </th>
-                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap py-3 pe-5 pe-xxl-0">
+                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap pb-3 pe-5 pe-xxl-0">
                     Stage
                   </th>
-                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap py-3 pe-5 pe-xxl-0">
+                  <th className="font-sm color_gray ff_thicccboi_semibold text-nowrap pb-3 pe-5 pe-xxl-0">
                     Source
                   </th>
                 </tr>
@@ -64,8 +64,8 @@ const LeadsCenter = () => {
                   })}
               </tbody>
             </table>
-            <TablePagination />
           </div>
+          <TablePagination />
         </div>
       </section>
     </>

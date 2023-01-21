@@ -20,31 +20,42 @@ const Analytics = () => {
           <div className="col-lg-8 py-3">
             <div className="d-flex align-items-center justify-content-between">
               <div>
-                <h4 className="font-xl fw-bold ff_thicccboi_bold color_gray">
+                <h4 className="font-xl fw-bold ff_thicccboi_bold color_gray mb-2">
                   Total Leads
                 </h4>
-                <p className="font-sm fw-normal color_gray">
+                <p className="font-sm fw-normal color_gray mb-0">
                   June 1, 2021 - June 2, 2022
                 </p>
               </div>
-              <div>
-                {/* <p className="font-sm fw-normal color_gray">
-                  June 1, 2021 - June 2, 2022
-                </p> */}
+              <div className="d-flex">
+                <div className="total_leads position-relative">
+                  <p className="font-xl mb-0 fw-semibold font-xxl ff_thicccboi_semibold color_dark_black ">
+                    15.25k
+                  </p>
+                  <p className="font-sm fw-normal color_gray mb-0">Leads</p>
+                </div>
+                <div className="ms-sm-5 ms-3 ps-xl-5 ">
+                  <div className="total_revenue position-relative">
+                    <p className="font-xl mb-0 fw-semibold font-xxl ff_thicccboi_semibold color_dark_black">
+                      $ 25,000
+                    </p>
+                    <p className="font-sm fw-normal color_gray mb-0">Revenue</p>
+                  </div>
+                </div>
               </div>
             </div>
 
             <TotalLeads />
           </div>
-          <div className="col-lg-4 border_left_1px p-4">
+          <div className="col-lg-4 border_left_1px p-3">
             <DashboardCost />
           </div>
         </div>
-        <div className="row mb-4 mx-0 total-leads-wrapper mt-4 justify-content-center">
-          <div className="col-lg-8  d-flex flex-column justify-content-center align-item-center">
+        <div className="row mb-4 mx-0 total-leads-wrapper mt-4 ">
+          <div className="col-lg-8  d-flex flex-column justify-content-start p-3 align-item-center">
             <TopDemoGraphics />
           </div>
-          <div className="col-lg-4 col-sm-8 pb-3 border_left_1px d-flex flex-column justify-content-center">
+          <div className="col-lg-4 col-sm-10 p-3 border_left_1px d-flex flex-column justify-content-center">
             <AgeGroupBarChart />
           </div>
         </div>

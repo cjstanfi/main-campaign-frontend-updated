@@ -32,7 +32,7 @@ const Facebook = () => {
                   Change account
                 </a>
                 <div className="">
-                  <button className=" border-0 text-white save_btn px-4 py-2 mt-3">
+                  <button className=" border-0 text-white common_btn px-4 py-2 mt-3">
                     Connected
                   </button>
                 </div>
@@ -51,7 +51,7 @@ const Facebook = () => {
                     Track your Facebook campaigns, see conversion rates, and
                     more.
                   </p>
-                  <button className="mt-4 border-0 text-white save_btn px-4 py-2">
+                  <button className="mt-4 border-0 text-white common_btn px-4 py-2">
                     Connect
                   </button>
                 </div>
@@ -59,7 +59,7 @@ const Facebook = () => {
             </div>
           </div>
           <div className="mt-sm-3  text-end">
-            <button className="mt-5 border-0 text-white save_btn px-4 py-2">
+            <button className="mt-5 border-0 text-white common_btn px-4 py-2">
               Save
             </button>
           </div>
