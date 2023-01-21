@@ -5,7 +5,7 @@ const LeadsCenterContactInfo = () => {
   return (
     <>
       <>
-        {/* <section className="p-3">
+        <section className="mt-4">
           <div className="d-flex overflow-auto pb-3">
             {LeadsCenterContactDetails &&
               LeadsCenterContactDetails.map((item, index) => {
@@ -15,8 +15,7 @@ const LeadsCenterContactInfo = () => {
                     onClick={() => setShowtab(item)}
                     className={`${
                       item == showtab ? "tab_border color_blue " : "header_tabs"
-                    } text-decoration-none ff_thicccboi_medium font-xl color_gray position-relative  me-4 me-sm-5 text-nowrap`}
-                    href="#"
+                    } text-decoration-none ff_thicccboi_medium font-xl color_gray position-relative cursor_pointer me-4 me-sm-5 text-nowrap`}
                   >
                     {item.tabHeading}{" "}
                     <span
@@ -28,7 +27,15 @@ const LeadsCenterContactInfo = () => {
                     >
                       {item.noOfLeads}
                     </span>
-                    <span className={item.arrow ? "ms-4" : "d-none"}>
+                    <span
+                      className={
+                        item.arrow && showtab === item
+                          ? "leads_center_arrow_icon ms-4"
+                          : item.arrow
+                          ? "ms-4 "
+                          : "d-none"
+                      }
+                    >
                       {item.arrow}
                     </span>
                   </a>
@@ -36,7 +43,7 @@ const LeadsCenterContactInfo = () => {
               })}
           </div>
           <hr className="header_hr_line" />
-        </section> */}
+        </section>
         <div className="mb-3">{showtab.content}</div>
       </>
     </>

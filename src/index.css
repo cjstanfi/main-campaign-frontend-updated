@@ -361,3 +361,7 @@
 .dashboard_tabs_svg_2 svg path {
   fill: #7d889e;
 }
+.leads_center_arrow_icon svg {
+  transform: rotate(90deg);
+  transition: all 0.2s ease-in-out;
+}
