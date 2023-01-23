@@ -15,6 +15,11 @@ body {
 }
 
 @font-face {
+  font-family: THICCCBOI-light;
+  src: url("../src/assets/fonts/THICCCBOI-Light.ttf");
+}
+
+@font-face {
   font-family: THICCCBOI-normal;
   src: url("../src/assets/fonts/THICCCBOI-Regular.ttf");
 }
@@ -34,6 +39,15 @@ body {
   src: url("../src/assets/fonts/THICCCBOI-Bold.ttf");
 }
 
+@font-face {
+  font-family: THICCCBOI-Extra-Bold;
+  src: url("../src/assets/fonts/THICCCBOI-ExtraBold.ttf");
+}
+
+.ff_thicccboi_light {
+  font-family: THICCCBOI-light;
+}
+
 .ff_thicccboi_medium {
   font-family: THICCCBOI-medium;
 }
@@ -44,6 +58,10 @@ body {
 
 .ff_thicccboi_bold {
   font-family: THICCCBOI-Bold;
+}
+
+.ff_thicccboi_extra_bold {
+  font-family: THICCCBOI-Extra-Bold;
 }
 
 :root {
@@ -149,6 +167,7 @@ body {
 .fw_600 {
   font-weight: 600 !important;
 }
+
 .fw_800 {
   font-weight: 800 !important;
 }
@@ -173,12 +192,15 @@ body {
 .font-lg {
   font-size: var(--font-lg) !important;
 }
+
 .font-22 {
   font-size: var(--font-22) !important;
 }
+
 .font-28 {
   font-size: var(--font-28) !important;
 }
+
 .font-xl {
   font-size: var(--font-xl) !important;
 }
@@ -194,9 +216,11 @@ body {
 .font-3xl {
   font-size: var(--font-3xl) !important;
 }
+
 .font-4xl {
   font-size: var(--font-4xl) !important;
 }
+
 .font-5xl {
   font-size: var(--font-5xl) !important;
 }
@@ -209,6 +233,7 @@ body {
 .color_black {
   color: var(--black) !important;
 }
+
 .color_light_black {
   color: var(--light-black) !important;
 }
@@ -236,6 +261,7 @@ body {
 .color_blue {
   color: var(--blue) !important;
 }
+
 .color_dark_blue {
   color: var(--dark-blue) !important;
 }

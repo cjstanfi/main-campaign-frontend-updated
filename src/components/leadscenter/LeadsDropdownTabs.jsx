@@ -1,41 +1,12 @@
 import React, { useState } from "react";
+import {
+  leadsformsData,
+  leadsLableData,
+  leadsOwnerData,
+} from "../common/Helper";
 import { PlusIcon, SelectIcon } from "../common/Icons";
-// import Dropdown from "react-bootstrap/Dropdown";
 const LeadsDropdownTabs = () => {
   const [showvalue, setShowvalue] = useState("1999-11-30");
-  const leadsformsData = [
-    {
-      value: "All Forms",
-    },
-    {
-      value: "Forms One",
-    },
-    {
-      value: "Forms Two",
-    },
-  ];
-  const leadsOwnerData = [
-    {
-      value: "All Owners",
-    },
-    {
-      value: "Owners One",
-    },
-    {
-      value: "Owners Two",
-    },
-  ];
-  const leadsLableData = [
-    {
-      value: "All Lable",
-    },
-    {
-      value: "Lable One",
-    },
-    {
-      value: "Lable Two",
-    },
-  ];
   const [show, setShow] = useState(false);
   const handleChangeTabs = (obj) => {
     setShow(false);
@@ -61,7 +32,6 @@ const LeadsDropdownTabs = () => {
           <button className="font-sm fw_600 ff_thicccboi_semibold color_white leads_filter_btn text-nowrap">
             + Add Filters
           </button>
-
           <div className="custom_select">
             <h4
               className="mb-0 font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap"
@@ -87,7 +57,6 @@ const LeadsDropdownTabs = () => {
               </ul>
             )}
           </div>
-
           <div className="custom_select">
             <h4
               className="mb-0 font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap"
@@ -115,41 +84,6 @@ const LeadsDropdownTabs = () => {
               </ul>
             )}
           </div>
-
-          {/* <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
-            <Dropdown>
-              <Dropdown.Toggle
-                variant="success"
-                id="dropdown-basic"
-                className="bg-transparent border-0 p-0 color_gray"
-              >
-                All Forms
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </button> */}
-
-          {/* <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
-            <Dropdown>
-              <Dropdown.Toggle
-                variant="success"
-                id="dropdown-basic"
-                className="bg-transparent border-0 p-0 color_gray"
-              >
-                All Owners
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </button> */}
-
           <input
             onChange={(e) => setShowvalue(e.target.value)}
             value={showvalue}
@@ -157,7 +91,6 @@ const LeadsDropdownTabs = () => {
             placeholder="Select Dates"
             className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap calendar_input"
           />
-
           <div className="custom_select">
             <h4
               className="mb-0 font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap"
@@ -183,40 +116,6 @@ const LeadsDropdownTabs = () => {
               </ul>
             )}
           </div>
-          {/* <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
-            <Dropdown>
-              <Dropdown.Toggle
-                variant="success"
-                id="dropdown-basic"
-                className="bg-transparent border-0 p-0 color_gray"
-              >
-                Select Dates
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">
-                </Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </button> */}
-          {/* <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
-            <Dropdown>
-              <Dropdown.Toggle
-                variant="success"
-                id="dropdown-basic"
-                className="bg-transparent border-0 p-0 color_gray"
-              >
-                All Lable
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </button> */}
-
           <button className="font-sm fw_600 ff_thicccboi_semibold color_gray border-0 bg-transparent text-nowrap ">
             <span className="into_icon d-inline-block me-1">
               <PlusIcon />

@@ -408,3 +408,37 @@ export const timedurationdata = [
     id: 3,
   },
 ];
+
+export const leadsformsData = [
+  {
+    value: "All Forms",
+  },
+  {
+    value: "Forms One",
+  },
+  {
+    value: "Forms Two",
+  },
+];
+export const leadsOwnerData = [
+  {
+    value: "All Owners",
+  },
+  {
+    value: "Owners One",
+  },
+  {
+    value: "Owners Two",
+  },
+];
+export const leadsLableData = [
+  {
+    value: "All Lable",
+  },
+  {
+    value: "Lable One",
+  },
+  {
+    value: "Lable Two",
+  },
+];
