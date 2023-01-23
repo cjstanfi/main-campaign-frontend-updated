@@ -54,13 +54,18 @@ body {
   --font-md: 16px;
   --font-lg: 18px;
   --font-xl: 20px;
+  --font-22: 20px;
   --font-xxl: 26px;
+  --font-28: 28px;
   --font-2xl: 30px;
   --font-3xl: 32px;
+  --font-4xl: 36px;
+  --font-5xl: 65px;
   /* COLORS  */
   --white: #ffffff;
   --black: #000000;
   --dark-black: #040310;
+  --dark-blue: #14142b;
   --light-gray: #ececec;
   --gray: #7d889e;
   --dark-gray: #484f75;
@@ -75,16 +80,22 @@ body {
   :root {
     --font-xl: 17px;
     --font-xxl: 25px;
+    --font-28: 27px;
     --font-2xl: 25px;
     --font-3xl: 30px;
+    --font-4xl: 32px;
+    --font-5xl: 60px;
   }
 }
 
 @media (max-width: 1199.98px) {
   :root {
     --font-xxl: 25px;
+    --font-28: 26px;
     --font-2xl: 27px;
     --font-3xl: 29px;
+    --font-4xl: 30px;
+    --font-5xl: 55px;
   }
 }
 
@@ -92,8 +103,11 @@ body {
   :root {
     --font-xl: 19px;
     --font-xxl: 24px;
+    --font-28: 24px;
     --font-2xl: 26px;
     --font-3xl: 28px;
+    --font-4xl: 28px;
+    --font-5xl: 50px;
   }
 }
 
@@ -103,8 +117,11 @@ body {
     --font-lg: 16px;
     --font-xl: 18px;
     --font-xxl: 22px;
+    --font-28: 22px;
     --font-2xl: 24px;
     --font-3xl: 26px;
+    --font-4xl: 26px;
+    --font-5xl: 45px;
   }
 }
 
@@ -115,8 +132,11 @@ body {
     --font-lg: 14px;
     --font-xl: 16px;
     --font-xxl: 17px;
+    --font-28: 20px;
     --font-2xl: 22px;
     --font-3xl: 24px;
+    --font-4xl: 24px;
+    --font-5xl: 35px;
   }
 }
 
@@ -127,6 +147,9 @@ body {
 
 .fw_600 {
   font-weight: 600 !important;
+}
+.fw_800 {
+  font-weight: 800 !important;
 }
 
 /*FONT-SIZES START*/
@@ -149,7 +172,12 @@ body {
 .font-lg {
   font-size: var(--font-lg) !important;
 }
-
+.font-22 {
+  font-size: var(--font-22) !important;
+}
+.font-28 {
+  font-size: var(--font-28) !important;
+}
 .font-xl {
   font-size: var(--font-xl) !important;
 }
@@ -164,6 +192,12 @@ body {
 
 .font-3xl {
   font-size: var(--font-3xl) !important;
+}
+.font-4xl {
+  font-size: var(--font-4xl) !important;
+}
+.font-5xl {
+  font-size: var(--font-5xl) !important;
 }
 
 /*COLORS CLASSES START*/
@@ -197,6 +231,9 @@ body {
 
 .color_blue {
   color: var(--blue) !important;
+}
+.color_dark_blue {
+  color: var(--dark-blue) !important;
 }
 
 .color_red {
