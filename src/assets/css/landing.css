@@ -1,3 +1,7 @@
+html,
+body {
+  overflow-x: hidden !important;
+}
 /* ============COMMON CLASSES============ */
 .sub_heading {
   font-size: var(--font-5xl) !important;
@@ -67,13 +71,21 @@
   border-top: 1px dashed #3b5998;
   border-bottom: 1px dashed #3b5998;
 }
-ul li input {
+.email_address {
   padding: 20px 0px 19px 21px;
-  color: #0a0a0d;
-  opacity: 0.75;
   background: #ffffff;
   border: 1px solid #e1e1ff;
   border-radius: 18px;
+}
+.email_address::placeholder {
+  color: #0a0a0d;
+  opacity: 0.75;
+}
+.footer_icon {
+  transition: 0.3s all ease-in-out;
+}
+.footer_icon:hover {
+  transform: translateY(-5px) !important;
 }
 .max-width-447 {
   max-width: 447px !important;
@@ -95,6 +107,9 @@ ul li input {
     bottom: -18% !important;
     left: 10% !important;
   }
+  .email_address {
+    padding: 12px 0px 12px 21px !important;
+  }
 }
 @media (max-width: 767.98px) {
   .campaign_arrow {
@@ -108,6 +123,9 @@ ul li input {
     padding: 16px 12px !important;
     border-radius: 32px;
     max-width: 250px !important;
+  }
+  .footer-dash-border {
+    padding: 48px 0px !important;
   }
 }
 @media (max-width: 575.98px) {
@@ -124,5 +142,11 @@ ul li input {
   .campaign_arrow {
     bottom: -16% !important;
     left: 0% !important;
+  }
+  .footer_logo {
+    max-width: 200px !important;
+  }
+  .footer-dash-border {
+    padding: 24px 0px !important;
   }
 }
