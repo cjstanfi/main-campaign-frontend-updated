@@ -9,6 +9,7 @@ import Billing from "../settings/Billing";
 import Team from "../settings/Team";
 import Security from "../settings/Security";
 import LeadsCenter from "../leadscenter/LeadsCenter";
+
 import {
   AddIcon,
   FileIcon,
@@ -393,5 +394,15 @@ export const dashboardNavTabsData = [
   {
     icon: <AddIcon />,
     name: "Ad",
+  },
+];
+export const PlansCardData = [
+  {
+    cardheading: "Small Business",
+    cardheading2: "$199/ month",
+    listext: "1 CRM & marketing platform integration",
+    listext: "Accurate campaign lead data",
+    listext: "Full access to reports",
+    listext: "Unlimited team members",
   },
 ];
