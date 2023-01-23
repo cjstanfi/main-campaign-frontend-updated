@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { PlusIcon } from "../common/Icons";
 import Dropdown from "react-bootstrap/Dropdown";
 const LeadsDropdownTabs = () => {
-  const [hello, setHello] = useState(false);
+  // const [hello, setHello] = useState(false);
   return (
     <>
       <section className="">

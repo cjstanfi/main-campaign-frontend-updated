@@ -20,7 +20,6 @@ const Tooltip = ({ val }) => {
             src={ToolTipArrowIcon}
             alt="tooltip-icon"
           />
-
           <p className="mb-0 font-xs">{val.heading}</p>
         </div>
       </div>

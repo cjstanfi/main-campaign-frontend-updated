@@ -17,10 +17,10 @@ const TopDemoGraphics = () => {
   };
   return (
     <>
-      <h2 className="font-xl fw-bold ff_thicccboi_bold color_gray ps-4 pt-3 pt-xl-0">
+      <h2 className="font-xl fw-bold ff_thicccboi_bold color_gray ps-xl-4 pt-3 pt-xl-0">
         Your top demographics
       </h2>
-      <div id="geo_chart_div" className="chart geo-map py-3 overflow-auto">
+      <div id="geo_chart_div" className="chart geo-map py-sm-3 overflow-auto">
         <Chart
           className="mw-100"
           chartType="GeoChart"

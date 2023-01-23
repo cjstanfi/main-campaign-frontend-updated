@@ -16,7 +16,7 @@ const Analytics = () => {
 
       <div>
         <DashboardCards />
-        <div className="row mx-0 total-leads-wrapper mt-4 mt-lg-0 p-3">
+        <div className="row mx-0 total-leads-wrapper mt-4 mt-lg-0 px2 py-3 p-sm-3">
           <div className="col-lg-8">
             <div className="d-flex align-items-center justify-content-between">
               <div>
@@ -47,15 +47,15 @@ const Analytics = () => {
 
             <TotalLeads />
           </div>
-          <div className="col-lg-4 border_left_1px">
+          <div className="col-lg-4 border_left_map pt-4 pt-lg-0">
             <DashboardCost />
           </div>
         </div>
-        <div className="row mb-4 mx-0 total-leads-wrapper mt-4 p-3">
+        <div className="row mb-4 mx-0 total-leads-wrapper mt-4 py-3 p-sm-3">
           <div className="col-lg-8  d-flex flex-column justify-content-start align-item-center">
             <TopDemoGraphics />
           </div>
-          <div className="col-lg-4 col-sm-10  border_left_1px d-flex flex-column justify-content-center">
+          <div className="col-lg-4 col-sm-10 d-flex flex-column justify-content-center border_left_map">
             <AgeGroupBarChart />
           </div>
         </div>

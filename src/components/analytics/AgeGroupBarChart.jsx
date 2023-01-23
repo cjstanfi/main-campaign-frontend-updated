@@ -159,7 +159,7 @@ const AgeGroupBarChart = () => {
             24.2k
           </p>
         </div>
-        <div className="d-flex justify-content-between align-items-center mt-sm-2 pt-4 pt-sm-5 pt-lg-3 pt-xl-5 px-3">
+        <div className="d-flex justify-content-between align-items-center mt-sm-2 pt-4 pt-sm-5 pt-lg-3 pt-xl-5 px-xl-3 px-lg-2 px-3">
           <p className="font-xl font_xl_15 fw_500 ff_thicccboi_medium color_black mb-0">
             15 more countires
           </p>

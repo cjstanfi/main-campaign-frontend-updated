@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { LeadsCenterContactDetails } from "../common/Helper";
 import { ThreeDots } from "../common/Icons";
 import LeadsDropdownTabs from "./LeadsDropdownTabs";
+// import Dropdown from "react-bootstrap/Dropdown";
 const LeadsCenterContactInfo = () => {
   const [showtab, setShowtab] = useState(LeadsCenterContactDetails[0]);
   return (
@@ -50,6 +51,24 @@ const LeadsCenterContactInfo = () => {
             <div>
               <span className="cursor_pointer">
                 <ThreeDots />
+                {/* <Dropdown>
+                  <Dropdown.Toggle
+                    variant="success"
+                    id="dropdown-basic"
+                    className="bg-transparent border-0 p-0 color_gray"
+                  >
+                    All Forms
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">
+                      Another action
+                    </Dropdown.Item>
+                    <Dropdown.Item href="#/action-3">
+                      Something else
+                    </Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown> */}
               </span>
             </div>
           </div>

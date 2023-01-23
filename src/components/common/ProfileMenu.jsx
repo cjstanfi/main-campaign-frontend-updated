@@ -11,8 +11,8 @@ const ProfileMenu = () => {
     <>
       <div className="d-sm-flex mt-3 mt-md-1 align-items-center">
         {path === "/dashboard/analytics" ? <TimeDurationTabs /> : ""}
-        <div className="d-flex pt-3 pt-md-0 align-items-center">
-          <span className="icon_bg_color border_r_12 cursor_pointer icon_size d-flex align-items-center justify-content-center">
+        <div className="d-none d-md-flex pt-3 pt-md-0 align-items-center">
+          <span className="icon_bg_color border_r_12 cursor_pointer icon_size d-flex align-items-center justify-content-center ms-3">
             <SettingIcon />
           </span>
           <span className="icon_bg_color border_r_12 cursor_pointer icon_size d-flex align-items-center justify-content-center ms-3">

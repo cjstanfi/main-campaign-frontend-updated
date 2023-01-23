@@ -448,9 +448,11 @@ input:checked {
 .date_input {
   color: var(--blue) !important;
 }
+
 .bottom-30 {
   bottom: -30px;
 }
+
 /* @media (max-width: 1599.98px) {
   #SvgjsG1515 {
     transform: translateX(-18px) !important;
@@ -461,15 +463,19 @@ input:checked {
   width: 100%;
   max-width: 45px;
 }
+
 .bg_light_grey2 {
   background: #eef2fa;
 }
+
 .br_12px {
   border-radius: 12px;
 }
+
 .br_9px {
   border-radius: 9px;
 }
+
 .tab_active {
   background: #e1e8f7;
   color: #3b5998;
@@ -499,6 +505,7 @@ input:checked {
     width: 280px;
     min-width: 280px;
   }
+
   .country_img {
     max-width: 40px;
   }
@@ -511,23 +518,22 @@ input:checked {
 }
 
 @media (max-width: 1199.98px) {
-  .border_left_map {
-    border-left: unset;
-  }
-
   .sidebar_parent {
     width: 280px;
     min-width: 230px;
   }
+
   .country_img {
     max-width: 35px;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .font_xl_15 {
     font-size: 15px !important;
   }
 }
+
 @media (max-width: 991.91px) {
   .sidebar_logo {
     max-width: 150px;
@@ -554,6 +560,10 @@ input:checked {
 
   .sidebar_parent.sidebar_active {
     left: 0px;
+  }
+
+  .border_left_map {
+    border-left: unset;
   }
 }
 
