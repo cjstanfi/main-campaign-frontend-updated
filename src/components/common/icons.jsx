@@ -84,7 +84,8 @@ export const CalendarIcon = () => {
 };
 export const SelectIcon = () => {
   return (
-    <svg
+    <svg 
+      className="ms-2"
       width="13"
       height="8"
       viewBox="0 0 13 8"

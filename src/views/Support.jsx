@@ -1,10 +1,10 @@
 import React from "react";
-import Tooltip from "../components/common/Tooltip";
-
+// import DatePickernew from "";
 const Support = () => {
   return (
     <>
       <h1>Support</h1>
+      {/* <DatePickernew /> */}
     </>
   );
 };
