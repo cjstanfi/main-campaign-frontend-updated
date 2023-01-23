@@ -9,8 +9,8 @@ const Scale = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-md-10">
               <div className="text-center">
-                <h2 className="sub_heading">Are you ready to scale?</h2>
-                <button className="leads_btn border-0 font-md fw_md ff_thicccboi_medium color_white my-3 my-sm-4">
+                <h2 className="sub_heading pt-sm-4">Are you ready to scale?</h2>
+                <button className="leads_btn border-0 font-md fw_500 ff_thicccboi_medium color_white my-3 my-sm-4">
                   Start My Free Trial
                 </button>
                 <div className="leads_img mx-auto pt-md-3">
