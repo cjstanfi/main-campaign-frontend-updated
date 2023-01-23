@@ -65,6 +65,7 @@ body {
   --white: #ffffff;
   --black: #000000;
   --dark-black: #040310;
+  --light-black: #0a0a0d;
   --dark-blue: #14142b;
   --light-gray: #ececec;
   --gray: #7d889e;
@@ -207,6 +208,9 @@ body {
 
 .color_black {
   color: var(--black) !important;
+}
+.color_light_black {
+  color: var(--light-black) !important;
 }
 
 .color_dark_black {

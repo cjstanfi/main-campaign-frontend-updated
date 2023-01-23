@@ -54,6 +54,30 @@
   box-shadow: 0px 4px 10px 0px #00000026;
   border-radius: 30px;
 }
+/* ==================DEFINE FOOTER CSS================== */
+.footer_bg {
+  padding: 48px 0px;
+  background: rgba(217, 217, 255, 0.15);
+}
+.footer_logo {
+  max-width: 242px !important;
+}
+.footer-dash-border {
+  padding: 63px 0px !important;
+  border-top: 1px dashed #3b5998;
+  border-bottom: 1px dashed #3b5998;
+}
+ul li input {
+  padding: 20px 0px 19px 21px;
+  color: #0a0a0d;
+  opacity: 0.75;
+  background: #ffffff;
+  border: 1px solid #e1e1ff;
+  border-radius: 18px;
+}
+.max-width-447 {
+  max-width: 447px !important;
+}
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
