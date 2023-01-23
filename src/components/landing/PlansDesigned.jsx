@@ -1,5 +1,4 @@
 import React from "react";
-import { PlansCardData } from "../common/Helper";
 import check from "../../assets/images/landing/svg/check-icon.svg";
 const Plansdesigned = () => {
   return (
