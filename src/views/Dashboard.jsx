@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import SidebarLogo from "../assets/images/svg/sidebar-logo.svg";
 import SidebarsmallLogo from "../assets/images/svg/logo-small.svg";
-import { NotificationIcon, SettingIcon } from "../components/common/Icons";
+import { NotificationIcon, SettingIcon } from "../components/common/icons";
 import Sidebar from "../components/common/Sidebar";
 import { useLayoutProvider } from "../contexts/LayoutProvider";
 import UserIcon from "../assets/images/png/User_icon.png";
