@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Dropdown from "react-bootstrap/Dropdown";
+import DatePickerLeads from "../common/DatePickerLeads";
 import {
   leadsformsData,
   leadsLableData,
@@ -7,8 +7,6 @@ import {
 } from "../common/Helper";
 import { PlusIcon, SelectIcon } from "../common/Icons";
 const LeadsDropdownTabs = () => {
-  // const [showvalue, setShowvalue] = useState("1999-11-30");
-
   const [show, setShow] = useState(false);
   const handleChangeTabs = (obj) => {
     setShow(false);
@@ -41,7 +39,6 @@ const LeadsDropdownTabs = () => {
             >
               {selectedItem.value}
               <SelectIcon />
-              {/* <span className={`select_arrow ${show && "rotate_180"} ps-2`}> */}
               <div className={`${show ? "leads_overlay" : ""}`}></div>
             </h4>
             {show && (
@@ -83,29 +80,7 @@ const LeadsDropdownTabs = () => {
               </ul>
             )}
           </div>
-          {/* <input
-            onChange={(e) => setShowvalue(e.target.value)}
-            value={showvalue}
-            type="date"
-            placeholder="Select Dates"
-            className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap calendar_input"
-          /> */}
-          <button className="font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap ">
-            <Dropdown>
-              <Dropdown.Toggle
-                variant="success"
-                id="dropdown-basic"
-                className="bg-transparent border-0 p-0 color_gray"
-              >
-                Select Dates
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1"></Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          </button>
+          <DatePickerLeads/>
           <div className="custom_select">
             <h4
               className="mb-0 font-sm fw_600 ff_thicccboi_semibold color_gray leads_dropdown_btn text-nowrap"

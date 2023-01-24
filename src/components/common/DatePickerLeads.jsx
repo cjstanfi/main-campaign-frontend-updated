@@ -14,13 +14,14 @@ const DatePickerLeads = () => {
     <>
       <div className="position-relative">
         <DatePicker
+          className="font-sm ff_thicccboi_semibold fw_600 color_gray leads_dropdown_btn calendar_input custom_width"
           selected={startDate}
           onChange={(date) => setStartDate(date)}
-          placeholderText='Select Dates'
+          placeholderText="Select Dates"
           onChangeRaw={(event) => handleChangeRaw(event.target.value)}
         />
-        <div className="position-absolute">
-          <SelectIcon/>
+        <div className="position-absolute date_picker_icon cursor_pointer">
+          <SelectIcon />
         </div>
       </div>
     </>
