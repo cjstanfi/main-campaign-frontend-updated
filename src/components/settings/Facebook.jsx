@@ -1,5 +1,5 @@
 import React from "react";
-import { FacebookIcon } from "../common/icons";
+import { FacebookIcon } from "../common/Icons";
 const Facebook = () => {
   return (
     <>

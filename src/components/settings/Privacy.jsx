@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { EyeIcon, EyeCloseIcon } from "../common/icons";
+import { EyeIcon, EyeCloseIcon } from "../common/Icons";
 const Privacy = () => {
   const [showOldPassword, setShowOldPassword] = useState("password");
   const [showNewPassword, setshowNewPassword] = useState("password");

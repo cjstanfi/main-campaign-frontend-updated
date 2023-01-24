@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { PlusIcon, SearchIcon } from "../common/icons";
+import { PlusIcon, SearchIcon } from "../common/Icons";
 import { dashboardNavTabsData } from "../common/Helper";
 
 const DashboardNavTabs = () => {

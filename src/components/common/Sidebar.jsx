@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import SidebarLogo from "../../assets/images/svg/sidebar-logo.svg";
 import { useLayoutProvider } from "../../contexts/LayoutProvider";
 import { sidebrlinks } from "./Helper";
-import { LogoutBtnIcon } from "./icons";
+import { LogoutBtnIcon } from "./Icons";
 const Sidebar = () => {
   const { setSidebarOpen, sidebarOpen } = useLayoutProvider();
   const navigate = useNavigate();

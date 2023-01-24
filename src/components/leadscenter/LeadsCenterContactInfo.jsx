@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LeadsCenterContactDetails } from "../common/Helper";
-import { ThreeDots } from "../common/icons";
+import { ThreeDots } from "../common/Icons";
 import LeadsDropdownTabs from "./LeadsDropdownTabs";
 // import Dropdown from "react-bootstrap/Dropdown";
 const LeadsCenterContactInfo = () => {

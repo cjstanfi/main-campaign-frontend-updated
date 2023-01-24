@@ -1,7 +1,7 @@
 import React from "react";
 import Airtable from "../../assets/images/svg/Airtable.svg";
 import AirTableIcon from "../../assets/images/svg/AirtableIcon.svg";
-import { MaterialIcon } from "../common/icons";
+import { MaterialIcon } from "../common/Icons";
 const Crm = () => {
   return (
     <>

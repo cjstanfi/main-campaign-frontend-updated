@@ -19,7 +19,7 @@ import {
   RightArrowIcon,
   SettingsIcon,
   SupportIcon,
-} from "./icons";
+} from "./Icons";
 export const cardsData = [
   {
     heading: "Total Revenue",
