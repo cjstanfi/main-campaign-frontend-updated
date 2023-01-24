@@ -90,9 +90,88 @@ body {
 .max-width-447 {
   max-width: 447px !important;
 }
+
+.slick-next:before {
+  content: url("../images/landing/svg/footer-next-arrow.svg") !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.slick-prev:before {
+  content: url("../images/landing/svg/footer-prev-arrow.svg") !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.slick-next:hover:before {
+  content: url("../images/landing/svg/next-arrow-hover.svg") !important;
+}
+.slick-prev:hover:before {
+  content: url("../images/landing/svg/prev-arrow-hover.svg") !important;
+}
+.slick-prev {
+  left: -5% !important;
+}
+.slick-next {
+  right: -3% !important;
+}
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  -webkit-transform: translate(0, -25%) !important;
+  -ms-transform: translate(0, -25%) !important;
+  transform: translate(0, -25%) !important;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.footer_slider_img {
+  max-width: 156px;
+  padding: 0px 24px !important;
+  min-height: 100px !important;
+  max-height: 100px !important;
+}
+.slick-dots li {
+  margin: 0px !important;
+}
+.slick-dots li button:before {
+  font-size: 10px !important;
+  width: 5px !important ;
+}
+.slick-dots li.slick-active button:before {
+  color: #3b5998 !important;
+}
+/* ====================DEFINE MARKTING CSS START==================== */
+.marketing-img {
+  max-width: 643px !important;
+}
+.marketing_box {
+  background: rgba(142, 169, 224, 0.15);
+  border: 1px solid #3b5998;
+  backdrop-filter: blur(17.5px);
+  border-radius: 48px;
+  padding: 92px 58px 73px 49px !important;
+  max-width: 1162px !important;
+  margin: 0 auto !important;
+}
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .slick-prev {
+    left: -4% !important;
+    top: 40% !important;
+  }
+  .slick-next {
+    right: -2% !important;
+    top: 40% !important;
   }
 }
 @media (max-width: 991.98px) {
@@ -110,6 +189,14 @@ body {
   .email_address {
     padding: 12px 0px 12px 21px !important;
   }
+  .slick-prev {
+    left: 45% !important;
+    top: 100% !important;
+  }
+  .slick-next {
+    right: 45% !important;
+    top: 100% !important;
+  }
 }
 @media (max-width: 767.98px) {
   .campaign_arrow {
@@ -126,6 +213,14 @@ body {
   }
   .footer-dash-border {
     padding: 48px 0px !important;
+  }
+  .slick-prev {
+    left: 40% !important;
+    top: 100% !important;
+  }
+  .slick-next {
+    right: 40% !important;
+    top: 100% !important;
   }
 }
 @media (max-width: 575.98px) {
@@ -148,5 +243,10 @@ body {
   }
   .footer-dash-border {
     padding: 24px 0px !important;
+    margin-top: 48px !important;
+  }
+  .footer_slider_img {
+    max-width: 100px !important;
+    padding: 0px 12px !important;
   }
 }
