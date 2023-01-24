@@ -205,9 +205,35 @@ body {
   width: 44%;
 }
 
+.hero_img_one {
+  right: 20%;
+}
+
+.hero_img_two {
+  left: 20%;
+  top: 146%;
+}
+
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
+  }
+
+  .hero_img_two {
+    left: 33%;
+    top: 146%;
+    z-index: 1;
+  }
+
+  .hero_img_one {
+    right: 33%;
+  }
+}
+
+@media (max-width:1549.98px) {
+  .hero_img_two {
+    left: 20%;
+    top: 120%;
   }
 }
 
@@ -250,6 +276,11 @@ body {
   .slick-next {
     right: 45% !important;
     top: 100% !important;
+  }
+
+  .landing_hero_input {
+    height: 55px;
+    width: 85%;
   }
 }
 
@@ -315,5 +346,9 @@ body {
   .footer_slider_img {
     max-width: 100px !important;
     padding: 0px 12px !important;
+  }
+
+  .landing_hero_input {
+    width: 100%;
   }
 }

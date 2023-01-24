@@ -5,7 +5,7 @@ import checkImg from "../../assets/images/landing/svg/marketing-check-img.svg";
 const Marketing = () => {
   return (
     <>
-      <div className="container">
+      <div className="container pt-5">
         <div className="row justify-content-center">
           <div className="col-11">
             <h2 className="sub_heading text-center">

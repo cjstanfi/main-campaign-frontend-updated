@@ -65,7 +65,7 @@ const Header = () => {
               </div>
               <div
                 id="nav-icon1"
-                className={`hamburger-menu me-3 me-sm-4`}
+                className={`hamburger-menu me-2 me-sm-3 me-sm-4`}
                 onClick={() => handldeOverlayActive()}
               >
                 <span></span>
