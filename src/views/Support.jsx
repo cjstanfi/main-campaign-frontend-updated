@@ -1,10 +1,11 @@
 import React from "react";
-// import DatePickernew from "";
+import DatePickernew from "../components/common/DatePickerLeads";
+
 const Support = () => {
   return (
     <>
       <h1>Support</h1>
-      {/* <DatePickernew /> */}
+      <DatePickernew />
     </>
   );
 };
