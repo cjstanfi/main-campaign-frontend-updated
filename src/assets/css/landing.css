@@ -2,6 +2,7 @@ html,
 body {
   overflow-x: hidden !important;
 }
+
 /* ============COMMON CLASSES============ */
 .sub_heading {
   font-size: var(--font-5xl) !important;
@@ -14,6 +15,7 @@ body {
 .leads_img {
   max-width: 1218px !important;
 }
+
 .leads_btn {
   background: #3b5998;
   padding: 11px 25px;
@@ -21,10 +23,12 @@ body {
   transition: all 0.3s ease-in-out;
   border: 1px solid transparent;
 }
+
 .leads_btn:hover {
   transform: scale(1.03) !important;
   box-shadow: 4px 4px 10px #a8c0f4 !important;
 }
+
 /* ==========DEFINE PLANS CARD CSS========== */
 .plans_cards {
   height: 100%;
@@ -35,12 +39,15 @@ body {
   border-radius: 48px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+
 .plans_cards:hover {
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22) !important;
 }
+
 .check_icon {
   height: fit-content !important;
 }
+
 .main_campaign_box {
   background: rgba(59, 89, 152, 0.15);
   padding: 17px 17px 32px 17px;
@@ -52,46 +59,56 @@ body {
   margin: 0 auto !important;
   z-index: 10;
 }
+
 .campaign_arrow {
   z-index: -1 !important;
   bottom: -22%;
   left: 20%;
 }
+
 .white_box {
   background: #ffffff;
   padding: 20px 26px !important;
   box-shadow: 0px 4px 10px 0px #00000026;
   border-radius: 30px;
 }
+
 /* ==================DEFINE FOOTER CSS================== */
 .footer_bg {
   padding: 48px 0px;
   background: rgba(217, 217, 255, 0.15);
 }
+
 .footer_logo {
   max-width: 242px !important;
 }
+
 .footer-dash-border {
   padding: 63px 0px !important;
   border-top: 1px dashed #3b5998;
   border-bottom: 1px dashed #3b5998;
 }
+
 .email_address {
   padding: 20px 0px 19px 21px;
   background: #ffffff;
   border: 1px solid #e1e1ff;
   border-radius: 18px;
 }
+
 .email_address::placeholder {
   color: #0a0a0d;
   opacity: 0.75;
 }
+
 .footer_icon {
   transition: 0.3s all ease-in-out;
 }
+
 .footer_icon:hover {
   transform: translateY(-5px) !important;
 }
+
 .max-width-447 {
   max-width: 447px !important;
 }
@@ -100,22 +117,28 @@ body {
   content: url("../images/landing/svg/footer-next-arrow.svg") !important;
   transition: all 0.3s ease-in-out !important;
 }
+
 .slick-prev:before {
   content: url("../images/landing/svg/footer-prev-arrow.svg") !important;
   transition: all 0.3s ease-in-out !important;
 }
+
 .slick-next:hover:before {
   content: url("../images/landing/svg/next-arrow-hover.svg") !important;
 }
+
 .slick-prev:hover:before {
   content: url("../images/landing/svg/prev-arrow-hover.svg") !important;
 }
+
 .slick-prev {
   left: -5% !important;
 }
+
 .slick-next {
   right: -3% !important;
 }
+
 .slick-prev,
 .slick-next {
   font-size: 0;
@@ -135,26 +158,32 @@ body {
   outline: none;
   background: transparent;
 }
+
 .footer_slider_img {
   max-width: 156px;
   padding: 0px 24px !important;
   min-height: 100px !important;
   max-height: 100px !important;
 }
+
 .slick-dots li {
   margin: 0px !important;
 }
+
 .slick-dots li button:before {
   font-size: 10px !important;
-  width: 5px !important ;
+  width: 5px !important;
 }
+
 .slick-dots li.slick-active button:before {
   color: #3b5998 !important;
 }
+
 /* ====================DEFINE MARKTING CSS START==================== */
 .marketing-img {
   max-width: 1000px !important;
 }
+
 .marketing_box {
   background: rgba(142, 169, 224, 0.15);
   border: 1px solid #3b5998;
@@ -164,92 +193,125 @@ body {
   max-width: 1162px !important;
   margin: 0 auto !important;
 }
+
+/*HERO CSS HERE==================================*/
+
+.landing_hero_input {
+  background: #FFFFFF;
+  border: 1px solid #E1E1FF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 60px;
+  height: 65px;
+  width: 44%;
+}
+
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
   }
 }
+
 @media (max-width: 1199.98px) {
   .slick-prev {
     left: -4% !important;
     top: 40% !important;
   }
+
   .slick-next {
     right: -2% !important;
     top: 40% !important;
   }
 }
+
 @media (max-width: 991.98px) {
   .plans_cards {
     max-width: 330px !important;
     padding: 28px 20px 28px 20px;
   }
+
   .plans_cards h4 {
     font-size: 20px !important;
   }
+
   .campaign_arrow {
     bottom: -18% !important;
     left: 10% !important;
   }
+
   .email_address {
     padding: 12px 0px 12px 21px !important;
   }
+
   .slick-prev {
     left: 45% !important;
     top: 100% !important;
   }
+
   .slick-next {
     right: 45% !important;
     top: 100% !important;
   }
 }
+
 @media (max-width: 767.98px) {
   .campaign_arrow {
     bottom: -12% !important;
     left: 10% !important;
   }
+
   .leads_btn {
     padding: 10px 20px !important;
   }
+
   .plans_cards {
     padding: 16px 12px !important;
     border-radius: 32px;
     max-width: 250px !important;
   }
+
   .footer-dash-border {
     padding: 48px 0px !important;
   }
+
   .slick-prev {
     left: 40% !important;
     top: 100% !important;
   }
+
   .slick-next {
     right: 40% !important;
     top: 100% !important;
   }
 }
+
 @media (max-width: 575.98px) {
   .leads_btn {
     padding: 10px 18px !important;
   }
+
   .plans_cards {
     padding: 24px 20px !important;
     max-width: 300px !important;
   }
+
   .white_box {
     padding: 16px !important;
   }
+
   .campaign_arrow {
     bottom: -16% !important;
     left: 0% !important;
   }
+
   .footer_logo {
     max-width: 200px !important;
   }
+
   .footer-dash-border {
     padding: 24px 0px !important;
     margin-top: 48px !important;
   }
+
   .footer_slider_img {
     max-width: 100px !important;
     padding: 0px 12px !important;

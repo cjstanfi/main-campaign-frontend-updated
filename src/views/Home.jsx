@@ -4,11 +4,13 @@ import Marketing from "../components/landing/Marketing";
 import Scale from "../components/landing/Scale";
 import Footer from "../components/landing/Footer";
 import LandingHeader from "../components/landing/LandingHeader";
+import Hero from "../components/landing/Hero";
 
 const Home = () => {
   return (
     <>
-      <LandingHeader/>
+      <LandingHeader />
+      <Hero/>
       <Marketing />
       <PlansDesigned />
       <Scale />

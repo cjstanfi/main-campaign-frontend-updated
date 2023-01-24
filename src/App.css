@@ -79,6 +79,7 @@ body {
   --font-3xl: 32px;
   --font-4xl: 36px;
   --font-5xl: 65px;
+  --font-6xl: 80px;
   /* COLORS  */
   --white: #ffffff;
   --black: #000000;
@@ -104,6 +105,7 @@ body {
     --font-3xl: 30px;
     --font-4xl: 32px;
     --font-5xl: 60px;
+    --font-6xl: 70px;
   }
 }
 
@@ -115,6 +117,7 @@ body {
     --font-3xl: 29px;
     --font-4xl: 30px;
     --font-5xl: 55px;
+    --font-6xl: 60px;
   }
 }
 
@@ -127,6 +130,7 @@ body {
     --font-3xl: 28px;
     --font-4xl: 28px;
     --font-5xl: 50px;
+    --font-6xl: 55px;
   }
 }
 
@@ -141,6 +145,7 @@ body {
     --font-3xl: 26px;
     --font-4xl: 26px;
     --font-5xl: 45px;
+    --font-6xl: 50px;
   }
 }
 
@@ -155,7 +160,8 @@ body {
     --font-2xl: 22px;
     --font-3xl: 24px;
     --font-4xl: 24px;
-    --font-5xl: 35px;
+    --font-5xl: 30px;
+    --font-6xl: 35px;
   }
 }
 
@@ -223,6 +229,9 @@ body {
 
 .font-5xl {
   font-size: var(--font-5xl) !important;
+}
+.font-6xl {
+  font-size: var(--font-6xl) !important;
 }
 
 /*COLORS CLASSES START*/
