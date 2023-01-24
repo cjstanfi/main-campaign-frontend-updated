@@ -62,7 +62,7 @@ const Footer = () => {
   };
   return (
     <>
-      <footer className="footer_bg pt-5">
+      <footer className="footer_bg pt-5 mt-sm-5">
         <div className="container pt-sm-2">
           <Slider {...settings} className="pt-xl-5">
             <div className="footer_slider_img d-flex align-items-center">

@@ -4,7 +4,7 @@ import leads from "../../assets/images/landing/png/leads-center.png";
 const Scale = () => {
   return (
     <>
-      <section className="mt-5">
+      <section className="mt-5 pb-5">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12 col-md-10">

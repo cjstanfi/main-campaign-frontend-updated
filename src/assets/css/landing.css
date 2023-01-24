@@ -32,6 +32,10 @@ body {
   border: 1px solid #d8d8d8;
   backdrop-filter: blur(17.5px);
   border-radius: 48px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.plans_cards:hover {
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22) !important;
 }
 .check_icon {
   height: fit-content !important;
