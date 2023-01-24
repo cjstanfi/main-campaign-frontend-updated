@@ -5,7 +5,14 @@ import facbook from "../../assets/images/landing/svg/fb-icon.svg";
 import instagram from "../../assets/images/landing/svg/insta-icon.svg";
 import linkdin from "../../assets/images/landing/svg/linkdin-icon.svg";
 import cb from "../../assets/images/landing/svg/cb-icon.svg";
-// import Slider from "react-slick";
+import airba from "../../assets/images/landing/svg/airba.svg";
+import noguchi from "../../assets/images/landing/svg/noguchi.svg";
+import probusinss from "../../assets/images/landing/svg/probusinss.svg";
+import brooks from "../../assets/images/landing/svg/brooks.svg";
+import airbnb from "../../assets/images/landing/svg/airbnb.svg";
+import lokuma from "../../assets/images/landing/svg/lokuma.svg";
+import island from "../../assets/images/landing/svg/island.svg";
+import Slider from "react-slick";
 const Footer = () => {
   //   const sliderRef4 = useRef(null);
 
@@ -16,40 +23,92 @@ const Footer = () => {
   //       sliderRef4.current.slickPause();
   //     }
   //   }, [inView]);
-  // const settings = {
-  //   dots: true,
-  //   arrows: true,
-  //   autoplay: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 5,
-  //   slidesToScroll: 1,
-  // };
+  const settings = {
+    dots: false,
+    arrows: true,
+    autoplay: true,
+    infinite: true,
+    items: 8,
+    slideTransition: "linear",
+    autoplaySpeed: 300000,
+    autoplayHoverPause: false,
+    autoplay: true,
+    loop: true,
+    slidesToShow: 8,
+    cssEase: "ease-in-out",
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 6,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          dots: true,
+          arrows: false,
+          slidesToShow: 3,
+        },
+      },
+    ],
+  };
   return (
     <>
-      <footer className="footer_bg">
-        <div className="container ">
-          {/* <Slider {...settings}>
-            <div>
-              <h3>1</h3>
+      <footer className="footer_bg pt-5 mt-sm-5">
+        <div className="container pt-sm-2">
+          <Slider {...settings} className="pt-xl-5">
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={noguchi} alt="noguchi" />
             </div>
-            <div>
-              <h3>2</h3>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={airbnb} alt="airbnb" />
             </div>
-            <div>
-              <h3>3</h3>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={probusinss} alt="probusinss" />
             </div>
-            <div>
-              <h3>4</h3>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={airba} alt="airba" />
             </div>
-            <div>
-              <h3>5</h3>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={brooks} alt="brooks" />
             </div>
-            <div>
-              <h3>6</h3>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={lokuma} alt="lokuma" />
             </div>
-          </Slider> */}
-          <div className="row gap-3 gap-sm-0 justify-content-center justify-content-between footer-dash-border ">
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={island} alt="island" />
+            </div>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={noguchi} alt="noguchi" />
+            </div>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={airbnb} alt="airbnb" />
+            </div>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={probusinss} alt="probusinss" />
+            </div>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={airba} alt="airba" />
+            </div>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={brooks} alt="brooks" />
+            </div>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={lokuma} alt="lokuma" />
+            </div>
+            <div className="footer_slider_img d-flex align-items-center">
+              <img className="w-100" src={island} alt="island" />
+            </div>
+          </Slider>
+          <div className="row gap-3 gap-sm-0 justify-content-center justify-content-between footer-dash-border mt-5 mt-lg-0">
             <div className="col-12 col-sm-auto">
               <div className="footer_logo mx-auto mx-sm-0 mb-4">
                 <img className="w-100" src={footerlogo} alt="footer-logo" />
@@ -63,7 +122,7 @@ const Footer = () => {
                 <li className="mt-2 hover_color">
                   <a
                     className="font-md text-decoration-none fw-light color_light_black opacity-75 "
-                    href="#Home"
+                    href="#home"
                   >
                     Home
                   </a>
@@ -102,7 +161,7 @@ const Footer = () => {
                 <li className="mt-2 hover_color">
                   <a
                     className="font-md text-decoration-none fw-light color_light_black opacity-75 "
-                    href="#Contactus"
+                    href="#contactus"
                   >
                     Contact us
                   </a>
@@ -110,7 +169,7 @@ const Footer = () => {
                 <li className="mt-2 hover_color">
                   <a
                     className="font-md fw-light text-decoration-none color_light_black opacity-75  "
-                    href="#FAQs"
+                    href="#faqs"
                   >
                     FAQs
                   </a>
