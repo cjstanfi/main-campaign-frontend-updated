@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useScreenFixedProvider } from "../common/context/ScreenFixedProvider";
 import SidebarLogo from "../../assets/images/svg/sidebar-logo.svg";
 import { Link } from "react-router-dom";
+import Auth0Login from "../auth0/Auth0Login.jsx";
 const Header = () => {
   const BeforeDesktop = ({ children }) => {
     const isBeforeDesktop = useMediaQuery({ maxWidth: 991.98 });
@@ -47,11 +48,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="d-flex align-items-center">
-                <Link to="/" className="text-decoration-none">
-                  <span className="font-sm fw_600 ff_thicccboi_semibold color_light_black">
-                    Login or Register
-                  </span>
-                </Link>
+                <Auth0Login className="font-sm fw_600 ff_thicccboi_semibold color_white leads_btn"/>
                 <button className="font-sm fw_600 ff_thicccboi_semibold color_white leads_btn ms-5">
                   Start Free Trial
                 </button>
