@@ -1,5 +1,5 @@
 import React from "react";
-import { UpArrowIcon } from "../common/Icons";
+import { UpArrowIcon } from "../common/icons";
 import Form from "react-bootstrap/Form";
 import DashboardCards from "../analytics/DashboardCards";
 import { AddManagerDetails } from "../common/Helper";

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { timedurationdata } from "./Helper";
-import { CalendarIcon } from "./Icons";
+import { CalendarIcon } from "./icons";
 
 const TimeDurationTabs = () => {
   const [avtiveValue, setActiveValue] = useState(

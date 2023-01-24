@@ -1,6 +1,6 @@
 import React from "react";
 import MasterCard from "../../assets/images/svg/mastercard_logo.svg";
-import { PlusIcon } from "../common/Icons";
+import { PlusIcon } from "../common/icons";
 const Billing = () => {
   return (
     <>

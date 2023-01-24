@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { PlusIcon } from "../common/Icons";
+import { PlusIcon } from "../common/icons";
 import Dropdown from "react-bootstrap/Dropdown";
 const LeadsDropdownTabs = () => {
   // const [hello, setHello] = useState(false);

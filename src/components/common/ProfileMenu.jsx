@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import UserIcon from "../../assets/images/png/User_icon.png";
 import UserIconTick from "../../assets/images/svg/User_icon_tick.svg";
-import { NotificationIcon, SettingIcon } from "./Icons";
+import { NotificationIcon, SettingIcon } from "./icons";
 import TimeDurationTabs from "./TimeDurationTabs";
 
 const ProfileMenu = () => {
