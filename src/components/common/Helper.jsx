@@ -21,6 +21,7 @@ import {
   SupportIcon,
 } from "./Icons";
 import RevenuwGrowTabsData from "../landing/RevenuwGrowTabsData";
+import MarketingData from "../landing/MarketingData";
 export const cardsData = [
   {
     heading: "Total Revenue",
@@ -467,5 +468,27 @@ export const revenueTabsData = [
   {
     tabheading: "Easy, Safe and Secured",
     content: <RevenuwGrowTabsData />,
+  },
+];
+export const marketingData = [
+  {
+    tabheading: "Spending",
+    content:<MarketingData/>,
+  },
+  {
+    tabheading: "Reach",
+    content: <MarketingData/>,
+  },
+  {
+    tabheading: "Revenue",
+    content: <MarketingData/>,
+  },
+  {
+    tabheading: "Inbound Leads",
+    content: <MarketingData/>,
+  },
+  {
+    tabheading: "Campaigns",
+    content: <MarketingData/>,
   },
 ];

@@ -1,50 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import MarketingImg from "../../assets/images/landing/png/marketing-img.png";
-import checkImg from "../../assets/images/landing/svg/marketing-check-img.svg";
-
+import { marketingData } from "../common/Helper";
+import ArrowIconTwo from "../../assets/images/landing/svg/hero-arrow-icon-2.svg"
 const Marketing = () => {
+   const [marketingShow, setMarketingShow] = useState(marketingData[0]);
   return (
     <>
       <div className="container pt-5">
         <div className="row justify-content-center">
-          <div className="col-11">
+          <div className="col-xl-11">
             <h2 className="sub_heading text-center">
               Marketing analytics that <br /> REALLY matter
             </h2>
-            <div className="marketing-img mx-auto">
+            <div className="marketing-img mx-auto position-relative z_index_1 pb-3 pb-sm-0">
               <img className="w-100" src={MarketingImg} alt="Marketingimg" />
             </div>
-            <div className="marketing_box">
-              <div className="d-flex gap-3">
-                <img className="check_icon mt-2" src={checkImg} alt="" />
-                <p className="font-lg fw_500 ff_thicccboi_medium color_dark_blue ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+            <div className="marketing_box custom_margin position-relative">
+              <div className="position-absolute arrow_icon_two">
+                <img src={ArrowIconTwo} alt="hero-arrow-icon-2" />
               </div>
-              <div className="d-flex gap-3">
-                <img className="check_icon mt-2" src={checkImg} alt="" />
-                <p className="font-lg fw_500 ff_thicccboi_medium color_dark_blue ">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium.
-                </p>
+              <div className="overflow-auto py-3 text-center">
+                {marketingData &&
+                  marketingData.map((val, index) => {
+                    return (
+                      <a
+                        onClick={() => setMarketingShow(val)}
+                        key={index}
+                        className={`${
+                          val === marketingShow
+                            ? "revenue_tabs_2 color_white"
+                            : "color_dark_blue revenue_tabs"
+                        } text-decoration-none font-22 fw-bold ff_thicccboi_bold cursor_pointer text-nowrap`}
+                      >
+                        {val.tabheading}
+                      </a>
+                    );
+                  })}
               </div>
-              <div className="d-flex gap-3">
-                <img className="check_icon mt-2" src={checkImg} alt="" />
-                <p className="font-lg fw_500 ff_thicccboi_medium color_dark_blue ">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </p>
-              </div>
-              <div className="d-flex gap-3">
-                <img className="check_icon mt-2" src={checkImg} alt="" />
-                <p className="font-lg fw_500 ff_thicccboi_medium color_dark_blue ">
-                  Ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo.
-                </p>
-              </div>
+              <div className="pt-2 pt-sm-4">{marketingShow.content}</div>
             </div>
           </div>
         </div>

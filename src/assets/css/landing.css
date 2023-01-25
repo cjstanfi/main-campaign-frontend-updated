@@ -191,7 +191,17 @@ body {
   border-radius: 48px;
   padding: 92px 58px 73px 49px !important;
   max-width: 1162px !important;
-  margin: 0 auto !important;
+  /* margin: 0 auto !important; */
+}
+
+.custom_margin {
+  margin-top: -100px;
+}
+
+.arrow_icon_two {
+  right: 10%;
+  top: 90%;
+  /* z-index: 1; */
 }
 
 /*HERO CSS HERE==================================*/
@@ -232,6 +242,15 @@ body {
   border-radius: 60px;
 }
 
+.arrow_icon_one {
+  top: 94%;
+  left: 1%;
+}
+
+.arrow_icon_three {
+  right: -5%;
+}
+
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
@@ -240,7 +259,7 @@ body {
   .hero_img_two {
     left: 33%;
     top: 146%;
-    z-index: 1;
+    z-index: 10;
   }
 
   .hero_img_one {
@@ -278,6 +297,14 @@ body {
 
   .revenue_box {
     padding: 40px !important;
+  }
+
+  .custom_margin {
+    margin-top: unset;
+  }
+
+  .marketing_box {
+    padding: 35px 25px !important;
   }
 }
 
@@ -388,7 +415,7 @@ body {
     padding: 15px 25px;
   }
 
-  .revenue_box{
+  .revenue_box {
     padding: 40px 20px !important;
     border-radius: 30px;
   }

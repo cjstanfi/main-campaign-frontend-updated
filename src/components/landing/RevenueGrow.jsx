@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { revenueTabsData } from "../common/Helper";
+import ArrowIconOne from "../../assets/images/landing/svg/hero-arrow-icon-1.svg";
+import ArrowIconTwo from "../../assets/images/landing/svg/hero-arrow-icon-2.svg";
 
 const RevenueGrow = () => {
   const [revenueShow, setRevenueShow] = useState(revenueTabsData[0]);
@@ -10,7 +12,13 @@ const RevenueGrow = () => {
         <div className="container custom_container">
           <div className="row">
             <div className="col">
-              <div className="marketing_box revenue_box">
+              <div className="marketing_box revenue_box position-relative">
+                <div className="position-absolute arrow_icon_three">
+                  <img src={ArrowIconOne} alt="hero-arrow-icon-2" />
+                </div>
+                <div className="position-absolute arrow_icon_one">
+                  <img src={ArrowIconTwo} alt="hero-arrow-icon-2" />
+                </div>
                 <div className="px-xxl-5">
                   <h3 className="font-5xl fw-bold ff_thicccboi_bold color_dark_black text-center mb-3 mb-sm-4">
                     See your revenue grow in
