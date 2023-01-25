@@ -39,7 +39,7 @@ const BusinessSlider = () => {
     <>
       <section>
         <div className="container custom_container business_slider">
-          <h2 className="mt-5 mb-4 mb-sm-0 py-sm-5 text-center ff_thicccboi_bold fw-bold color_dark_black font-5xl">
+          <h2 className="mt-5 pt-5 text-center ff_thicccboi_bold fw-bold color_dark_black font-5xl">
             Businesses generate more{" "}
             <span className="d-xxl-block"> revenue with Main Campaign</span>
           </h2>

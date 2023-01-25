@@ -25,7 +25,7 @@ body {
 }
 
 .leads_btn:hover {
-  transform: scale(1.03) !important;
+  transform: scale(1.03);
   box-shadow: 4px 4px 10px #a8c0f4 !important;
 }
 
@@ -38,11 +38,7 @@ body {
   backdrop-filter: blur(17.5px);
   border-radius: 48px;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.plans_cards:hover {
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22) !important;
-  border: 1px solid transparent;
 }
 
 .check_icon {
@@ -319,9 +315,9 @@ body {
   .marketing_box {
     padding: 35px 25px !important;
   }
-    .arrow_icon_three {
-   right: -5%;
-    }
+  .arrow_icon_three {
+    right: -5%;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -357,9 +353,9 @@ body {
     height: 55px;
     width: 85%;
   }
-    .arrow_icon_two {
-      top: 96%;
-    }
+  .arrow_icon_two {
+    top: 96%;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -438,7 +434,7 @@ body {
     padding: 40px 20px !important;
     border-radius: 30px;
   }
-    .arrow_icon_two {
-      top: 95%;
-    }
+  .arrow_icon_two {
+    top: 95%;
+  }
 }
