@@ -48,7 +48,7 @@ const Header = () => {
               </div>
               <div className="d-flex align-items-center">
                 <Link to="/" className="text-decoration-none">
-                  <span className="font-sm fw_600 ff_thicccboi_semibold color_light_black">
+                  <span className="font-sm fw_600 ff_thicccboi_semibold header_btn">
                     Login or Register
                   </span>
                 </Link>

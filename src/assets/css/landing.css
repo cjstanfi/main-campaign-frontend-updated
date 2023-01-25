@@ -221,6 +221,7 @@ body {
 .hero_img_two {
   left: 20%;
   top: 146%;
+  z-index: 1;
 }
 
 .revenue_box {
@@ -251,15 +252,23 @@ body {
   top: 10%;
 }
 
+.header_btn {
+  transition: all 0.3s ease-in-out;
+  color: #0a0a0d;
+}
+
+.header_btn:hover {
+  color: #3b5998;
+}
+
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
   }
 
   .hero_img_two {
-    left: 33%;
-    top: 146%;
-    z-index: 10;
+    left: 31%;
+    top: 147%;
   }
 
   .hero_img_one {
@@ -268,22 +277,38 @@ body {
 
   .arrow_icon_three {
     right: 0%;
-    top: 10%;
+    top: 23%;
+  }
+
+  .revenue_custom_space {
+    margin-top: 115px;
+  }
+}
+
+@media (max-width:1599.98px) {
+  .revenue_box {
+    margin-top: 80px !important;
   }
 }
 
 @media (max-width: 1549.98px) {
   .hero_img_two {
-    left: 20%;
-    top: 120%;
+    left: 34%;
+    top: 150%;
+    max-width: 900px;
   }
 
-  .revenue_box {
-    margin-top: 300px !important;
+  .hero_img_one {
+    max-width: 900px;
+    right: 34%;
   }
 
   .arrow_icon_three {
     top: 32%;
+  }
+
+  .revenue_box {
+    margin-top: 25px !important;
   }
 }
 
@@ -319,9 +344,10 @@ body {
   .marketing_box {
     padding: 35px 25px !important;
   }
-    .arrow_icon_three {
-   right: -5%;
-    }
+
+  .arrow_icon_three {
+    right: -5%;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -357,9 +383,10 @@ body {
     height: 55px;
     width: 85%;
   }
-    .arrow_icon_two {
-      top: 96%;
-    }
+
+  .arrow_icon_two {
+    top: 96%;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -438,7 +465,8 @@ body {
     padding: 40px 20px !important;
     border-radius: 30px;
   }
-    .arrow_icon_two {
-      top: 95%;
-    }
+
+  .arrow_icon_two {
+    top: 95%;
+  }
 }

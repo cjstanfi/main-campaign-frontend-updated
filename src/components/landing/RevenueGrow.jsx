@@ -17,7 +17,7 @@ const RevenueGrow = () => {
             <img src={ArrowIconTwo} alt="hero-arrow-icon-2" />
           </div>
           <div className="row">
-            <div className="col">
+            <div className="col revenue_custom_space">
               <div className="marketing_box revenue_box ">
                 <div className="px-xxl-5">
                   <h3 className="font-5xl fw-bold ff_thicccboi_bold color_dark_black text-center mb-3 mb-sm-4">
