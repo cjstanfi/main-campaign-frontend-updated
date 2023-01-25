@@ -183,14 +183,20 @@ const Footer = () => {
                 <li className="font-xl fw-bold color_light_black ff_thicccboi_bold ">
                   Subscribe
                 </li>
-                <li className=" my-3 py-1">
-                  <input
-                    className="w-100 calendar_input color_light_black email_address"
-                    type="text"
-                    placeholder="Enter email address"
-                    name=""
-                    id=""
-                  />
+                <li className=" my-3 py-1 position-relative">
+                  <form action="">
+                    <input
+                      required
+                      className="w-100 calendar_input color_light_black email_address"
+                      type="emmail"
+                      placeholder="Enter email address"
+                      name="email"
+                      id="email"
+                    />
+                    <button className="leads_btn ff_thicccboi_semibold text-white top-50 translate-middle-y me-2 position-absolute end-0">
+                      Subscribe
+                    </button>
+                  </form>
                 </li>
                 <li className="font-md fw-light text-decoration-none color_light_black opacity-75">
                   By submitting your email you agree to our Terms of Use and
