@@ -453,7 +453,12 @@
 .business_slider_img {
   margin-top: 70px;
 }
-
+@media (max-width: 1199.98px) {
+  .business_slider_card {
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+}
 @media (max-width: 991.98px) {
   .px_lg_60 {
     padding: 20px !important;

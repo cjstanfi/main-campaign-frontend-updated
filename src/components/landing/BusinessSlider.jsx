@@ -39,13 +39,13 @@ const BusinessSlider = () => {
     <>
       <section>
         <div className="container custom_container business_slider">
-          <h2 className="mt-5 py-5 text-center ff_thicccboi_bold fw-bold color_dark_black font-5xl">
+          <h2 className="mt-5 mb-4 mb-sm-0 py-sm-5 text-center ff_thicccboi_bold fw-bold color_dark_black font-5xl">
             Businesses generate more{" "}
             <span className="d-xxl-block"> revenue with Main Campaign</span>
           </h2>
 
           <Slider {...settings}>
-            <div className="p-lg-3 pt-3 business_slider_img p-xxl-4">
+            <div className="p-lg-3 pt-3 p-2 business_slider_img p-xxl-4">
               <div className="business_slider_card p-4 position-relative">
                 <img
                   className="translate-middle start-50 top-0 position-absolute business_slider_card_icon"
@@ -86,7 +86,7 @@ const BusinessSlider = () => {
                 </div>
               </div>
             </div>
-            <div className="p-lg-3 pt-3 business_slider_img p-xxl-4">
+            <div className="p-lg-3 pt-3 p-2 business_slider_img p-xxl-4">
               <div className="business_slider_card p-4 position-relative">
                 <img
                   className="translate-middle start-50 top-0 position-absolute business_slider_card_icon"
@@ -127,7 +127,7 @@ const BusinessSlider = () => {
                 </div>
               </div>
             </div>
-            <div className="p-lg-3 pt-3 business_slider_img p-xxl-4">
+            <div className="p-lg-3 pt-3 p-2 business_slider_img p-xxl-4">
               <div className="business_slider_card p-4 position-relative">
                 <img
                   className="translate-middle start-50 top-0 position-absolute business_slider_card_icon"
@@ -168,7 +168,7 @@ const BusinessSlider = () => {
                 </div>
               </div>
             </div>
-            <div className="p-lg-3 pt-3 business_slider_img p-xxl-4">
+            <div className="p-lg-3 pt-3 p-2 business_slider_img p-xxl-4">
               <div className="business_slider_card p-4 position-relative">
                 <img
                   className="translate-middle start-50 top-0 position-absolute business_slider_card_icon"
@@ -209,7 +209,7 @@ const BusinessSlider = () => {
                 </div>
               </div>
             </div>
-            <div className="p-lg-3 pt-3 business_slider_img p-xxl-4">
+            <div className="p-lg-3 pt-3 p-2 business_slider_img p-xxl-4">
               <div className="business_slider_card p-4 position-relative">
                 <img
                   className="translate-middle start-50 top-0 position-absolute business_slider_card_icon"

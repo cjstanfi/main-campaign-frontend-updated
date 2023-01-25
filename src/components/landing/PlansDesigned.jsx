@@ -4,7 +4,7 @@ import campaignarrow from "../../assets/images/landing/svg/main-campaign-box-arr
 const Plansdesigned = () => {
   return (
     <>
-      <section className="my-5">
+      <section className="my-5 pt-3 pt-sm-5">
         <div className="container">
           <h2 className="text-center sub_heading mb-md-5 pb-4">
             Plans designed <br /> for you to grow.
@@ -63,7 +63,7 @@ const Plansdesigned = () => {
                       </div>
                     </ul>
                   </div>
-                  <div className="text-center">
+                  <div className="text-center pt-4 mt-2">
                     <button className="leads_btn border-0 font-md fw_500 ff_thicccboi_medium color_white">
                       Start My Free Trial
                     </button>
@@ -158,8 +158,9 @@ const Plansdesigned = () => {
                 </div>
                 <div className="main_campaign_box position-relative">
                   <div className="white_box p-3">
-                    <h3 className="font-xxl fw_800 color_dark_black">
-                      Every <span className="color_blue">Main Campaign</span>{" "}
+                    <h3 className="font-xxl  ff_thicccboi_medium color_dark_black">
+                      Every{" "}
+                      <span className="color_blue fw_800">Main Campaign</span>{" "}
                       plan includes unlimited team members and comes packed with
                       powerful enterprise features. Our pricing plans are
                       designed to offer growing discounts as your business

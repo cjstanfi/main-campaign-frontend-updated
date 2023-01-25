@@ -433,6 +433,7 @@ body {
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  transform: scale(0.7);
 }
 
 #nav-icon1 span {
@@ -440,7 +441,7 @@ body {
   position: absolute;
   height: 4px;
   width: 80%;
-  background-color: #3B5998;
+  background-color: #3b5998;
   border-radius: 7px;
   opacity: 1;
   left: 0;

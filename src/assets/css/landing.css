@@ -42,6 +42,7 @@ body {
 
 .plans_cards:hover {
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22) !important;
+  border: 1px solid transparent;
 }
 
 .check_icon {
@@ -207,8 +208,8 @@ body {
 /*HERO CSS HERE==================================*/
 
 .landing_hero_input {
-  background: #FFFFFF;
-  border: 1px solid #E1E1FF;
+  background: #ffffff;
+  border: 1px solid #e1e1ff;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
   border-radius: 60px;
   height: 65px;
@@ -267,7 +268,7 @@ body {
   }
 }
 
-@media (max-width:1549.98px) {
+@media (max-width: 1549.98px) {
   .hero_img_two {
     left: 20%;
     top: 120%;
@@ -278,7 +279,7 @@ body {
   }
 }
 
-@media (max-width:1399.98px) {
+@media (max-width: 1399.98px) {
   .revenue_box {
     margin-top: unset !important;
   }
@@ -310,7 +311,7 @@ body {
 
 @media (max-width: 991.98px) {
   .plans_cards {
-    max-width: 330px !important;
+    max-width: 400px !important;
     padding: 28px 20px 28px 20px;
   }
 
@@ -356,7 +357,7 @@ body {
   .plans_cards {
     padding: 16px 12px !important;
     border-radius: 32px;
-    max-width: 250px !important;
+    max-width: 400px !important;
   }
 
   .footer-dash-border {
@@ -381,7 +382,7 @@ body {
 
   .plans_cards {
     padding: 24px 20px !important;
-    max-width: 300px !important;
+    max-width: 400px !important;
   }
 
   .white_box {
