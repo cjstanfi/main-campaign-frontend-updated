@@ -9,16 +9,16 @@ const RevenueGrow = () => {
   return (
     <>
       <section>
-        <div className="container custom_container">
+        <div className="container custom_container position-relative">
+          <div className="position-absolute arrow_icon_three d-none d-lg-block">
+            <img src={ArrowIconOne} alt="hero-arrow-icon-2" />
+          </div>
+          <div className="position-absolute arrow_icon_one">
+            <img src={ArrowIconTwo} alt="hero-arrow-icon-2" />
+          </div>
           <div className="row">
             <div className="col">
-              <div className="marketing_box revenue_box position-relative">
-                <div className="position-absolute arrow_icon_three">
-                  <img src={ArrowIconOne} alt="hero-arrow-icon-2" />
-                </div>
-                <div className="position-absolute arrow_icon_one">
-                  <img src={ArrowIconTwo} alt="hero-arrow-icon-2" />
-                </div>
+              <div className="marketing_box revenue_box ">
                 <div className="px-xxl-5">
                   <h3 className="font-5xl fw-bold ff_thicccboi_bold color_dark_black text-center mb-3 mb-sm-4">
                     See your revenue grow in

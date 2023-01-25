@@ -6,19 +6,19 @@ const Marketing = () => {
    const [marketingShow, setMarketingShow] = useState(marketingData[0]);
   return (
     <>
-      <div className="container pt-5">
+      <div className="container pt-5 position-relative ">
+        <div className="position-absolute arrow_icon_two">
+          <img src={ArrowIconTwo} alt="hero-arrow-icon-2" />
+        </div>
         <div className="row justify-content-center">
-          <div className="col-xl-11">
+          <div className="col-xl-11 z_index_1">
             <h2 className="sub_heading text-center">
               Marketing analytics that <br /> REALLY matter
             </h2>
-            <div className="marketing-img mx-auto position-relative z_index_1 pb-3 pb-sm-0">
+            <div className="marketing-img mx-auto position-relative  pb-3 pb-sm-0">
               <img className="w-100" src={MarketingImg} alt="Marketingimg" />
             </div>
             <div className="marketing_box custom_margin position-relative">
-              <div className="position-absolute arrow_icon_two">
-                <img src={ArrowIconTwo} alt="hero-arrow-icon-2" />
-              </div>
               <div className="overflow-auto py-3 text-center">
                 {marketingData &&
                   marketingData.map((val, index) => {

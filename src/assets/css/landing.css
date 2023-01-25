@@ -201,12 +201,10 @@ body {
 
 .arrow_icon_two {
   right: 10%;
-  top: 90%;
-  /* z-index: 1; */
+  top: 97%;
 }
 
 /*HERO CSS HERE==================================*/
-
 .landing_hero_input {
   background: #ffffff;
   border: 1px solid #e1e1ff;
@@ -249,7 +247,8 @@ body {
 }
 
 .arrow_icon_three {
-  right: -5%;
+  right: -4%;
+  top: 10%;
 }
 
 @media (min-width: 1600px) {
@@ -266,6 +265,11 @@ body {
   .hero_img_one {
     right: 33%;
   }
+
+  .arrow_icon_three {
+    right: 0%;
+    top: 10%;
+  }
 }
 
 @media (max-width: 1549.98px) {
@@ -277,11 +281,19 @@ body {
   .revenue_box {
     margin-top: 300px !important;
   }
+
+  .arrow_icon_three {
+    top: 32%;
+  }
 }
 
 @media (max-width: 1399.98px) {
   .revenue_box {
     margin-top: unset !important;
+  }
+
+  .arrow_icon_three {
+    top: 8%;
   }
 }
 
@@ -307,6 +319,9 @@ body {
   .marketing_box {
     padding: 35px 25px !important;
   }
+    .arrow_icon_three {
+   right: -5%;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -342,6 +357,9 @@ body {
     height: 55px;
     width: 85%;
   }
+    .arrow_icon_two {
+      top: 96%;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -420,4 +438,7 @@ body {
     padding: 40px 20px !important;
     border-radius: 30px;
   }
+    .arrow_icon_two {
+      top: 95%;
+    }
 }
