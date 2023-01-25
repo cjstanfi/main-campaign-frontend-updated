@@ -53,16 +53,18 @@ const Footer = () => {
       {
         breakpoint: 480,
         settings: {
-          dots: true,
-          arrows: false,
+          dots: false,
+          arrows: true,
           slidesToShow: 3,
+          autoplay: true,
+          autoplaySpeed: 2000,
         },
       },
     ],
   };
   return (
     <>
-      <footer className="footer_bg pt-5 mt-sm-5">
+      <footer className="footer_bg pt-0 pt-sm-5 mt-sm-5">
         <div className="container pt-sm-2">
           <Slider {...settings} className="pt-xl-5">
             <div className="footer_slider_img d-flex align-items-center">
