@@ -6,14 +6,16 @@ import Footer from "../components/landing/Footer";
 import LandingHeader from "../components/landing/LandingHeader";
 import Hero from "../components/landing/Hero";
 import RevenueGrow from "../components/landing/RevenueGrow";
+import BusinessSlider from "../components/landing/BusinessSlider";
 
 const Home = () => {
   return (
     <>
       <LandingHeader />
       <Hero />
-      <RevenueGrow/>
+      <RevenueGrow />
       <Marketing />
+      <BusinessSlider />
       <PlansDesigned />
       <Scale />
       <Footer />
