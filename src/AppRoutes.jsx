@@ -11,7 +11,6 @@ import Home from "./views/Home";
 const AppRoutes = () => {
   return (
     <>
-      <BrowserRouter>
         <Routes>
           <Route>
             <Route exact path="/" element={<Home />} />
@@ -32,7 +31,6 @@ const AppRoutes = () => {
             </Route>
           </Route>
         </Routes>
-      </BrowserRouter>
     </>
   );
 };
