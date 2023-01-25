@@ -20,6 +20,7 @@ import {
   SettingsIcon,
   SupportIcon,
 } from "./Icons";
+import RevenuwGrowTabsData from "../landing/RevenuwGrowTabsData";
 export const cardsData = [
   {
     heading: "Total Revenue",
@@ -52,6 +53,7 @@ export const cardsData = [
     imgUrl: CardsGraphTwo,
   },
 ];
+
 export const TeamDetails = [
   {
     username: "john42",
@@ -72,6 +74,7 @@ export const TeamDetails = [
     role: "Member",
   },
 ];
+
 export const LeadsContactInfo = [
   {
     date: "10-11-2022",
@@ -192,6 +195,7 @@ export const sidebrlinks = [
     ],
   },
 ];
+
 export const AddManagerDetails = [
   {
     campaign: "Main Campaign",
@@ -313,6 +317,7 @@ export const TabData = [
     content: <Security />,
   },
 ];
+
 export const TableTabs = [
   {
     pageNo: <LeftArrowIcon />,
@@ -340,6 +345,7 @@ export const TableTabs = [
     pageNo: <RightArrowIcon />,
   },
 ];
+
 export const LeadsCenterContactDetails = [
   {
     tabHeading: "All",
@@ -420,6 +426,7 @@ export const leadsformsData = [
     value: "Forms Two",
   },
 ];
+
 export const leadsOwnerData = [
   {
     value: "All Owners",
@@ -431,6 +438,7 @@ export const leadsOwnerData = [
     value: "Owners Two",
   },
 ];
+
 export const leadsLableData = [
   {
     value: "All Lable",
@@ -440,5 +448,24 @@ export const leadsLableData = [
   },
   {
     value: "Lable Two",
+  },
+];
+
+export const revenueTabsData = [
+  {
+    tabheading: "CRM Integrations",
+    content: <RevenuwGrowTabsData />,
+  },
+  {
+    tabheading: "Marketing Platform Integrations",
+    content: <RevenuwGrowTabsData />,
+  },
+  {
+    tabheading: "Analytics",
+    content: <RevenuwGrowTabsData />,
+  },
+  {
+    tabheading: "Easy, Safe and Secured",
+    content: <RevenuwGrowTabsData />,
   },
 ];

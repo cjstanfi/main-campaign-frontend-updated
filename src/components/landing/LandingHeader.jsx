@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <>
       <section
-        className="position-relative z-index-1 d-flex w-100 navbar-wrapper py-lg-3 py-xl-5 my-lg-2"
+        className="position-relative z-index-1 d-flex w-100 navbar-wrapper py-lg-3 py-xl-5 my-xxl-2"
         id="home"
       >
         <div className="navbar-wrapper w-100 position-relative z-5 header_bg">

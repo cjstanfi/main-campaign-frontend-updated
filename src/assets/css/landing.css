@@ -214,6 +214,24 @@ body {
   top: 146%;
 }
 
+.revenue_box {
+  border-radius: 68px;
+  padding: 74px 123px 64px 75px !important;
+  max-width: 1394px !important;
+}
+
+.revenue_tabs {
+  padding: 20px 32px;
+  background: transparent;
+  border-radius: 60px;
+}
+
+.revenue_tabs_2 {
+  background-color: #3b5998;
+  padding: 20px 32px;
+  border-radius: 60px;
+}
+
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
@@ -235,6 +253,16 @@ body {
     left: 20%;
     top: 120%;
   }
+
+  .revenue_box {
+    margin-top: 300px !important;
+  }
+}
+
+@media (max-width:1399.98px) {
+  .revenue_box {
+    margin-top: unset !important;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -246,6 +274,10 @@ body {
   .slick-next {
     right: -2% !important;
     top: 40% !important;
+  }
+
+  .revenue_box {
+    padding: 40px !important;
   }
 }
 
@@ -350,5 +382,14 @@ body {
 
   .landing_hero_input {
     width: 100%;
+  }
+
+  .revenue_tabs_2 {
+    padding: 15px 25px;
+  }
+
+  .revenue_box{
+    padding: 40px 20px !important;
+    border-radius: 30px;
   }
 }

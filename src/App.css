@@ -72,7 +72,8 @@ body {
   --font-md: 16px;
   --font-lg: 18px;
   --font-xl: 20px;
-  --font-22: 20px;
+  --font-22: 22px;
+  --font-24: 24px;
   --font-xxl: 26px;
   --font-28: 28px;
   --font-2xl: 30px;
@@ -99,6 +100,8 @@ body {
 @media (max-width: 1599.98px) {
   :root {
     --font-xl: 17px;
+    --font-22: 20px;
+    --font-24: 22px;
     --font-xxl: 25px;
     --font-28: 27px;
     --font-2xl: 25px;
@@ -129,8 +132,8 @@ body {
     --font-2xl: 26px;
     --font-3xl: 28px;
     --font-4xl: 28px;
-    --font-5xl: 50px;
-    --font-6xl: 55px;
+    --font-5xl: 45px;
+    --font-6xl: 48px;
   }
 }
 
@@ -139,6 +142,8 @@ body {
     --font-md: 15px;
     --font-lg: 16px;
     --font-xl: 18px;
+    --font-22: 18px;
+    --font-24: 20px;
     --font-xxl: 22px;
     --font-28: 22px;
     --font-2xl: 24px;
@@ -155,6 +160,7 @@ body {
     --font-md: 14px;
     --font-lg: 14px;
     --font-xl: 16px;
+    --font-22: 16px;
     --font-xxl: 17px;
     --font-28: 20px;
     --font-2xl: 22px;

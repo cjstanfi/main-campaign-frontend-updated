@@ -4,9 +4,9 @@ import HeroImgTwo from "../../assets/images/landing/png/hero-2.png";
 const Hero = () => {
   return (
     <>
-      <section className="pt-4 pt-xxl-0 pb-5 min-vh-100">
+      <section className="pt-4 pt-xxl-0 pb-xxl-5 min-vh-100">
         <div className="container position-relative">
-          <div className="row pb-lg-4">
+          <div className="row pb-3 pb-xxl-4">
             <div className="col text-center">
               <h3 className="font-6xl fw-bold ff_thicccboi_bold color_light_black">
                 The Most Powerful Offline Lead Conversion Data for your
@@ -15,7 +15,7 @@ const Hero = () => {
               <p className="font-xl fw-normal color_light_black">
                 Seamless integration with your CRM and Facebook
               </p>
-              <div className="pt-1 pt-md-3">
+              <div className="pt-1 pt-lg-3">
                 <input
                   className="font-lg fw_500 ff_thicccboi_medium color_black calendar_input landing_hero_input ps-3"
                   type="text"
@@ -38,7 +38,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="col-auto d-xxl-none pt-4 text-center">
+            <div className="col-auto d-xxl-none pt-4 text-center mt-lg-2 mt-xxl-0">
               <img className="w-100" src={HeroImgOne} alt="hero-1" />
               <img className="w-100 pt-2" src={HeroImgTwo} alt="hero-2" />
             </div>
