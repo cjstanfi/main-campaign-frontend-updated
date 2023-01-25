@@ -158,8 +158,9 @@ const Plansdesigned = () => {
                 </div>
                 <div className="main_campaign_box position-relative">
                   <div className="white_box p-3">
-                    <h3 className="font-xxl fw_800 color_dark_black">
-                      Every <span className="color_blue">Main Campaign</span>{" "}
+                    <h3 className="font-xxl  ff_thicccboi_medium color_dark_black">
+                      Every{" "}
+                      <span className="color_blue fw_800">Main Campaign</span>{" "}
                       plan includes unlimited team members and comes packed with
                       powerful enterprise features. Our pricing plans are
                       designed to offer growing discounts as your business
