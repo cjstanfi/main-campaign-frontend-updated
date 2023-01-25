@@ -4,8 +4,8 @@ import HeroImgTwo from "../../assets/images/landing/png/hero-2.png";
 const Hero = () => {
   return (
     <>
-      <section className="pt-4 pt-xxl-0 pb-xxl-5 min-vh-100">
-        <div className="container position-relative">
+      <section className="pt-4 pt-xxl-0">
+        <div className="container position-relative custom_container">
           <div className="row pb-3 pb-xxl-4">
             <div className="col text-center">
               <h3 className="font-6xl fw-bold ff_thicccboi_bold color_light_black">
@@ -16,7 +16,8 @@ const Hero = () => {
                 Seamless integration with your CRM and Facebook
               </p>
               <form action="" className="pt-1 pt-lg-3">
-                <input required
+                <input
+                  required
                   className="font-lg fw_500 ff_thicccboi_medium color_black calendar_input landing_hero_input ps-3"
                   type="text"
                   placeholder="Enter you work email"
@@ -43,14 +44,10 @@ const Hero = () => {
               <img className="w-100 pt-2" src={HeroImgTwo} alt="hero-2" />
             </div>
           </div>
-          <div className="d-none d-xxl-block">
+          <div className="d-none d-xxl-block position-relative text-start hero_img_parent">
+            <img className="hero_img_one" src={HeroImgOne} alt="hero-1" />
             <img
-              className="position-absolute hero_img_one"
-              src={HeroImgOne}
-              alt="hero-1"
-            />
-            <img
-              className="position-absolute hero_img_two"
+              className="position-absolute bottom-0 end-0 hero_img_two"
               src={HeroImgTwo}
               alt="hero-2"
             />
