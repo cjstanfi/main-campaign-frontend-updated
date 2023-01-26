@@ -15,7 +15,7 @@ const Plansdesigned = () => {
                 <div className="d-flex flex-column justify-content-between me-3">
                   <div>
                     <h3 className="font-4xl fw-bold ff_thicccboi_bold color_dark_black mb-2 mb-lg-3 pb-lg-1">
-                      small business
+                      Small Business
                     </h3>
                     <h4 className="font-2xl fw_600 ff_thicccboi_bold color_dark_black">
                       $199 <span className="color_blue font-22 ">/ month</span>

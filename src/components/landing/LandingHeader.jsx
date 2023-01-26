@@ -52,9 +52,12 @@ const Header = () => {
                     Login or Register
                   </span>
                 </Link>
-                <button className="font-sm fw_600 ff_thicccboi_semibold color_white leads_btn ms-5">
+                <a
+                  href="#subscribe"
+                  className="font-sm fw_600 ff_thicccboi_semibold color_white leads_btn ms-5 text-decoration-none"
+                >
                   Start Free Trial
-                </button>
+                </a>
               </div>
             </div>
           </Desktop>
