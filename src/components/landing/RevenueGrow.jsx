@@ -45,7 +45,9 @@ const RevenueGrow = () => {
                       );
                     })}
                 </div>
-                <div className="pt-2 pt-sm-4">{revenueShow.content}</div>
+                <div className="pt-2 pt-sm-4 ff_thicccboi_medium font-lg">
+                  {revenueShow.content}
+                </div>
               </div>
             </div>
           </div>

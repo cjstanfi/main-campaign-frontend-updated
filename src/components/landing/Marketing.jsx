@@ -37,7 +37,9 @@ const Marketing = () => {
                     );
                   })}
               </div>
-              <div className="pt-2 pt-sm-4">{marketingShow.content}</div>
+              <div className="pt-2 pt-sm-4 ff_thicccboi_medium font-lg">
+                {marketingShow.content}
+              </div>
             </div>
           </div>
         </div>
