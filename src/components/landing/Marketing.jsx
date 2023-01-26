@@ -20,22 +20,24 @@ const Marketing = () => {
             </div>
             <div className="marketing_box custom_margin position-relative">
               <div className="overflow-auto py-3 text-center">
-                {marketingData &&
-                  marketingData.map((val, index) => {
-                    return (
-                      <a
-                        onClick={() => setMarketingShow(val)}
-                        key={index}
-                        className={`${
-                          val === marketingShow
-                            ? "revenue_tabs_2 color_white"
-                            : "color_dark_blue revenue_tabs"
-                        } text-decoration-none font-22 fw-bold ff_thicccboi_bold cursor_pointer text-nowrap`}
-                      >
-                        {val.tabheading}
-                      </a>
-                    );
-                  })}
+                <div className="py-2">
+                  {marketingData &&
+                    marketingData.map((val, index) => {
+                      return (
+                        <a
+                          onClick={() => setMarketingShow(val)}
+                          key={index}
+                          className={`${
+                            val === marketingShow
+                              ? "revenue_tabs_2 color_white"
+                              : "color_dark_blue revenue_tabs"
+                          } text-decoration-none font-22 fw-bold ff_thicccboi_bold cursor_pointer text-nowrap`}
+                        >
+                          {val.tabheading}
+                        </a>
+                      );
+                    })}
+                </div>
               </div>
               <div className="pt-2 pt-sm-4 ff_thicccboi_medium font-lg">
                 {marketingShow.content}

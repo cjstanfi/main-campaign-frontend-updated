@@ -28,22 +28,24 @@ const RevenueGrow = () => {
                   </h3>
                 </div>
                 <div className="overflow-auto py-3">
-                  {revenueTabsData &&
-                    revenueTabsData.map((val, index) => {
-                      return (
-                        <a
-                          onClick={() => setRevenueShow(val)}
-                          key={index}
-                          className={`${
-                            val === revenueShow
-                              ? "revenue_tabs_2 color_white"
-                              : "color_dark_blue revenue_tabs"
-                          } text-decoration-none font-22 fw-bold ff_thicccboi_bold cursor_pointer text-nowrap me-sm-2 me-xl-4`}
-                        >
-                          {val.tabheading}
-                        </a>
-                      );
-                    })}
+                  <div className="py-2">
+                    {revenueTabsData &&
+                      revenueTabsData.map((val, index) => {
+                        return (
+                          <a
+                            onClick={() => setRevenueShow(val)}
+                            key={index}
+                            className={`${
+                              val === revenueShow
+                                ? "revenue_tabs_2 color_white"
+                                : "color_dark_blue revenue_tabs"
+                            } text-decoration-none font-22 fw-bold ff_thicccboi_bold cursor_pointer text-nowrap me-sm-2 me-xl-4`}
+                          >
+                            {val.tabheading}
+                          </a>
+                        );
+                      })}
+                  </div>
                 </div>
                 <div className="pt-2 pt-sm-4 ff_thicccboi_medium font-lg">
                   {revenueShow.content}

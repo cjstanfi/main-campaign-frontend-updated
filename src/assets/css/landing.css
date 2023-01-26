@@ -256,7 +256,27 @@ body {
 .header_btn:hover {
   color: #3b5998;
 }
+/* ------------------------custom scroll bar----------------------------- */
+/* width */
+.marketing_box ::-webkit-scrollbar {
+  height: 5px;
+}
 
+/* Track */
+.marketing_box ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.marketing_box ::-webkit-scrollbar-thumb {
+  background: #3b5998;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+.marketing_box ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
