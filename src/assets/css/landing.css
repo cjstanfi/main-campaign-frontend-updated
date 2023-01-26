@@ -221,7 +221,7 @@ body {
 
 .revenue_box {
   border-radius: 68px;
-  padding: 74px 123px 64px 75px !important;
+  padding: 74px 100px 64px 75px !important;
   max-width: 1394px !important;
   padding-top: 300px;
 }
@@ -269,8 +269,11 @@ body {
   }
 
   .arrow_icon_three {
-    right: 0%;
-    top: 23%;
+    right: -2%;
+    top: 15%;
+  }
+  .revenue_box {
+    padding: 74px 123px 64px 75px !important;
   }
   /* .hero_img_parent {
     margin-right: -100px;
