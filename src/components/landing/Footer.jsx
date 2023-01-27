@@ -64,7 +64,7 @@ const Footer = () => {
   };
   return (
     <>
-      <footer className="footer_bg pt-0 pt-sm-5 mt-sm-5">
+      <footer id="subscribe" className="footer_bg pt-0 pt-sm-5 mt-sm-5">
         <div className="container pt-sm-2">
           <Slider {...settings} className="pt-xl-5">
             <div className="footer_slider_img d-flex align-items-center">
@@ -178,7 +178,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-auto col-md-5">
+            <div className="col-auto col-md-6">
               <ul className="list-unstyled max-width-447 mx-auto">
                 <li className="font-xl fw-bold color_light_black ff_thicccboi_bold ">
                   Subscribe

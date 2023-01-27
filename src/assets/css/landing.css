@@ -221,7 +221,7 @@ body {
 
 .revenue_box {
   border-radius: 68px;
-  padding: 74px 123px 64px 75px !important;
+  padding: 74px 100px 64px 75px !important;
   max-width: 1394px !important;
   padding-top: 300px;
 }
@@ -256,7 +256,27 @@ body {
 .header_btn:hover {
   color: #3b5998;
 }
+/* ------------------------custom scroll bar----------------------------- */
+/* width */
+.marketing_box ::-webkit-scrollbar {
+  height: 5px;
+}
 
+/* Track */
+.marketing_box ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.marketing_box ::-webkit-scrollbar-thumb {
+  background: #3b5998;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+.marketing_box ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
@@ -269,8 +289,11 @@ body {
   }
 
   .arrow_icon_three {
-    right: 0%;
-    top: 23%;
+    right: -2%;
+    top: 15%;
+  }
+  .revenue_box {
+    padding: 74px 123px 64px 75px !important;
   }
   /* .hero_img_parent {
     margin-right: -100px;
@@ -344,7 +367,7 @@ body {
   }
 
   .email_address {
-    padding: 12px 0px 12px 21px !important;
+    padding: 16px 0px 16px 21px !important;
   }
 
   .slick-prev {
