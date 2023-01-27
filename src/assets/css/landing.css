@@ -256,6 +256,11 @@ body {
 .header_btn:hover {
   color: #3b5998;
 }
+
+.landing_hero_btn {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2), 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
 /* ------------------------custom scroll bar----------------------------- */
 /* width */
 .marketing_box ::-webkit-scrollbar {
@@ -277,10 +282,48 @@ body {
 .marketing_box ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.img_annimation {
+  animation: dashboard 6s infinite linear alternate 2s;
+}
+
+@keyframes dashboard {
+  0% {
+    transform: translatey(0px);
+  }
+
+  40% {
+    transform: translatey(30px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.img_annimation_2 {
+  animation: dashboard_2 6s infinite linear;
+}
+
+@keyframes dashboard_2 {
+  100% {
+    transform: translatey(0px);
+  }
+
+  40% {
+    transform: translatey(30px);
+  }
+
+  0% {
+    transform: translatey(0px);
+  }
+}
+
 @media (min-width: 1600px) {
   .custom_container {
     max-width: 1480px !important;
   }
+
   .hero_img_two {
     left: 35%;
     z-index: 1;
@@ -292,9 +335,11 @@ body {
     right: -2%;
     top: 15%;
   }
+
   .revenue_box {
     padding: 74px 123px 64px 75px !important;
   }
+
   /* .hero_img_parent {
     margin-right: -100px;
     margin-left: -100px;
@@ -311,6 +356,18 @@ body {
 
   .revenue_box {
     margin-top: 25px !important;
+  }
+
+  .leads_img {
+    max-width: 1000px !important;
+  }
+
+  .main_campaign_box {
+    max-width: 860px !important;
+  }
+
+  .marketing-img {
+    max-width: 900px !important;
   }
 }
 
@@ -346,6 +403,7 @@ body {
   .marketing_box {
     padding: 35px 25px !important;
   }
+
   .arrow_icon_three {
     right: -5%;
   }
@@ -384,6 +442,7 @@ body {
     height: 55px;
     width: 85%;
   }
+
   .arrow_icon_two {
     top: 96%;
   }
@@ -465,9 +524,11 @@ body {
     padding: 40px 20px !important;
     border-radius: 30px;
   }
+
   .arrow_icon_two {
     top: 95%;
   }
+
   .business_slider_img {
     margin-top: 30px !important;
   }

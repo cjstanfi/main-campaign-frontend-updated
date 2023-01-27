@@ -107,8 +107,8 @@ body {
     --font-2xl: 25px;
     --font-3xl: 30px;
     --font-4xl: 32px;
-    --font-5xl: 60px;
-    --font-6xl: 70px;
+    --font-5xl: 50px;
+    --font-6xl: 60px;
   }
 }
 
@@ -119,8 +119,8 @@ body {
     --font-2xl: 27px;
     --font-3xl: 29px;
     --font-4xl: 30px;
-    --font-5xl: 55px;
-    --font-6xl: 60px;
+    --font-5xl: 47px;
+    --font-6xl: 55px;
   }
 }
 

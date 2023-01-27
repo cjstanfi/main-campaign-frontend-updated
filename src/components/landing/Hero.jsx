@@ -15,7 +15,7 @@ const Hero = () => {
               <p className="font-xl fw-normal color_light_black">
                 Seamless integration with your CRM and Facebook
               </p>
-              <form action="" className="pt-1 pt-lg-3">
+              <form className="pt-1 pt-lg-3">
                 <input
                   required
                   className="font-lg fw_500 ff_thicccboi_medium color_black calendar_input landing_hero_input ps-3"
@@ -24,7 +24,7 @@ const Hero = () => {
                 />
                 <div className="d-flex align-items-center justify-content-center mt-4 pt-1">
                   <div>
-                    <button className="font-xl fw-bold ff_thicccboi_bold leads_btn color_white">
+                    <button className="font-xl fw-bold ff_thicccboi_bold leads_btn color_white landing_hero_btn">
                       Get Started
                     </button>
                   </div>
@@ -45,9 +45,13 @@ const Hero = () => {
             </div>
           </div>
           <div className="d-none d-xxl-block position-relative text-start hero_img_parent">
-            <img className="hero_img_one" src={HeroImgOne} alt="hero-1" />
             <img
-              className="position-absolute bottom-0 end-0 hero_img_two"
+              className="hero_img_one img_annimation"
+              src={HeroImgOne}
+              alt="hero-1"
+            />
+            <img
+              className="position-absolute bottom-0 end-0 hero_img_two img_annimation_2"
               src={HeroImgTwo}
               alt="hero-2"
             />

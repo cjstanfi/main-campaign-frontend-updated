@@ -16,7 +16,11 @@ const Marketing = () => {
               Marketing analytics that <br /> REALLY matter
             </h2>
             <div className="marketing-img mx-auto position-relative z_index_1 pb-3 pb-sm-0">
-              <img className="w-100" src={MarketingImg} alt="Marketingimg" />
+              <img
+                className="w-100 img_annimation"
+                src={MarketingImg}
+                alt="Marketingimg"
+              />
             </div>
             <div className="marketing_box custom_margin position-relative">
               <div className="overflow-auto py-3 text-center">
