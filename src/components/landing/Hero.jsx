@@ -40,8 +40,16 @@ const Hero = () => {
               </form>
             </div>
             <div className="col-auto d-xxl-none pt-4 text-center mt-lg-2 mt-xxl-0">
-              <img className="w-100" src={HeroImgOne} alt="hero-1" />
-              <img className="w-100 pt-2" src={HeroImgTwo} alt="hero-2" />
+              <img
+                className="w-100 img_annimation"
+                src={HeroImgOne}
+                alt="hero-1"
+              />
+              <img
+                className="w-100 pt-2 img_annimation_2"
+                src={HeroImgTwo}
+                alt="hero-2"
+              />
             </div>
           </div>
           <div className="d-none d-xxl-block position-relative text-start hero_img_parent">
